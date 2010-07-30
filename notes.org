@@ -1,0 +1,36 @@
+* magit
+** TODO Notes from the magit [[http://zagadka.vm.bytemark.co.uk/magit/magit.html][manual]]
+   + magit buffers are structured into sections
+   + TAB key controls visibility of sections
+   + 1,2,3,4 controls the visibility of current section based on levels
+   + M-1,M-2,M-3,M-4 controls visibility of all sections
+   + M-h(hide) and M-H(hide all) are mnemonics for 2 and M-2
+   + M-s and M-S are mnemonics for 4 and M-4
+   + magit-status on an untracked directory will ask whether to create one
+   + status buffer needs to be explicitly refreshed if changes are made to the repository outside of Emacs, g will do so
+   + ignore an untracked file using i, this will add the filename to .gitignore
+   + C-u i takes a directory name and adds that to .gitignore; useful for ignoring whole directories
+   + 'I' command is similar to 'i' but will add the file to .git/info/exclude
+   + k deletes an untracked file forever
+   + if point is at untracked files section title, k will delete *all* untracked files
+   + use 's' to move unstaged file into staging area, 'S' to stage all files
+   + 'u' to unstage file, 'U' to unstage all files
+   + 'k' to discard uncommitted changes(deletes the uncommitted file)
+   + 'c' to pop up a buffer where a commit message can be written, C-c C-c to commit
+   + C-c C-a in commit message buffer to indicate whether commit is an amend commit
+   + C-c C-k to bury  *magit-log-edit* buffer
+   + 'C' same as 'c' but also includes a change log
+   + 'l' to show repository history of current head
+   + prefix argument to 'l' will ask for starting and end point of history
+   + 'L' will show log in a more verbose form
+   + RET will pop up more information about current commit
+   + 'a' will apply current commit to current branch but will not commit changes
+   + 'A' will cherry-pick commit and will also commit changes when no conflicts
+   + v will revert current commit
+   + C-w will copy sha 1 of current commit into the kill ring
+   + '.' will mark/unmark current commit
+   + '=' will show differences between current commit and marked commit
+   + C-u . will unmark marked commit regardless of point
+   + h and H will browse the reflog(local history of changes made to repository heads)
+   + 
+     

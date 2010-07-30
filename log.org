@@ -1,0 +1,18 @@
+* Log
+** <2010-07-30 Fri>
+***  
+     CLOCK: [2010-07-30 Fri 15:09]--[2010-07-30 Fri 18:24] =>  3:15
+     org mode
+     todo face customization
+     remember mode file
+     created git repo for org
+     merged org 7.01trans with lib-emacs
+*** 
+    CLOCK: [2010-07-30 Fri 23:26]--[2010-07-31 Sat 01:04] =>  1:38
+    reading magit
+    covered points 1-9
+    
+     
+
+
+     

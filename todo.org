@@ -4,3 +4,5 @@
 ** TODO Solve Ruby Quiz problem 1
 ** TODO Read Ruby I/O chapter
 ** TODO Read up on org-mode
+** TODO Read up on magit mode
+
