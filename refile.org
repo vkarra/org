@@ -1,0 +1,21 @@
+* TODO test todo using remember
+  CLOCK: [2010-07-31 Sat 11:27]--[2010-07-31 Sat 11:29] =>  0:02
+  [2010-07-31 Sat 11:27]
+  [[file:~/org/todo.org::*test%20todo][test todo]]
+* DONE eating a cookie
+  - State "DONE"       from "NEXT"       [2010-07-31 Sat 11:37]
+  :CLOCK:
+  CLOCK: [2010-07-31 Sat 11:35]--[2010-07-31 Sat 11:36] =>  0:01
+  :END:
+  [2010-07-31 Sat 11:35]
+  [[file:~/org/todo.org::*test%20todo%20for%20clocking%20with%20task%20interruption][test todo for clocking with task interruption]]
+* TODO add link shortcuts to org init
+  :CLOCK:
+  CLOCK: [2010-08-01 Sun 14:50]--[2010-08-01 Sun 14:51] =>  0:01
+  :END:
+  [2010-08-01 Sun 14:50]
+  [[file:~/org/notes.org::*compact%20org%20mode%20guide][compact org-mode guide]]
+* TODO What is font lock in emacs
+  :CLOCK:
+  :END:
+  [2010-08-01 Sun 14:55]
