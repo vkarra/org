@@ -1,8 +1,60 @@
+* NEXT No task
+  :CLOCK:
+  CLOCK: [2010-08-01 Sun 08:54]--[2010-08-01 Sun 09:12] =>  0:18
+  CLOCK: [2010-08-01 Sun 00:32]--[2010-08-01 Sun 01:24] =>  0:52
+  CLOCK: [2010-07-31 Sat 23:50]--[2010-08-01 Sun 00:14] =>  0:24
+  CLOCK: [2010-07-31 Sat 15:12]--[2010-07-31 Sat 23:09] =>  7:57
+  CLOCK: [2010-07-31 Sat 13:44]--[2010-07-31 Sat 14:52] =>  1:08
+  :END:
 * Tasks
 ** TODO Read sinatra code
+   - State "TODO"       from "NEXT"       [2010-08-02 Mon 01:17]
+   - State "NEXT"       from "TODO"       [2010-08-01 Sun 00:14]
+   :CLOCK:
+   CLOCK: [2010-08-01 Sun 00:14]--[2010-08-01 Sun 00:32] =>  0:18
+   :END:
 ** TODO Read up on RSpec
 ** TODO Solve Ruby Quiz problem 1
+   - State "TODO"       from "NEXT"       [2010-08-02 Mon 01:17]
+   - State "NEXT"       from "TODO"       [2010-08-01 Sun 18:05]
+   - State "TODO"       from "NEXT"       [2010-07-31 Sat 23:49]
+   :CLOCK:
+   CLOCK: [2010-08-02 Mon 00:51]--[2010-08-02 Mon 01:03] =>  0:12
+   CLOCK: [2010-08-01 Sun 18:05]--[2010-08-01 Sun 19:05] =>  1:00
+   CLOCK: [2010-07-31 Sat 14:52]--[2010-07-31 Sat 15:12] =>  0:20
+   :END:
 ** TODO Read Ruby I/O chapter
 ** TODO Read up on org-mode
+   :CLOCK:
+   CLOCK: [2010-07-31 Sat 13:40]--[2010-07-31 Sat 14:44] =>  1:04
+   :END:
+*** DONE [[file:notes.org::*org%205%20minute%20tutorial][org 5 minute tutorial]]
+    - State "DONE"       from "NEXT"       [2010-08-01 Sun 14:49]
+    - State "NEXT"       from "TODO"       [2010-08-01 Sun 14:40]
+    - State "NEXT"       from "TODO"       [2010-08-01 Sun 14:40]
+    :CLOCK:
+    CLOCK: [2010-08-01 Sun 14:40]--[2010-08-01 Sun 14:49] =>  0:09
+    CLOCK: [2010-08-01 Sun 09:12]--[2010-08-01 Sun 09:14] =>  0:02
+    :END:
+    - State "TODO"       from ""           [2010-08-01 Sun 09:12]
+*** TODO [[file:notes.org::*compact%20org%20mode%20guide][compact org-mode guide]]
+    - State "TODO"       from "NEXT"       [2010-08-02 Mon 00:50] \\
+      paused
+    - State "NEXT"       from "TODO"       [2010-08-01 Sun 14:53]
+    :CLOCK:
+    CLOCK: [2010-08-01 Sun 14:55]--[2010-08-01 Sun 15:07] =>  0:12
+    CLOCK: [2010-08-01 Sun 14:53]--[2010-08-01 Sun 14:55] =>  0:02
+    :END:
+*** TODO add link shortcuts to org init
+    :CLOCK:
+    CLOCK: [2010-08-01 Sun 14:50]--[2010-08-01 Sun 14:51] =>  0:01
+    :END:
+    [2010-08-01 Sun 14:50]
+    [[file:~/org/notes.org::*compact%20org%20mode%20guide][compact org-mode guide]]
 ** TODO Read up on magit mode
-
+** TODO Read up on rack
+   - State "TODO"       from ""           [2010-08-01 Sun 00:21]
+** TODO What is font lock in emacs
+   :CLOCK:
+   :END:
+   [2010-08-01 Sun 14:55]

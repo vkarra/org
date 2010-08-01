@@ -33,4 +33,52 @@
    + C-u . will unmark marked commit regardless of point
    + h and H will browse the reflog(local history of changes made to repository heads)
    + 
-     
+* org
+** article @http://doc.norang.ca/org-mode.html
+   + what are org tags
+   + clock in a task with C-c C-x C-i
+   + 
+** org 5 minute tutorial
+   C-c C-o org-open-at-point
+   C-c l org-store-link
+   C-c C-l org-insert-link
+   
+** compact org-mode guide
+*** Introduction
+*** Document Structure
+    + Org is implemented on top of outline mode
+    + clean view can be used to minimize star usage in headings
+    + S-tab and C-u tab invokes global cycling
+    + C-u C-u C-u tab shows all, including drawers
+    + on first visit to an org file, the global state is set to OVERVIEW; this settings is configurable
+    + C-c C-u backward to higher level heading
+    + M-S-ret inserts new todo entry with same level as current heading
+    + <tab> cycles through reasonable levels
+    + M-S-left/right promotes/demotes current heading by one level
+    + M-S-up/down swaps with previous/next subtree of same level
+    + C-c C-w refiles entry or region to different location      
+* ruby
+** ruby quiz problem 1
+*** techniques
+    + get ascii value of a character in string "test".bytes.to_a[i]
+    + 
+
+** sinatra
+*** Code of interest
+    + warn(msg)
+      Display the given message (followed by a newline) on STDERR unless warnings are disabled (for example with the -W0 flag).
+    + Object.send :remove_const, :tilt
+      + remove_const(sym)
+	Removes the definition of the given constant, returning that constant's value. Predefined classes and singleton objects (such as true) cannot be removed.
+    + 
+** Libraries
+*** thread
+    thread support classes, part of stdlib
+*** time
+    part of stdlib
+*** uri
+    url parsing, part of stdlib
+*** rack
+    provides a minimal interface between webservers supporting Ruby and Ruby frameworks
+*** tilt
+    tilt is a thin interface over a bunch of different Ruby template engines
