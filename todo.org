@@ -38,23 +38,52 @@
     :END:
     - State "TODO"       from ""           [2010-08-01 Sun 09:12]
 *** TODO [[file:notes.org::*compact%20org%20mode%20guide][compact org-mode guide]]
+    - State "TODO"       from "NEXT"       [2010-08-02 Mon 15:19] \\
+      completed document structure
+      started tables
+    - State "NEXT"       from "TODO"       [2010-08-02 Mon 15:02]
     - State "TODO"       from "NEXT"       [2010-08-02 Mon 00:50] \\
       paused
     - State "NEXT"       from "TODO"       [2010-08-01 Sun 14:53]
     :CLOCK:
+    CLOCK: [2010-08-02 Mon 15:02]--[2010-08-02 Mon 15:20] =>  0:18
     CLOCK: [2010-08-01 Sun 14:55]--[2010-08-01 Sun 15:07] =>  0:12
     CLOCK: [2010-08-01 Sun 14:53]--[2010-08-01 Sun 14:55] =>  0:02
     :END:
-*** TODO add link shortcuts to org init
-    :CLOCK:
-    CLOCK: [2010-08-01 Sun 14:50]--[2010-08-01 Sun 14:51] =>  0:01
-    :END:
-    [2010-08-01 Sun 14:50]
-    [[file:~/org/notes.org::*compact%20org%20mode%20guide][compact org-mode guide]]
+** TODO add link shortcuts to org init
+   :CLOCK:
+   CLOCK: [2010-08-01 Sun 14:50]--[2010-08-01 Sun 14:51] =>  0:01
+   :END:
+   [2010-08-01 Sun 14:50]
+   [[file:~/org/notes.org::*compact%20org%20mode%20guide][compact org-mode guide]]
 ** TODO Read up on magit mode
 ** TODO Read up on rack
    - State "TODO"       from ""           [2010-08-01 Sun 00:21]
-** TODO What is font lock in emacs
+** DONE What is font lock in emacs
+   - State "DONE"       from "NEXT"       [2010-08-02 Mon 15:30]
+   - State "NEXT"       from "TODO"       [2010-08-02 Mon 15:26]
    :CLOCK:
+   CLOCK: [2010-08-02 Mon 15:26]--[2010-08-02 Mon 15:30] =>  0:04
    :END:
    [2010-08-01 Sun 14:55]
+   http://www.gnu.org/software/emacs/manual/html_node/emacs/Font-Lock.html
+** TODO try out [[http://emacs-fu.blogspot.com/2010/06/console-apps-in-emacs-with-multi-term.html][multiterm]] for emacs
+   - State "TODO"       from ""           [2010-08-02 Mon 16:13]
+
+** TODO check out [[http://emacs-fu.blogspot.com/2010/06/console-apps-in-emacs-with-multi-term.html][autopair]] emacs minor mode
+   - State "TODO"       from ""           [2010-08-02 Mon 16:18]
+
+** TODO evaluate [[http://stackoverflow.com/questions/9951/what-color-scheme-do-you-use-for-programming][color themes]] for emacs
+   - State "TODO"       from ""           [2010-08-02 Mon 16:29]
+
+** TODO evaluate [[http://stackoverflow.com/questions/555376/lgrep-and-rgrep-in-emacs][ack or grep]] for emacs
+  - State "TODO"       from ""           [2010-08-02 Mon 16:32]
+
+** TODO use scheduling capabilities of org-mode
+   - State "TODO"       from ""           [2010-08-02 Mon 16:33]
+
+** TODO check out [[http://jugglingbits.wordpress.com/2010/05/16/announcing-delim-kill-el/][delimkill]] for emacs
+   - State "TODO"       from ""           [2010-08-02 Mon 16:41]
+
+** TODO check out [[http://conkeror.org/][conkeror]], a keyboard oriented editor
+   - State "TODO"       from ""           [2010-08-02 Mon 16:53]

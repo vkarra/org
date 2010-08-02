@@ -57,6 +57,15 @@
     + M-S-left/right promotes/demotes current heading by one level
     + M-S-up/down swaps with previous/next subtree of same level
     + C-c C-w refiles entry or region to different location      
+    + C-x n s/w narrows buffer to current subtree/ widen it again
+    + promotion and demotion works on all headlines in active region if there is one      
+    + C-c / invokes org-sparse-tree which is useful for constructing pages with selected information in an outline tree
+    + Plain lists
+      * M-S-ret inserts new item with a checkbox
+      * C-c C-c toggles state of checkbox
+      * C-c - cycles entire list through the different itemize/enumerate bullets
+      * M-S-left,right changes indentation of item, including subitems, leave out shift to change only on item
+*** Tables
 * ruby
 ** ruby quiz problem 1
 *** techniques
