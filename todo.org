@@ -1,6 +1,13 @@
 * NEXT No task
   :CLOCK:
-  CLOCK: [2010-08-03 Tue 09:07]
+  CLOCK: [2010-08-03 Tue 18:01]
+  CLOCK: [2010-08-03 Tue 17:22]--[2010-08-03 Tue 17:26] =>  0:04
+  CLOCK: [2010-08-03 Tue 16:38]--[2010-08-03 Tue 16:55] =>  0:17
+  CLOCK: [2010-08-03 Tue 14:20]--[2010-08-03 Tue 14:54] =>  0:34
+  CLOCK: [2010-08-03 Tue 11:24]--[2010-08-03 Tue 11:25] =>  0:01
+  CLOCK: [2010-08-03 Tue 11:08]--[2010-08-03 Tue 11:09] =>  0:01
+  CLOCK: [2010-08-03 Tue 10:59]--[2010-08-03 Tue 11:04] =>  0:05
+  CLOCK: [2010-08-03 Tue 09:07]--[2010-08-03 Tue 09:56] =>  0:49
   CLOCK: [2010-08-02 Mon 22:56]--[2010-08-03 Tue 08:51] =>  9:55
   CLOCK: [2010-08-02 Mon 22:39]--[2010-08-02 Mon 22:40] =>  0:01
   CLOCK: [2010-08-02 Mon 22:30]--[2010-08-02 Mon 22:34] =>  0:04
@@ -13,24 +20,29 @@
   CLOCK: [2010-07-31 Sat 13:44]--[2010-07-31 Sat 14:52] =>  1:08
   :END:
 * Tasks
-** TODO Read sinatra code
+** TODO Read sinatra code					       :RUBY:
    - State "TODO"       from "NEXT"       [2010-08-02 Mon 01:17]
    - State "NEXT"       from "TODO"       [2010-08-01 Sun 00:14]
    :CLOCK:
    CLOCK: [2010-08-01 Sun 00:14]--[2010-08-01 Sun 00:32] =>  0:18
    :END:
-** TODO Read up on RSpec
-** TODO Solve Ruby Quiz problem 1
+** TODO Read up on RSpec					       :RUBY:
+** NEXT Solve Ruby Quiz problem 1 				       :RUBY:
+   - State "NEXT"       from "TODO"       [2010-08-03 Tue 12:54]
    - State "TODO"       from "NEXT"       [2010-08-02 Mon 01:17]
    - State "NEXT"       from "TODO"       [2010-08-01 Sun 18:05]
    - State "TODO"       from "NEXT"       [2010-07-31 Sat 23:49]
    :CLOCK:
+   CLOCK: [2010-08-03 Tue 17:26]--[2010-08-03 Tue 18:01] =>  0:35
+   CLOCK: [2010-08-03 Tue 14:15]--[2010-08-03 Tue 14:20] =>  0:05
+   CLOCK: [2010-08-03 Tue 13:31]--[2010-08-03 Tue 13:50] =>  0:19
+   CLOCK: [2010-08-03 Tue 12:54]--[2010-08-03 Tue 13:24] =>  0:30
    CLOCK: [2010-08-02 Mon 00:51]--[2010-08-02 Mon 01:03] =>  0:12
    CLOCK: [2010-08-01 Sun 18:05]--[2010-08-01 Sun 19:05] =>  1:00
    CLOCK: [2010-07-31 Sat 14:52]--[2010-07-31 Sat 15:12] =>  0:20
    :END:
-** TODO Read Ruby I/O chapter
-** TODO Read up on org-mode
+** TODO Read Ruby I/O chapter					       :RUBY:
+** TODO Read up on org-mode						:ORG:
    :CLOCK:
    CLOCK: [2010-07-31 Sat 13:40]--[2010-07-31 Sat 14:44] =>  1:04
    :END:
@@ -44,6 +56,9 @@
     :END:
     - State "TODO"       from ""           [2010-08-01 Sun 09:12]
 *** TODO [[file:notes.org::*compact%20org%20mode%20guide][compact org-mode guide]]
+    - State "TODO"       from "NEXT"       [2010-08-03 Tue 10:59] \\
+      read tags on org compact and sacha chua's article on org tags
+    - State "NEXT"       from "TODO"       [2010-08-03 Tue 10:17]
     - State "TODO"       from "NEXT"       [2010-08-02 Mon 15:19] \\
       completed document structure
       started tables
@@ -52,20 +67,21 @@
       paused
     - State "NEXT"       from "TODO"       [2010-08-01 Sun 14:53]
     :CLOCK:
+    CLOCK: [2010-08-03 Tue 10:17]--[2010-08-03 Tue 10:58] =>  0:41
     CLOCK: [2010-08-02 Mon 15:02]--[2010-08-02 Mon 15:20] =>  0:18
     CLOCK: [2010-08-01 Sun 14:55]--[2010-08-01 Sun 15:07] =>  0:12
     CLOCK: [2010-08-01 Sun 14:53]--[2010-08-01 Sun 14:55] =>  0:02
     :END:
-** TODO add link shortcuts to org init
+** TODO add link shortcuts to org init				 :ACTION:ORG:
    :CLOCK:
    CLOCK: [2010-08-01 Sun 14:50]--[2010-08-01 Sun 14:51] =>  0:01
    :END:
    [2010-08-01 Sun 14:50]
    [[file:~/org/notes.org::*compact%20org%20mode%20guide][compact org-mode guide]]
-** TODO Read up on magit mode
-** TODO Read up on rack
+** TODO [[file:notes.org::*magit][Read up on magit mode]]					  :GIT:EMACS:
+** TODO Read up on rack						       :RUBY:
    - State "TODO"       from ""           [2010-08-01 Sun 00:21]
-** DONE What is font lock in emacs
+** DONE What is font lock in emacs				      :EMACS:
    - State "DONE"       from "NEXT"       [2010-08-02 Mon 15:30]
    - State "NEXT"       from "TODO"       [2010-08-02 Mon 15:26]
    :CLOCK:
@@ -73,7 +89,7 @@
    :END:
    [2010-08-01 Sun 14:55]
    http://www.gnu.org/software/emacs/manual/html_node/emacs/Font-Lock.html
-** DONE try out [[http://emacs-fu.blogspot.com/2010/06/console-apps-in-emacs-with-multi-term.html][multiterm]] for emacs
+** DONE try out [[http://emacs-fu.blogspot.com/2010/06/console-apps-in-emacs-with-multi-term.html][multiterm]] for emacs			       :ACTION:EMACS:
    - State "DONE"       from "NEXT"       [2010-08-02 Mon 22:39]
    - State "NEXT"       from "TODO"       [2010-08-02 Mon 22:21]
    :CLOCK:
@@ -82,10 +98,10 @@
    :END:
    - State "TODO"       from ""           [2010-08-02 Mon 16:13]
      added multiterm and updated repo
-** TODO check out [[http://emacs-fu.blogspot.com/2010/06/console-apps-in-emacs-with-multi-term.html][autopair]] emacs minor mode
+** TODO check out [[http://emacs-fu.blogspot.com/2010/06/console-apps-in-emacs-with-multi-term.html][autopair]] emacs minor mode			      :EMACS:
    - State "TODO"       from ""           [2010-08-02 Mon 16:18]
 
-** TODO evaluate [[http://stackoverflow.com/questions/9951/what-color-scheme-do-you-use-for-programming][color themes]] for emacs
+** TODO evaluate [[http://stackoverflow.com/questions/9951/what-color-scheme-do-you-use-for-programming][color themes]] for emacs				      :EMACS:
    - State "TODO"       from "NEXT"       [2010-08-03 Tue 09:07]
    - State "NEXT"       from "TODO"       [2010-08-03 Tue 08:51]
    :CLOCK:
@@ -93,15 +109,26 @@
    :END:
    - State "TODO"       from ""           [2010-08-02 Mon 16:29]
 
-** TODO evaluate [[http://stackoverflow.com/questions/555376/lgrep-and-rgrep-in-emacs][ack or grep]] for emacs
+** DONE evaluate [[http://stackoverflow.com/questions/555376/lgrep-and-rgrep-in-emacs][ack or grep]] for emacs				      :EMACS:
+   - State "DONE"       from "NEXT"       [2010-08-03 Tue 11:43]
+     added ack support to emacs
+   - State "NEXT"       from "TODO"       [2010-08-03 Tue 11:25]
+   - State "TODO"       from "NEXT"       [2010-08-03 Tue 11:15] \\
+     installed ack
+   - State "NEXT"       from "TODO"       [2010-08-03 Tue 11:09]
+   :CLOCK:
+   CLOCK: [2010-08-03 Tue 11:25]--[2010-08-03 Tue 11:43] =>  0:18
+   CLOCK: [2010-08-03 Tue 11:11]--[2010-08-03 Tue 11:15] =>  0:04
+   CLOCK: [2010-08-03 Tue 11:09]--[2010-08-03 Tue 11:11] =>  0:02
+   :END:
   - State "TODO"       from ""           [2010-08-02 Mon 16:32]
-
-** TODO use scheduling capabilities of org-mode
+    
+** TODO use scheduling capabilities of org-mode			 :ORG:ACTION:
    - State "TODO"       from ""           [2010-08-02 Mon 16:33]
 
-** TODO check out [[http://jugglingbits.wordpress.com/2010/05/16/announcing-delim-kill-el/][delimkill]] for emacs
+** TODO check out [[http://jugglingbits.wordpress.com/2010/05/16/announcing-delim-kill-el/][delimkill]] for emacs				      :EMACS:
    - State "TODO"       from ""           [2010-08-02 Mon 16
-** DONE check out [[http://conkeror.org/][conkeror]], a keyboard oriented browser
+** DONE check out [[http://conkeror.org/][conkeror]], a keyboard oriented browser		     :ACTION:
    - State "DONE"       from "NEXT"       [2010-08-02 Mon 22:03]
    - State "NEXT"       from "TODO"       [2010-08-02 Mon 21:46]
    :CLOCK:
@@ -110,7 +137,7 @@
    - State "TODO"       from ""           [2010-08-02 Mon 16:53]
      installed conkeror and checked out its basic features, using it now as default browser
 
-** DONE research music player alternatives for linux
+** DONE research music player alternatives for linux		     :LINUX::
    - State "DONE"       from "NEXT"       [2010-08-02 Mon 22:18]
    - State "NEXT"       from "TODO"       [2010-08-02 Mon 22:12]
    :CLOCK:
@@ -119,15 +146,46 @@
    - State "TODO"       from ""           [2010-08-02 Mon 22:12]
 
      picked rhythmbox
-** DONE setup conkeror as default browser
+** DONE setup conkeror as default browser		      :ACTION:LINUX::
    - State "DONE"       from "NEXT"       [2010-08-02 Mon 22:56]
    - State "NEXT"       from "TODO"       [2010-08-02 Mon 22:40]
    :CLOCK:
    CLOCK: [2010-08-02 Mon 22:40]--[2010-08-02 Mon 22:56] =>  0:16
    :END:
    - State "TODO"       from ""           [2010-08-02 Mon 22:22]
-** TODO research linux shells and pick one
+** TODO research linux shells and pick one			     :LINUX::
    - State "TODO"       from ""           [2010-08-02 Mon 22:23]
 
-** TODO fix incomplete initializtion of emacs starutp files
+** TODO fix incomplete initialization of emacs startup files   :EMACS:ACTION:
    - State "TODO"       from ""           [2010-08-03 Tue 09:11]
+** CANCELLED configure colors for tags in org mode		 :ACTION:ORG:
+   - State "CANCELLED"  from "NEXT"       [2010-08-03 Tue 11:08] \\
+     tags should be invisible until queries for
+   - State "NEXT"       from "TODO"       [2010-08-03 Tue 11:04]
+   :CLOCK:
+   CLOCK: [2010-08-03 Tue 11:04]--[2010-08-03 Tue 11:08] =>  0:04
+   :END:
+   - State "TODO"       from ""           [2010-08-03 Tue 10:46]
+** TODO add sacha chua's org-calculate-tag-time to emacs init  :EMACS:ACTION:
+   - State "TODO"       from ""           [2010-08-03 Tue 10:55]
+
+** DONE learn ack						      :TOOLS:
+   - State "DONE"       from "NEXT"       [2010-08-03 Tue 11:23]
+   - State "NEXT"       from "TODO"       [2010-08-03 Tue 11:16]
+   :CLOCK:
+   CLOCK: [2010-08-03 Tue 11:16]--[2010-08-03 Tue 11:23] =>  0:07
+   :END:
+   [2010-08-03 Tue 11:11]
+   
+   ack --type=ruby string_to_search
+
+
+** DONE cleanup emacs library				       :EMACS:ACTION:
+   - State "DONE"       from "NEXT"       [2010-08-03 Tue 12:00]
+   - State "NEXT"       from "TODO"       [2010-08-03 Tue 11:44]
+   :CLOCK:
+   CLOCK: [2010-08-03 Tue 11:44]--[2010-08-03 Tue 12:00] =>  0:16
+   :END:
+   - State "TODO"       from ""           [2010-08-03 Tue 11:44]
+     merged emacs-linux to emacs24-linux
+     deleted vendor/cedet

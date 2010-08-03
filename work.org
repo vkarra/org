@@ -6,3 +6,29 @@
 * Tasks
 ** TODO Enter Q3 MBO's
    - State "TODO"       from ""           [2010-08-02 Mon 15:40]
+
+* Meetings
+** DONE team meeting 08/03
+   - State "DONE"       from "TODO"       [2010-08-03 Tue 17:16]
+   - State "TODO"       from "NEXT"       [2010-08-03 Tue 14:53]
+   - State "NEXT"       from "TODO"       [2010-08-03 Tue 13:51]
+   :CLOCK:
+   CLOCK: [2010-08-03 Tue 13:51]--[2010-08-03 Tue 14:14] =>  0:23
+   :END:
+   - State "TODO"       from ""           [2010-08-03 Tue 13:51]
+
+** DONE support meeting 08/03
+   - State "DONE"       from "TODO"       [2010-08-03 Tue 17:16]
+   - State "TODO"       from "NEXT"       [2010-08-03 Tue 16:20]
+   - State "NEXT"       from "TODO"       [2010-08-03 Tue 14:54]
+   :CLOCK:
+   CLOCK: [2010-08-03 Tue 14:54]--[2010-08-03 Tue 16:20] =>  1:42
+   :END:
+   - State "TODO"       from ""           [2010-08-03 Tue 14:53]
+
+** NEXT discussion on mfs remote database support with mra dev
+   - State "NEXT"       from "TODO"       [2010-08-03 Tue 16:55]
+   :CLOCK:
+   CLOCK: [2010-08-03 Tue 16:55]--[2010-08-03 Tue 17:19] =>  0:24
+   :END:
+   - State "TODO"       from ""           [2010-08-03 Tue 16:55]

@@ -66,7 +66,23 @@
       * C-c - cycles entire list through the different itemize/enumerate bullets
       * M-S-left,right changes indentation of item, including subitems, leave out shift to change only on item
 *** Tables
-*** 
+*** Tags
+    + If a heading has a certain tag, all subheadings will inherit the tag as well
+    + Set tags that will be inherited by all entries in a file using "#+FILETAGS: :tag1:tag2:tag3" 
+    + C-c C-q enters new tags for current headline
+    + Tag insertion is based on a list of tags
+      * by default this is constructed dynamically containing all tags currently used in the buffer
+      * globally specify a hard list of tags with the variable org-tag-alist
+      * set default tags for a given file with lines like
+	'#+TAGS: @work @home @tennisclub'
+	'#+TAGS: laptop car pc sailboat'
+    + C-c \ shows list of entries matching tag condition(eg +action+emacs-ruby)
+    + C-u C-c \ to limit list of entries matching tag condition to only task headlines
+    + C-c / m create sparse tree with all headlines matching a tags search
+    + C-c a m creates a global list of tag matches from all agenda files
+    + C-c a M creates a global list of tag matches from all agenda files, but check only TODO items and force checking subitems
+*** Other
+    + C-c C-c activates any changes in the line
 * ruby
 ** ruby quiz problem 1
 *** techniques
