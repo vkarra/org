@@ -1,5 +1,11 @@
 * NEXT No task
   :CLOCK:
+  CLOCK: [2010-08-03 Tue 09:07]
+  CLOCK: [2010-08-02 Mon 22:56]--[2010-08-03 Tue 08:51] =>  9:55
+  CLOCK: [2010-08-02 Mon 22:39]--[2010-08-02 Mon 22:40] =>  0:01
+  CLOCK: [2010-08-02 Mon 22:30]--[2010-08-02 Mon 22:34] =>  0:04
+  CLOCK: [2010-08-02 Mon 22:18]--[2010-08-02 Mon 22:21] =>  0:03
+  CLOCK: [2010-08-02 Mon 22:04]--[2010-08-02 Mon 22:12] =>  0:08
   CLOCK: [2010-08-01 Sun 08:54]--[2010-08-01 Sun 09:12] =>  0:18
   CLOCK: [2010-08-01 Sun 00:32]--[2010-08-01 Sun 01:24] =>  0:52
   CLOCK: [2010-07-31 Sat 23:50]--[2010-08-01 Sun 00:14] =>  0:24
@@ -67,13 +73,24 @@
    :END:
    [2010-08-01 Sun 14:55]
    http://www.gnu.org/software/emacs/manual/html_node/emacs/Font-Lock.html
-** TODO try out [[http://emacs-fu.blogspot.com/2010/06/console-apps-in-emacs-with-multi-term.html][multiterm]] for emacs
+** DONE try out [[http://emacs-fu.blogspot.com/2010/06/console-apps-in-emacs-with-multi-term.html][multiterm]] for emacs
+   - State "DONE"       from "NEXT"       [2010-08-02 Mon 22:39]
+   - State "NEXT"       from "TODO"       [2010-08-02 Mon 22:21]
+   :CLOCK:
+   CLOCK: [2010-08-02 Mon 22:34]--[2010-08-02 Mon 22:39] =>  0:05
+   CLOCK: [2010-08-02 Mon 22:21]--[2010-08-02 Mon 22:30] =>  0:09
+   :END:
    - State "TODO"       from ""           [2010-08-02 Mon 16:13]
-
+     added multiterm and updated repo
 ** TODO check out [[http://emacs-fu.blogspot.com/2010/06/console-apps-in-emacs-with-multi-term.html][autopair]] emacs minor mode
    - State "TODO"       from ""           [2010-08-02 Mon 16:18]
 
 ** TODO evaluate [[http://stackoverflow.com/questions/9951/what-color-scheme-do-you-use-for-programming][color themes]] for emacs
+   - State "TODO"       from "NEXT"       [2010-08-03 Tue 09:07]
+   - State "NEXT"       from "TODO"       [2010-08-03 Tue 08:51]
+   :CLOCK:
+   CLOCK: [2010-08-03 Tue 08:51]--[2010-08-03 Tue 09:07] =>  0:16
+   :END:
    - State "TODO"       from ""           [2010-08-02 Mon 16:29]
 
 ** TODO evaluate [[http://stackoverflow.com/questions/555376/lgrep-and-rgrep-in-emacs][ack or grep]] for emacs
@@ -83,7 +100,34 @@
    - State "TODO"       from ""           [2010-08-02 Mon 16:33]
 
 ** TODO check out [[http://jugglingbits.wordpress.com/2010/05/16/announcing-delim-kill-el/][delimkill]] for emacs
-   - State "TODO"       from ""           [2010-08-02 Mon 16:41]
-
-** TODO check out [[http://conkeror.org/][conkeror]], a keyboard oriented editor
+   - State "TODO"       from ""           [2010-08-02 Mon 16
+** DONE check out [[http://conkeror.org/][conkeror]], a keyboard oriented browser
+   - State "DONE"       from "NEXT"       [2010-08-02 Mon 22:03]
+   - State "NEXT"       from "TODO"       [2010-08-02 Mon 21:46]
+   :CLOCK:
+   CLOCK: [2010-08-02 Mon 21:46]--[2010-08-02 Mon 22:03] =>  0:17
+   :END:
    - State "TODO"       from ""           [2010-08-02 Mon 16:53]
+     installed conkeror and checked out its basic features, using it now as default browser
+
+** DONE research music player alternatives for linux
+   - State "DONE"       from "NEXT"       [2010-08-02 Mon 22:18]
+   - State "NEXT"       from "TODO"       [2010-08-02 Mon 22:12]
+   :CLOCK:
+   CLOCK: [2010-08-02 Mon 22:12]--[2010-08-02 Mon 22:18] =>  0:06
+   :END:
+   - State "TODO"       from ""           [2010-08-02 Mon 22:12]
+
+     picked rhythmbox
+** DONE setup conkeror as default browser
+   - State "DONE"       from "NEXT"       [2010-08-02 Mon 22:56]
+   - State "NEXT"       from "TODO"       [2010-08-02 Mon 22:40]
+   :CLOCK:
+   CLOCK: [2010-08-02 Mon 22:40]--[2010-08-02 Mon 22:56] =>  0:16
+   :END:
+   - State "TODO"       from ""           [2010-08-02 Mon 22:22]
+** TODO research linux shells and pick one
+   - State "TODO"       from ""           [2010-08-02 Mon 22:23]
+
+** TODO fix incomplete initializtion of emacs starutp files
+   - State "TODO"       from ""           [2010-08-03 Tue 09:11]

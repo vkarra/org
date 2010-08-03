@@ -66,6 +66,7 @@
       * C-c - cycles entire list through the different itemize/enumerate bullets
       * M-S-left,right changes indentation of item, including subitems, leave out shift to change only on item
 *** Tables
+*** 
 * ruby
 ** ruby quiz problem 1
 *** techniques
@@ -91,3 +92,6 @@
     provides a minimal interface between webservers supporting Ruby and Ruby frameworks
 *** tilt
     tilt is a thin interface over a bunch of different Ruby template engines
+* conkeror browser
+
+   
