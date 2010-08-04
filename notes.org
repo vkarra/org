@@ -50,7 +50,7 @@
     + clean view can be used to minimize star usage in headings
     + S-tab and C-u tab invokes global cycling
     + C-u C-u C-u tab shows all, including drawers
-    + on first visit to an org file, the global state is set to OVERVIEW; this settings is configurable
+    + on first visit to an org file, the global state is set to OVERVIEW; this setting is configurable
     + C-c C-u backward to higher level heading
     + M-S-ret inserts new todo entry with same level as current heading
     + <tab> cycles through reasonable levels
@@ -61,7 +61,7 @@
     + promotion and demotion works on all headlines in active region if there is one      
     + C-c / invokes org-sparse-tree which is useful for constructing pages with selected information in an outline tree
     + Plain lists
-      * M-S-ret inserts new item with a checkbox
+    + M-S-ret inserts new item with a checkbox
       * C-c C-c toggles state of checkbox
       * C-c - cycles entire list through the different itemize/enumerate bullets
       * M-S-left,right changes indentation of item, including subitems, leave out shift to change only on item
@@ -81,6 +81,16 @@
     + C-c / m create sparse tree with all headlines matching a tags search
     + C-c a m creates a global list of tag matches from all agenda files
     + C-c a M creates a global list of tag matches from all agenda files, but check only TODO items and force checking subitems
+*** Properties
+    + properties are key-value paris associated with an entry
+    + allowed values for a property can be set in two ways
+      * defined at the top level heading by setting a property ':Xyz_ALL:' which is inherited
+      * defined globally using org-global-properties
+      * defined file-wide using #+PROPERTY: NDisks_ALL 1 2 3 4
+    + C-c C-x p sets a property for current entry
+    + C-c C-c d removes a property from current entry
+    + create sparse trees and special lists with selection based on properties using same commands as that for tags
+
 *** Other
     + C-c C-c activates any changes in the line
 * ruby
@@ -96,7 +106,13 @@
     + Object.send :remove_const, :tilt
       + remove_const(sym)
 	Removes the definition of the given constant, returning that constant's value. Predefined classes and singleton objects (such as true) cannot be removed.
-    + 
+    + @body = block if block_given?
+      Returns true if yield would execute a block in the current context. The iterator? form is mildly deprecated.
+    + body = [body] if body.respond_to? :to_str
+      this seems to be acceptable coding
+    + header["Content-Length"] = body.to_ary.inject(0) { |len, part| len + Rack::Utils.bytesize(part) }.to_s
+      technique for accumulating the sum of an arrary after running a function on each element
+
 ** Libraries
 *** thread
     thread support classes, part of stdlib

@@ -24,19 +24,31 @@
   CLOCK: [2010-07-31 Sat 13:44]--[2010-07-31 Sat 14:52] =>  1:08
   :END:
 * Tasks
-** TODO Read sinatra code					       :RUBY:
+** NEXT Read sinatra code					       :RUBY:
+   - State "NEXT"       from "TODO"       [2010-08-04 Wed 13:21]
    - State "TODO"       from "NEXT"       [2010-08-02 Mon 01:17]
    - State "NEXT"       from "TODO"       [2010-08-01 Sun 00:14]
    :CLOCK:
+   CLOCK: [2010-08-04 Wed 13:56]--[2010-08-04 Wed 13:58] =>  0:02
+   CLOCK: [2010-08-04 Wed 13:50]--[2010-08-04 Wed 13:56] =>  0:06
+   CLOCK: [2010-08-04 Wed 13:47]--[2010-08-04 Wed 13:49] =>  0:02
+   CLOCK: [2010-08-04 Wed 13:39]--[2010-08-04 Wed 13:47] =>  0:08
+   CLOCK: [2010-08-04 Wed 13:26]--[2010-08-04 Wed 13:38] =>  0:12
+   CLOCK: [2010-08-04 Wed 13:21]--[2010-08-04 Wed 13:26] =>  0:05
    CLOCK: [2010-08-01 Sun 00:14]--[2010-08-01 Sun 00:32] =>  0:18
    :END:
 ** TODO Read up on RSpec					       :RUBY:
-** NEXT Solve Ruby Quiz problem 1 				       :RUBY:
+** DONE Solve Ruby Quiz problem 1				       :RUBY:
+   - State "DONE"       from "NEXT"       [2010-08-04 Wed 18:58]
    - State "NEXT"       from "TODO"       [2010-08-03 Tue 12:54]
    - State "TODO"       from "NEXT"       [2010-08-02 Mon 01:17]
    - State "NEXT"       from "TODO"       [2010-08-01 Sun 18:05]
    - State "TODO"       from "NEXT"       [2010-07-31 Sat 23:49]
    :CLOCK:
+   CLOCK: [2010-08-04 Wed 18:07]--[2010-08-04 Wed 18:57] =>  0:50
+   CLOCK: [2010-08-04 Wed 17:56]--[2010-08-04 Wed 18:07] =>  0:11
+   CLOCK: [2010-08-04 Wed 17:38]--[2010-08-04 Wed 17:56] =>  0:18
+   CLOCK: [2010-08-04 Wed 17:21]--[2010-08-04 Wed 17:32] =>  0:11
    CLOCK: [2010-08-04 Wed 01:38]--[2010-08-04 Wed 02:18] =>  0:40
    CLOCK: [2010-08-04 Wed 00:22]--[2010-08-04 Wed 01:12] =>  0:50
    CLOCK: [2010-08-03 Tue 22:39]--[2010-08-03 Tue 23:12] =>  0:33
@@ -52,7 +64,7 @@
    CLOCK: [2010-07-31 Sat 14:52]--[2010-07-31 Sat 15:12] =>  0:20
    :END:
    [2010-08-04 Wed 01:11] - move! function is not correct, shift is not implemented, logic error
-** TODO Read Ruby I/O chapter					       :RUBY:
+** TODO Read Ruby I/O chapter 					       :RUBY:
 ** TODO Read up on org-mode						:ORG:
    :CLOCK:
    CLOCK: [2010-07-31 Sat 13:40]--[2010-07-31 Sat 14:44] =>  1:04
@@ -66,7 +78,8 @@
     CLOCK: [2010-08-01 Sun 09:12]--[2010-08-01 Sun 09:14] =>  0:02
     :END:
     - State "TODO"       from ""           [2010-08-01 Sun 09:12]
-*** TODO [[file:notes.org::*compact%20org%20mode%20guide][compact org-mode guide]]
+*** NEXT [[file:notes.org::*compact%20org%20mode%20guide][compact org-mode guide]]
+    - State "NEXT"       from "TODO"       [2010-08-04 Wed 12:40]
     - State "TODO"       from "NEXT"       [2010-08-03 Tue 10:59] \\
       read tags on org compact and sacha chua's article on org tags
     - State "NEXT"       from "TODO"       [2010-08-03 Tue 10:17]
@@ -78,6 +91,7 @@
       paused
     - State "NEXT"       from "TODO"       [2010-08-01 Sun 14:53]
     :CLOCK:
+    CLOCK: [2010-08-04 Wed 12:40]--[2010-08-04 Wed 13:06] =>  0:26
     CLOCK: [2010-08-03 Tue 10:17]--[2010-08-03 Tue 10:58] =>  0:41
     CLOCK: [2010-08-02 Mon 15:02]--[2010-08-02 Mon 15:20] =>  0:18
     CLOCK: [2010-08-01 Sun 14:55]--[2010-08-01 Sun 15:07] =>  0:12
@@ -170,7 +184,8 @@
 ** TODO research linux shells and pick one			     :LINUX::
    - State "TODO"       from ""           [2010-08-02 Mon 22:23]
 
-** TODO fix incomplete initialization of emacs startup files   :EMACS:ACTION:
+** DONE fix incomplete initialization of emacs startup files   :EMACS:ACTION:
+   - State "DONE"       from "TODO"       [2010-08-04 Wed 13:15]
    - State "TODO"       from ""           [2010-08-03 Tue 09:11]
 ** CANCELLED configure colors for tags in org mode		 :ACTION:ORG:
    - State "CANCELLED"  from "NEXT"       [2010-08-03 Tue 11:08] \\
@@ -202,3 +217,13 @@
    - State "TODO"       from ""           [2010-08-03 Tue 11:44]
      merged emacs-linux to emacs24-linux
      deleted vendor/cedet
+** TODO Implement rummy in Ruby					       :RUBY:
+  :CLOCK:
+  CLOCK: [2010-08-03 Tue 22:38]--[2010-08-03 Tue 22:39] =>  0:01
+  :END:
+  [2010-08-03 Tue 22:38]
+** TODO read bastien guerry's column view intro				:ORG:
+   - State "TODO"       from ""           [2010-08-04 Wed 12:52]
+
+** TODO Analyze ruby quiz solution and alternate solutions	       :RUBY:
+   - State "TODO"       from ""           [2010-08-04 Wed 18:58]

@@ -1,12 +1,68 @@
 * NEXT Work No task
   :CLOCK:
+  CLOCK: [2010-08-04 Wed 18:57]--[2010-08-04 Wed 20:14] =>  1:17
+  CLOCK: [2010-08-04 Wed 15:59]--[2010-08-04 Wed 17:21] =>  1:22
+  CLOCK: [2010-08-04 Wed 15:48]--[2010-08-04 Wed 15:58] =>  0:10
+  CLOCK: [2010-08-04 Wed 13:58]--[2010-08-04 Wed 15:21] =>  1:23
+  CLOCK: [2010-08-04 Wed 13:06]--[2010-08-04 Wed 13:21] =>  0:15
   CLOCK: [2010-08-02 Mon 15:30]--[2010-08-02 Mon 16:57] =>  1:27
   CLOCK: [2010-08-02 Mon 14:45]--[2010-08-02 Mon 15:02] =>  0:17
   :END:
 * Tasks
-** TODO Enter Q3 MBO's
+** TODO Enter Q3 MBO's						     :ACTION:
    - State "TODO"       from ""           [2010-08-02 Mon 15:40]
 
+** DONE MAGI naming convention re-org				     :ACTION:
+   - State "DONE"       from "WAITING"    [2010-08-04 Wed 17:21]
+   - State "WAITING"    from "TODO"       [2010-08-04 Wed 12:11] \\
+     khemlal copying repo to disk
+   - State "TODO"       from ""           [2010-08-04 Wed 11:37]
+** NEXT run installer automation against 630.1
+   - State "NEXT"       from "WAITING"    [2010-08-04 Wed 17:21]
+   - State "WAITING"    from "NEXT"       [2010-08-04 Wed 12:39] \\
+     changed update folder to 630.1.Installer
+   - State "NEXT"       from "WAITING"    [2010-08-04 Wed 12:37]
+   - State "WAITING"    from "NEXT"       [2010-08-04 Wed 12:35] \\
+     run initiated against 630.1
+   - State "NEXT"       from "TODO"       [2010-08-04 Wed 12:19]
+   :CLOCK:
+   CLOCK: [2010-08-04 Wed 12:37]--[2010-08-04 Wed 12:39] =>  0:02
+   CLOCK: [2010-08-04 Wed 12:33]--[2010-08-04 Wed 12:35] =>  0:02
+   CLOCK: [2010-08-04 Wed 12:19]--[2010-08-04 Wed 12:26] =>  0:07
+   :END:
+   - State "TODO"       from ""           [2010-08-04 Wed 12:19]
+** DONE Collect healthmagic card from kanishka/kadamba
+   - State "DONE"       from "NEXT"       [2010-08-04 Wed 12:33]
+   - State "NEXT"       from "TODO"       [2010-08-04 Wed 12:26]
+   :CLOCK:
+   CLOCK: [2010-08-04 Wed 12:26]--[2010-08-04 Wed 12:33] =>  0:07
+   :END:
+   - State "TODO"       from ""           [2010-08-04 Wed 12:26]
+** DONE Mark user story acceptance tests
+   - State "DONE"       from "NEXT"       [2010-08-04 Wed 15:47]
+   - State "NEXT"       from "TODO"       [2010-08-04 Wed 15:21]
+   :CLOCK:
+   CLOCK: [2010-08-04 Wed 15:21]--[2010-08-04 Wed 15:47] =>  0:26
+   :END:
+   - State "TODO"       from ""           [2010-08-04 Wed 15:21]
+     12 acceptance tests total including 6 HA tests marked now
+** DONE remove password expiry in ntlmv2 domain
+   - State "DONE"       from "NEXT"       [2010-08-04 Wed 17:38]
+   - State "NEXT"       from "TODO"       [2010-08-04 Wed 17:33]
+   - State "NEXT"       from "TODO"       [2010-08-04 Wed 17:33]
+   :CLOCK:
+   CLOCK: [2010-08-04 Wed 17:33]--[2010-08-04 Wed 17:38] =>  0:05
+   CLOCK: [2010-08-04 Wed 17:32]--[2010-08-04 Wed 17:33] =>  0:01
+   :END:
+   [2010-08-04 Wed 17:32]
+
+** DONE Automation meeting 04/08
+   - State "DONE"       from "NEXT"       [2010-08-04 Wed 21:00]
+   - State "NEXT"       from "TODO"       [2010-08-04 Wed 20:14]
+   :CLOCK:
+   CLOCK: [2010-08-04 Wed 20:14]--[2010-08-04 Wed 21:00] =>  0:46
+   :END:
+   - State "TODO"       from ""           [2010-08-04 Wed 20:11]
 * Meetings
 ** DONE team meeting 08/03
    - State "DONE"       from "TODO"       [2010-08-03 Tue 17:16]
@@ -26,7 +82,8 @@
    :END:
    - State "TODO"       from ""           [2010-08-03 Tue 14:53]
 
-** NEXT discussion on mfs remote database support with mra dev
+** DONE discussion on mfs remote database support with mra dev
+   - State "DONE"       from "NEXT"       [2010-08-04 Wed 11:36]
    - State "NEXT"       from "TODO"       [2010-08-03 Tue 16:55]
    :CLOCK:
    CLOCK: [2010-08-03 Tue 16:55]--[2010-08-03 Tue 17:19] =>  0:24
