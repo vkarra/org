@@ -1,0 +1,6 @@
+* TODO Implement rummy in Ruby 
+  :CLOCK:
+  CLOCK: [2010-08-03 Tue 22:38]--[2010-08-03 Tue 22:39] =>  0:01
+  :END:
+  [2010-08-03 Tue 22:38]
+  [[file:~/my-ruby/ruby-quiz/1/spec/rubyquiz-1-spec.rb::deck%201%20should%20RubyQuiz1%20Card%20new%20deck%20number%202%20face%20C][file:~/my-ruby/ruby-quiz/1/spec/rubyquiz-1-spec.rb::deck 1 should RubyQuiz1 Card new deck number 2 face C]]

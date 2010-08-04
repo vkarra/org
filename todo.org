@@ -1,6 +1,10 @@
 * NEXT No task
   :CLOCK:
-  CLOCK: [2010-08-03 Tue 18:01]
+  CLOCK: [2010-08-04 Wed 01:12]--[2010-08-04 Wed 01:38] =>  0:26
+  CLOCK: [2010-08-03 Tue 23:12]--[2010-08-04 Wed 00:22] =>  1:10
+  CLOCK: [2010-08-03 Tue 22:06]--[2010-08-03 Tue 22:33] =>  0:27
+  CLOCK: [2010-08-03 Tue 20:52]--[2010-08-03 Tue 21:08] =>  0:16
+  CLOCK: [2010-08-03 Tue 18:01]--[2010-08-03 Tue 20:23] =>  2:22
   CLOCK: [2010-08-03 Tue 17:22]--[2010-08-03 Tue 17:26] =>  0:04
   CLOCK: [2010-08-03 Tue 16:38]--[2010-08-03 Tue 16:55] =>  0:17
   CLOCK: [2010-08-03 Tue 14:20]--[2010-08-03 Tue 14:54] =>  0:34
@@ -33,6 +37,12 @@
    - State "NEXT"       from "TODO"       [2010-08-01 Sun 18:05]
    - State "TODO"       from "NEXT"       [2010-07-31 Sat 23:49]
    :CLOCK:
+   CLOCK: [2010-08-04 Wed 01:38]--[2010-08-04 Wed 02:18] =>  0:40
+   CLOCK: [2010-08-04 Wed 00:22]--[2010-08-04 Wed 01:12] =>  0:50
+   CLOCK: [2010-08-03 Tue 22:39]--[2010-08-03 Tue 23:12] =>  0:33
+   CLOCK: [2010-08-03 Tue 22:33]--[2010-08-03 Tue 22:38] =>  0:05
+   CLOCK: [2010-08-03 Tue 21:30]--[2010-08-03 Tue 22:06] =>  0:36
+   CLOCK: [2010-08-03 Tue 21:08]--[2010-08-03 Tue 21:14] =>  0:06
    CLOCK: [2010-08-03 Tue 17:26]--[2010-08-03 Tue 18:01] =>  0:35
    CLOCK: [2010-08-03 Tue 14:15]--[2010-08-03 Tue 14:20] =>  0:05
    CLOCK: [2010-08-03 Tue 13:31]--[2010-08-03 Tue 13:50] =>  0:19
@@ -41,6 +51,7 @@
    CLOCK: [2010-08-01 Sun 18:05]--[2010-08-01 Sun 19:05] =>  1:00
    CLOCK: [2010-07-31 Sat 14:52]--[2010-07-31 Sat 15:12] =>  0:20
    :END:
+   [2010-08-04 Wed 01:11] - move! function is not correct, shift is not implemented, logic error
 ** TODO Read Ruby I/O chapter					       :RUBY:
 ** TODO Read up on org-mode						:ORG:
    :CLOCK:
@@ -101,14 +112,17 @@
 ** TODO check out [[http://emacs-fu.blogspot.com/2010/06/console-apps-in-emacs-with-multi-term.html][autopair]] emacs minor mode			      :EMACS:
    - State "TODO"       from ""           [2010-08-02 Mon 16:18]
 
-** TODO evaluate [[http://stackoverflow.com/questions/9951/what-color-scheme-do-you-use-for-programming][color themes]] for emacs				      :EMACS:
+** DONE evaluate [[http://stackoverflow.com/questions/9951/what-color-scheme-do-you-use-for-programming][color themes]] for emacs				      :EMACS:
+   - State "DONE"       from "NEXT"       [2010-08-03 Tue 20:51]
+   - State "NEXT"       from "TODO"       [2010-08-03 Tue 20:43]
    - State "TODO"       from "NEXT"       [2010-08-03 Tue 09:07]
    - State "NEXT"       from "TODO"       [2010-08-03 Tue 08:51]
    :CLOCK:
+   CLOCK: [2010-08-03 Tue 20:43]--[2010-08-03 Tue 20:51] =>  0:08
    CLOCK: [2010-08-03 Tue 08:51]--[2010-08-03 Tue 09:07] =>  0:16
    :END:
    - State "TODO"       from ""           [2010-08-02 Mon 16:29]
-
+     picked billw
 ** DONE evaluate [[http://stackoverflow.com/questions/555376/lgrep-and-rgrep-in-emacs][ack or grep]] for emacs				      :EMACS:
    - State "DONE"       from "NEXT"       [2010-08-03 Tue 11:43]
      added ack support to emacs
@@ -178,7 +192,6 @@
    [2010-08-03 Tue 11:11]
    
    ack --type=ruby string_to_search
-
 
 ** DONE cleanup emacs library				       :EMACS:ACTION:
    - State "DONE"       from "NEXT"       [2010-08-03 Tue 12:00]
