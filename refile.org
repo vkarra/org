@@ -1,41 +1,15 @@
 
-* TODO read up on exceptions in ruby
+* TODO "declarative control over their behaviour"; what is meant by this statement
   :CLOCK:
+  CLOCK: [2010-08-05 Thu 08:18]--[2010-08-05 Thu 08:19] =>  0:01
   :END:
-  [2010-08-04 Wed 13:26]
-  [[file:~/ruby-projects/sinatra/lib/sinatra/base.rb::require%20thread][file:~/ruby-projects/sinatra/lib/sinatra/base.rb::require thread]]
-* TODO update test type for acceptance tests in qc
-  :CLOCK:
-  CLOCK: [2010-08-04 Wed 13:38]--[2010-08-04 Wed 13:39] =>  0:01
-  :END:
-  [2010-08-04 Wed 13:38]
-* TODO what is the difference between passing zero and one arguments to inject
-  :CLOCK:
-  :END:
-  [2010-08-04 Wed 13:47]
-* TODO Read up on HTTP
-  :CLOCK:
-  CLOCK: [2010-08-04 Wed 13:49]--[2010-08-04 Wed 13:50] =>  0:01
-  :END:
-  [2010-08-04 Wed 13:49]
-  [[file:~/ruby-projects/sinatra/lib/sinatra/base.rb::class%20Response%20Rack%20Response][file:~/ruby-projects/sinatra/lib/sinatra/base.rb::class Response Rack Response]]
-* TODO Explain block.each
-  :CLOCK:
-  :END:
-  [2010-08-04 Wed 13:56]
-  [[file:~/ruby-projects/sinatra/lib/sinatra/base.rb::if%20block_given%20def%20block%20each%20yield%20call%20end%20What%20is%20this%20line%20EXPLAIN%20response%20body%20block%20else%20response%20body%20value%20end][file:~/ruby-projects/sinatra/lib/sinatra/base.rb::if block_given def block each yield call end What is this line EXPLAIN response body block else response body value end]]
-* TODO investigate using global for spelunking ruby projects
-  http://www.codespelunking.org/pages/cs_global.html
-  :CLOCK:
-  CLOCK: [2010-08-04 Wed 15:58]--[2010-08-04 Wed 15:59] =>  0:01
-  :END:
-  [2010-08-04 Wed 15:58]
-* TODO add rdebug interface to emacs
-  :CLOCK:
-  :END:
-  [2010-08-04 Wed 17:56]
-  [[file:~/my-ruby/ruby-quiz/1/rubyquiz-1.rb::new_card_index%20current_card_index%20distance%20modulo%2054%201][file:~/my-ruby/ruby-quiz/1/rubyquiz-1.rb::new_card_index current_card_index distance modulo 54 1]]
-* TODO find total time spend on a task in org mode
-  :CLOCK:
-  :END:
-  [2010-08-04 Wed 18:07]
+  [2010-08-05 Thu 08:18]
+  http://rspec.info/documentation/mocks/
+
+
+
+
+
+
+
+

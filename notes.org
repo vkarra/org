@@ -125,5 +125,50 @@
 *** tilt
     tilt is a thin interface over a bunch of different Ruby template engines
 * conkeror browser
-
+* rspec
+** Executable code samples
+   + describe() methods returns an ExampleGroup class, which contains a group of examples of particular behaviour of the ysstem that you wish to describe
+   + it() method returns an instance of the ExampleGroup in which that example is run
    
+
+    
+
+** before() and after()
+   Use before() and after() to define code that executes before and after each example or only once per ExampleGroup
+   + before(:all) after(:all)
+   + before(:each) after(:each)
+   + :each is the default
+** Helper methods
+   write helper methods directly within an Example Group
+** Reusable Helper methods
+   include helper methods in multiple ExampleGroups by expressing them within a module and then including that module in your ExampleGroup
+** Shared Example Groups
+   1. Factor out shared behavior in an ExampleGroup
+   2. Reference shared behavior using it_should_behave_like() method
+** Pending Examples
+   Three ways to mark an example as pending
+   + Leave out the block
+     it "should say foo"
+   + Use the pending method with no block
+     pending("get the vocal chords working")
+   + Use the pending method with a block; output will say PENDING, example will fail with message FIXED as soon as body of block raises no errors
+** Mocks and Stubs
+*** Creating a mock object
+    my_mock = mock(name) - creates a new mock with the given name(a string) and registers it.
+    my_mock = mock(name,stubs) - as above, but sets a stub return value for specific messages
+*** Message Expectations
+    A message expectation(aka mock method) is an expectation that an object should receive a specific message during the execution of an example
+**** Expecting Messages
+      + my_mock.should_receive(:msg) - message argument is a symbol that is the name of a message that you want the mock to expect
+      + my_mock.should_not_receive(:msg)
+      + my_mock.should_receive(:msg).with(<args>) - eg .with(1,2,3)
+      + my_mock.should_receive(:msg).once.with(<args>)
+      + my_mock.should_receive(:msg).with(no_args()) - message is expected to be passed with no arguments
+      + my_mock.should_receive(:msg).with(any_args()) - message is expected to be passed with any arguments, this is the default when with() clause is specified
+
+	
+      
+      
+
+
+**** Argument Constraints

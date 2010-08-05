@@ -1,5 +1,7 @@
 * NEXT No task
   :CLOCK:
+  CLOCK: [2010-08-05 Thu 08:51]
+  CLOCK: [2010-08-04 Wed 22:41]--[2010-08-05 Thu 07:56] =>  9:15
   CLOCK: [2010-08-04 Wed 01:12]--[2010-08-04 Wed 01:38] =>  0:26
   CLOCK: [2010-08-03 Tue 23:12]--[2010-08-04 Wed 00:22] =>  1:10
   CLOCK: [2010-08-03 Tue 22:06]--[2010-08-03 Tue 22:33] =>  0:27
@@ -38,6 +40,12 @@
    CLOCK: [2010-08-01 Sun 00:14]--[2010-08-01 Sun 00:32] =>  0:18
    :END:
 ** TODO Read up on RSpec					       :RUBY:
+   - State "TODO"       from "NEXT"       [2010-08-05 Thu 08:51]
+   - State "NEXT"       from "TODO"       [2010-08-05 Thu 07:56]
+   :CLOCK:
+   CLOCK: [2010-08-05 Thu 08:19]--[2010-08-05 Thu 08:50] =>  0:31
+   CLOCK: [2010-08-05 Thu 07:56]--[2010-08-05 Thu 08:18] =>  0:22
+   :END:
 ** DONE Solve Ruby Quiz problem 1				       :RUBY:
    - State "DONE"       from "NEXT"       [2010-08-04 Wed 18:58]
    - State "NEXT"       from "TODO"       [2010-08-03 Tue 12:54]
@@ -227,3 +235,39 @@
 
 ** TODO Analyze ruby quiz solution and alternate solutions	       :RUBY:
    - State "TODO"       from ""           [2010-08-04 Wed 18:58]
+** TODO read up on exceptions in ruby				       :RUBY:
+   :CLOCK:
+   :END:
+   [2010-08-04 Wed 13:26]
+   [[file:~/ruby-projects/sinatra/lib/sinatra/base.rb::require%20thread][file:~/ruby-projects/sinatra/lib/sinatra/base.rb::require thread]]
+** TODO what is the difference between passing zero and one arguments to inject :RUBY:
+   :CLOCK:
+   :END:
+   [2010-08-04 Wed 13:47]
+** TODO Read up on HTTP
+   - State "NEXT"       from "TODO"       [2010-08-05 Thu 07:40]
+   :CLOCK:
+   CLOCK: [2010-08-04 Wed 13:49]--[2010-08-04 Wed 13:50] =>  0:01
+   :END:
+   [2010-08-04 Wed 13:49]
+   [[file:~/ruby-projects/sinatra/lib/sinatra/base.rb::class%20Response%20Rack%20Response][file:~/ruby-projects/sinatra/lib/sinatra/base.rb::class Response Rack Response]]
+** TODO Explain block.each					       :RUBY:
+   :CLOCK:
+   :END:
+   [2010-08-04 Wed 13:56]
+   [[file:~/ruby-projects/sinatra/lib/sinatra/base.rb::if%20block_given%20def%20block%20each%20yield%20call%20end%20What%20is%20this%20line%20EXPLAIN%20response%20body%20block%20else%20response%20body%20value%20end][file:~/ruby-projects/sinatra/lib/sinatra/base.rb::if block_given def block each yield call end What is this line EXPLAIN response body block else response body value end]]
+** TODO investigate using global for spelunking ruby projects	       :RUBY:
+   http://www.codespelunking.org/pages/cs_global.html
+   :CLOCK:
+   CLOCK: [2010-08-04 Wed 15:58]--[2010-08-04 Wed 15:59] =>  0:01
+   :END:
+   [2010-08-04 Wed 15:58]
+** TODO add rdebug interface to emacs				      :EMACS:
+   :CLOCK:
+   :END:
+   [2010-08-04 Wed 17:56]
+   [[file:~/my-ruby/ruby-quiz/1/rubyquiz-1.rb::new_card_index%20current_card_index%20distance%20modulo%2054%201][file:~/my-ruby/ruby-quiz/1/rubyquiz-1.rb::new_card_index current_card_index distance modulo 54 1]]
+** TODO find total time spend on a task in org mode			:ORG:
+   :CLOCK:
+   :END:
+   [2010-08-04 Wed 18:07]
