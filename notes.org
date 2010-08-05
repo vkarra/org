@@ -91,6 +91,34 @@
     + C-c C-c d removes a property from current entry
     + create sparse trees and special lists with selection based on properties using same commands as that for tags
 
+*** Dates and Times
+**** Types of timestamps
+     + Plain timestamp
+     + Timestamp with repeater interval
+     + Diary-style sexp entries
+     + Time/Date range
+     + Inactive timestamp
+**** Creating timestamps
+     + C-c . prompts for a date and inserts corresponding timestamp, when cursor is over existing timestamp modifies instead of inserting timestamp
+     + C-c . with a prefix also adds the current time
+     + C-c . used twice a time range is inserted
+     + C-c ! inserts an inactive timestamp that will not cause an agenda entry
+     + S-left,right changes date at cursor by one day
+     + S-up,down changes item under cursor in a timestamp. cursor can be on year, month, day hour or minute
+
+**** Deadlines and scheduling
+     + C-c C-d inserts 'DEADLINE' keyword along with a stamp, in the line following the headline
+       agenda for today will carry a warning about approaching deadline org-deadline-warning-days before due date and continues until entry is marked done
+     + C-c C-s inserts 'SCHEDULED' keyword along with a stamp, in the line following the deadline
+       the headline will be listed under given date, set org-agenda-skip-scheduled-if-done if DONE tasks should not be listed
+     + Tasks that need to be repeated can be organized using a repeater in a DEADLINE, SCHEDULED or plain timestamp
+       EgDEADLINE: <2005-10-01 Sat +1m>"
+**** Clocking
+     + C-c C-x C-e updates effort estimate for current clock task
+     + C-c C-x C-x cancels current clock task
+     + C-c C-x C-j jumps to entry containing currently running clock, select from a list of recent tasks with prefix C-u
+     + C-c C-x C-r inserts a dynamic block containing a clock report as an org-mode table into the current file
+     + C-c C-c updates dynamic block at point
 *** Other
     + C-c C-c activates any changes in the line
 * ruby
