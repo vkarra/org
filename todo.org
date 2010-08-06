@@ -234,7 +234,11 @@
 ** TODO read bastien guerry's column view intro				:ORG:
    - State "TODO"       from ""           [2010-08-04 Wed 12:52]
 
-** TODO Analyze ruby quiz solution and alternate solutions	       :RUBY:
+** NEXT Analyze ruby quiz solution and alternate solutions	       :RUBY:
+   - State "NEXT"       from "TODO"       [2010-08-05 Thu 22:05]
+   :CLOCK:
+   CLOCK: [2010-08-05 Thu 22:05]--[2010-08-05 Thu 22:32] =>  0:27
+   :END:
    - State "TODO"       from ""           [2010-08-04 Wed 18:58]
 ** TODO read up on exceptions in ruby				       :RUBY:
    :CLOCK:
@@ -272,3 +276,6 @@
    :CLOCK:
    :END:
    [2010-08-04 Wed 18:07]
+
+** TODO Evaluate and deploy best webserver for rails
+   - State "TODO"       from ""           [2010-08-06 Fri 00:12]
