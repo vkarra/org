@@ -279,3 +279,5 @@
 
 ** TODO Evaluate and deploy best webserver for rails
    - State "TODO"       from ""           [2010-08-06 Fri 00:12]
+** TODO Learn linux system administration
+   - State "TODO"       from ""           [2010-08-06 Fri 10:43]
