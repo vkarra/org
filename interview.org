@@ -1,0 +1,71 @@
+* Kalido
+** Testing Interview Questions
+*** 
+1st round automation lead
+2nd round manager 
+3rd country head
+ puzzles in all 3 rounds
+ basic string comparisons
+ different types of testing
+ bug lifecycle
+ API testing questions
+
+test fixture - the environmental configurations and dependencies or state that must be in place for a test to run
+
+** API Testing
+*** Main challenges
+    + Parameter selection
+    + Parameter combination
+    + Call sequencing
+     
+*** Test cases based on 
+    + Return value based on input condition
+    + Does not return anything
+    + Trigger some other API/event/interrupt
+    + Update data structure
+    + Modify certain resources
+*** Best Practices: API Testing
+**** Planning
+     + think about what you will test and how you will be performing the test
+     + Depending on complexity of task create test-specification or design document and have it peer reviewed
+**** Organization
+     + Each test case should be self-contained and isolated from dependencies as possible, implies that test cases should be as simple as possible
+     + test cases should be grouped by category, straight-line cases, boundary cases, null inputs and so forth
+     + avoid test chaining
+**** Priorities
+     + avoid jumping into invalid or "evil" tests that will cause crashes and other interesting problems
+     + What are the conditions under which the API will be exercised the most(parameters,etc); test these effectively     
+
+*** Difference between api and unit testing
+    + unit testing is done by developers, api by qa
+    + unit testing typically exercises the smallest unit of code, api testing exercises larger functionality
+    + api testing should consider the various alternative scenarios in which the code can be called by the end user
+    + api testing is more extensive and consider the interaction between various modules within the application
+** Questions
+*** GM
+    1. Competitors to Kalido in India and worldwide
+    2. main customer base, how many in India
+    3. growth over the past few years/decade and in the coming decade
+    4. Product Portfolio over the years
+    5. Main reason for customers not implementing Kalido
+    6. 5 years from now
+    7. Indian operations
+*** Manager
+    1. How many products in kalido bangalore
+    2. How many teams for those products
+    3. Team strength
+    4. Where is development located
+    5. What is the process followed
+    6. Do engineers work across multiple teams
+    7. What is the hardware allocated to engineers
+    8. What kind of training opportunities does Kalido provide
+    9. How often are the release cycles
+*** Automation Lead
+    1. What is automated
+    2. What is the automation stack used
+    3. How is the framework layered
+    4. What is the technology used
+    5. When is automation done
+    6. How many people in the automation team
+    7. What are the problems you are facing in automation
+    8. 

@@ -200,3 +200,20 @@
 
 
 **** Argument Constraints
+* Ubuntu configuration
+** Steps
+   1. installed fluxbox
+   2. installed conkeror
+* fluxbox
+** Links
+   + http://forums.debian.net/viewtopic.php?f=16&t=5382&start=0&sid=f626d533d54ae5ca8f6da482919da877
+** 
+* oracle
+** Installing oracle on ubuntu
+   1. Install from oracle deb package
+   2. add oracle_home,oracle_base,oracle_sid variables to bash profile
+   3. add oracle server/bin path to path
+   4. login using: sqlplus / as sysdba
+   5. change system password in sqlplus using: alter user system identified by <password>
+   6. change sys password in sqlplus using: alter user system identified by <password>
+      

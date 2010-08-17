@@ -277,7 +277,14 @@
    :END:
    [2010-08-04 Wed 18:07]
 
-** TODO Evaluate and deploy best webserver for rails
+** TODO Evaluate and deploy best webserver for rails		      :RAILS:
    - State "TODO"       from ""           [2010-08-06 Fri 00:12]
-** TODO Learn linux system administration
+** TODO Learn linux system administration			      :LINUX:
    - State "TODO"       from ""           [2010-08-06 Fri 10:43]
+
+** NEXT Configure [[file:notes.org::*fluxbox][fluxbox]]					      :LINUX:
+   - State "NEXT"       from "TODO"       [2010-08-16 Mon 19:51]
+   :CLOCK:
+   CLOCK: [2010-08-16 Mon 19:51]--[2010-08-16 Mon 20:19] =>  0:28
+   :END:
+   - State "TODO"       from ""           [2010-08-16 Mon 19:50]
