@@ -1,0 +1,392 @@
+* NEXT Work No Task
+  - State "NEXT"       from "TODO"       [2010-09-07 Tue 10:02]
+  - State "TODO"       from ""           [2010-09-07 Tue 10:02]
+  :CLOCK:
+  CLOCK: [2010-09-16 Thu 12:44]
+  CLOCK: [2010-09-16 Thu 12:25]--[2010-09-16 Thu 12:32] =>  0:07
+  CLOCK: [2010-09-16 Thu 11:11]--[2010-09-16 Thu 11:44] =>  0:33
+  CLOCK: [2010-09-16 Thu 10:38]--[2010-09-16 Thu 10:44] =>  0:06
+  CLOCK: [2010-09-08 Wed 11:19]--[2010-09-08 Wed 11:53] =>  0:34
+  CLOCK: [2010-09-07 Tue 14:15]--[2010-09-07 Tue 18:30] =>  4:15
+  CLOCK: [2010-09-07 Tue 12:54]--[2010-09-07 Tue 14:00] =>  1:06
+  CLOCK: [2010-09-07 Tue 12:21]--[2010-09-07 Tue 12:23] =>  0:02
+  CLOCK: [2010-09-07 Tue 12:07]--[2010-09-07 Tue 12:08] =>  0:01
+  CLOCK: [2010-09-07 Tue 11:23]--[2010-09-07 Tue 11:44] =>  0:21
+  CLOCK: [2010-09-07 Tue 11:03]--[2010-09-07 Tue 11:09] =>  0:06
+  CLOCK: [2010-09-07 Tue 10:02]--[2010-09-07 Tue 10:27] =>  0:25
+  :END:
+* Tasks
+** NEXT Write a summary of data warehousing and the role of Kalido software
+   - State "NEXT"       from "TODO"       [2010-09-08 Wed 09:50]
+   :CLOCK:
+   CLOCK: [2010-09-08 Wed 09:50]--[2010-09-08 Wed 11:19] =>  1:29
+   :END:
+   - State "TODO"       from ""           [2010-09-07 Tue 09:16]
+   + principles
+   + generic data modeling
+** Kalido Training slides					   :TRAINING:
+*** DIW Training
+**** DONE Session 030 - Viewing data in the explorer
+     - State "DONE"       from "NEXT"       [2010-09-07 Tue 10:02]
+     - State "NEXT"       from "TODO"       [2010-09-07 Tue 09:18]
+     :CLOCK:
+     CLOCK: [2010-09-07 Tue 09:18]--[2010-09-07 Tue 10:02] =>  0:44
+     :END:
+     - State "TODO"       from ""           [2010-09-07 Tue 09:18]
+
+**** DONE Session 040 - Creating a Query Definition and a Result Set
+     - State "DONE"       from "NEXT"       [2010-09-07 Tue 11:03]
+     - State "NEXT"       from "TODO"       [2010-09-07 Tue 10:27]
+     :CLOCK:
+     CLOCK: [2010-09-07 Tue 10:27]--[2010-09-07 Tue 11:03] =>  0:36
+     :END:
+     - State "TODO"       from ""           [2010-09-07 Tue 10:05]
+**** DONE Session 050 - Training Business Model Explained
+     - State "DONE"       from "NEXT"       [2010-09-07 Tue 11:23]
+     - State "NEXT"       from "TODO"       [2010-09-07 Tue 11:09]
+     :CLOCK:
+     CLOCK: [2010-09-07 Tue 11:09]--[2010-09-07 Tue 11:23] =>  0:14
+     :END:
+     - State "TODO"       from ""           [2010-09-07 Tue 11:04]
+
+**** DONE Session 060 - Result Set with Constraints
+     - State "DONE"       from "NEXT"       [2010-09-07 Tue 12:07]
+     - State "NEXT"       from "TODO"       [2010-09-07 Tue 11:44]
+     :CLOCK:
+     CLOCK: [2010-09-07 Tue 11:44]--[2010-09-07 Tue 12:07] =>  0:23
+     :END:
+     - State "TODO"       from ""           [2010-09-07 Tue 11:30]
+**** WAITING Session 070 - Manually Creating Reference Data
+     - State "WAITING"    from "DONE"       [2010-09-07 Tue 12:21] \\
+       need to clarify questions
+     - State "DONE"       from "NEXT"       [2010-09-07 Tue 12:20]
+     - State "NEXT"       from "TODO"       [2010-09-07 Tue 12:08]
+     :CLOCK:
+     CLOCK: [2010-09-07 Tue 12:08]--[2010-09-07 Tue 12:20] =>  0:12
+     :END:
+     - State "TODO"       from ""           [2010-09-07 Tue 12:08]
+***** TODO What are principal, mandatory and optional relationships between CBEs
+      - State "TODO"       from ""           [2010-09-07 Tue 12:14]
+
+**** WAITING Session 080 - Reference Data Loading
+     - State "WAITING"    from "NEXT"       [2010-09-07 Tue 12:53] \\
+       Agent job for loading invalid data into staging table is not available in db
+     - State "NEXT"       from "TODO"       [2010-09-07 Tue 12:23]
+     :CLOCK:
+     CLOCK: [2010-09-07 Tue 12:23]--[2010-09-07 Tue 12:54] =>  0:31
+     :END:
+     - State "TODO"       from ""           [2010-09-07 Tue 12:23]
+**** WAITING Session 090 - Loading Multi-levels of a hierarchy
+     - State "WAITING"    from "TODO"       [2010-09-07 Tue 14:07] \\
+       Read through the slides, need csv containing data to proceed
+     - State "NEXT"       from "TODO"       [2010-09-07 Tue 14:00]
+     :CLOCK:
+     CLOCK: [2010-09-07 Tue 14:00]--[2010-09-07 Tue 14:09] =>  0:09
+     :END:
+     - State "TODO"       from ""           [2010-09-07 Tue 14:00]
+
+**** DONE Tutorial 100 - Mapping tables and attribute tables
+     - State "DONE"       from "NEXT"       [2010-09-13 Mon 14:30]
+     - State "NEXT"       from "TODO"       [2010-09-13 Mon 14:10]
+     :CLOCK:
+     CLOCK: [2010-09-13 Mon 14:10]--[2010-09-13 Mon 14:30] =>  0:20
+     :END:
+     - State "TODO"       from ""           [2010-09-13 Mon 14:10]
+**** TODO Session 110 - Updating Reference Data / Loading partial records
+     - State "TODO"       from ""           [2010-09-13 Mon 14:43]
+**** DONE Exercise 130 - Loading transaction data
+     - State "DONE"       from "NEXT"       [2010-09-13 Mon 10:57]
+     - State "NEXT"       from "TODO"       [2010-09-13 Mon 10:27]
+     :CLOCK:
+     CLOCK: [2010-09-13 Mon 10:27]--[2010-09-13 Mon 10:57] =>  0:30
+     :END:
+     - State "TODO"       from ""           [2010-09-13 Mon 10:27]
+**** DONE Session 150 - Introduction to Measures
+     - State "DONE"       from "NEXT"       [2010-09-13 Mon 11:33]
+     - State "NEXT"       from "TODO"       [2010-09-13 Mon 11:22]
+     :CLOCK:
+     CLOCK: [2010-09-13 Mon 11:22]--[2010-09-13 Mon 11:33] =>  0:11
+     :END:
+     - State "TODO"       from ""           [2010-09-13 Mon 11:21]
+**** DONE Session 160 - Defining Calculated Measures
+     - State "DONE"       from "NEXT"       [2010-09-13 Mon 11:49]
+     - State "NEXT"       from "TODO"       [2010-09-13 Mon 11:35]
+     :CLOCK:
+     CLOCK: [2010-09-13 Mon 11:35]--[2010-09-13 Mon 11:49] =>  0:14
+     :END:
+     - State "TODO"       from ""           [2010-09-13 Mon 11:35]
+**** WAITING Exercise 160 - Defining calculated Measures and Units of Measures
+     - State "WAITING"    from "NEXT"       [2010-09-13 Mon 12:08] \\
+       No idea how to display unit proceeds in pivot table
+     - State "NEXT"       from "TODO"       [2010-09-13 Mon 11:49]
+     :CLOCK:
+     CLOCK: [2010-09-13 Mon 11:49]--[2010-09-13 Mon 12:08] =>  0:19
+     :END:
+     - State "TODO"       from ""           [2010-09-13 Mon 11:49]
+**** DONE Session 180 - Understanding Viability
+     - State "DONE"       from "NEXT"       [2010-09-13 Mon 12:37]
+     - State "NEXT"       from "TODO"       [2010-09-13 Mon 12:31]
+     :CLOCK:
+     CLOCK: [2010-09-13 Mon 12:31]--[2010-09-13 Mon 12:37] =>  0:06
+     :END:
+     - State "TODO"       from ""           [2010-09-13 Mon 12:31]
+**** DONE Exercise 180 - Viable and partially viable result sets
+     - State "DONE"       from "NEXT"       [2010-09-13 Mon 12:58]
+     - State "NEXT"       from "TODO"       [2010-09-13 Mon 12:38]
+     :CLOCK:
+     CLOCK: [2010-09-13 Mon 12:38]--[2010-09-13 Mon 12:58] =>  0:20
+     :END:
+     - State "TODO"       from ""           [2010-09-13 Mon 12:38]
+**** DONE Session 190 - Extending the business model
+     - State "DONE"       from "NEXT"       [2010-09-13 Mon 13:04]
+     - State "NEXT"       from "TODO"       [2010-09-13 Mon 12:59]
+     :CLOCK:
+     CLOCK: [2010-09-13 Mon 12:59]--[2010-09-13 Mon 13:04] =>  0:05
+     :END:
+     - State "TODO"       from ""           [2010-09-13 Mon 12:58]
+**** DONE Session 200 - Creating Dimensional Meta Data
+     - State "DONE"       from "NEXT"       [2010-09-13 Mon 13:11]
+     - State "NEXT"       from "TODO"       [2010-09-13 Mon 13:05]
+     :CLOCK:
+     CLOCK: [2010-09-13 Mon 13:05]--[2010-09-13 Mon 13:11] =>  0:06
+     :END:
+     - State "TODO"       from ""           [2010-09-13 Mon 13:05]
+**** DONE Exercise 200a - Creating new meta data
+     - State "DONE"       from "NEXT"       [2010-09-13 Mon 13:31]
+     - State "NEXT"       from "TODO"       [2010-09-13 Mon 13:16]
+     :CLOCK:
+     CLOCK: [2010-09-13 Mon 13:28]--[2010-09-13 Mon 13:31] =>  0:03
+     CLOCK: [2010-09-13 Mon 13:16]--[2010-09-13 Mon 13:25] =>  0:09
+     :END:
+     - State "TODO"       from ""           [2010-09-13 Mon 13:16]
+**** DONE Exercise 200b - Loading reference data for new meta data
+     - State "DONE"       from "NEXT"       [2010-09-13 Mon 13:49]
+     - State "NEXT"       from "TODO"       [2010-09-13 Mon 13:32]
+     :CLOCK:
+     CLOCK: [2010-09-13 Mon 13:32]--[2010-09-13 Mon 13:49] =>  0:17
+     :END:
+     - State "TODO"       from ""           [2010-09-13 Mon 13:31]
+**** DONE Session 210 - Creating meta data for transactions
+     - State "DONE"       from "NEXT"       [2010-09-13 Mon 16:03]
+     - State "NEXT"       from "TODO"       [2010-09-13 Mon 15:30]
+     :CLOCK:
+     CLOCK: [2010-09-13 Mon 15:55]--[2010-09-13 Mon 16:03] =>  0:08
+     CLOCK: [2010-09-13 Mon 15:30]--[2010-09-13 Mon 15:39] =>  0:09
+     :END:
+     - State "TODO"       from ""           [2010-09-13 Mon 13:50]
+**** DONE Exercise 210a - Create a stored measure, a transaction dataset, and load the data
+     - State "DONE"       from "NEXT"       [2010-09-13 Mon 15:55]
+     - State "NEXT"       from "TODO"       [2010-09-13 Mon 15:39]
+     :CLOCK:
+     CLOCK: [2010-09-13 Mon 15:39]--[2010-09-13 Mon 15:55] =>  0:16
+     :END:
+     - State "TODO"       from "DONE"       [2010-09-13 Mon 13:49]
+**** TODO Exercise 210b - Data from Multi Transaction Datasets in Result Sets
+     - State "TODO"       from ""           [2010-09-13 Mon 15:58]
+*** MDM Training
+**** DONE Session 010 - Managing Master Data
+     - State "DONE"       from "NEXT"       [2010-09-15 Wed 11:28]
+     - State "NEXT"       from "TODO"       [2010-09-15 Wed 10:51]
+     :CLOCK:
+     CLOCK: [2010-09-15 Wed 11:16]--[2010-09-15 Wed 11:28] =>  0:12
+     CLOCK: [2010-09-15 Wed 11:12]--[2010-09-15 Wed 11:15] =>  0:03
+     CLOCK: [2010-09-15 Wed 11:11]--[2010-09-15 Wed 11:12] =>  0:01
+     CLOCK: [2010-09-15 Wed 10:51]--[2010-09-15 Wed 11:11] =>  0:20
+     :END:
+     - State "TODO"       from ""           [2010-09-15 Wed 10:18]
+**** DONE Session 020 - Key Concepts and Business Story
+     - State "DONE"       from "NEXT"       [2010-09-15 Wed 12:47]
+     - State "NEXT"       from "TODO"       [2010-09-15 Wed 12:02]
+     :CLOCK:
+     CLOCK: [2010-09-15 Wed 12:42]--[2010-09-15 Wed 12:47] =>  0:05
+     CLOCK: [2010-09-15 Wed 12:27]--[2010-09-15 Wed 12:41] =>  0:14
+     CLOCK: [2010-09-15 Wed 12:19]--[2010-09-15 Wed 12:20] =>  0:01
+     CLOCK: [2010-09-15 Wed 12:02]--[2010-09-15 Wed 12:19] =>  0:17
+     :END:
+     - State "TODO"       from ""           [2010-09-15 Wed 11:29]
+**** DONE Session 030 - Data Consumer: Connecting
+     - State "DONE"       from "NEXT"       [2010-09-15 Wed 13:52]
+     - State "NEXT"       from "TODO"       [2010-09-15 Wed 13:34]
+     :CLOCK:
+     CLOCK: [2010-09-15 Wed 13:34]--[2010-09-15 Wed 13:52] =>  0:18
+     :END:
+     - State "TODO"       from ""           [2010-09-15 Wed 13:34]
+**** DONE Session 040 - Data Consumer: Browsing
+     - State "DONE"       from "NEXT"       [2010-09-15 Wed 15:20]
+     - State "NEXT"       from "TODO"       [2010-09-15 Wed 15:00]
+     :CLOCK:
+     CLOCK: [2010-09-15 Wed 15:00]--[2010-09-15 Wed 15:20] =>  0:20
+     :END:
+     - State "TODO"       from ""           [2010-09-15 Wed 14:27]
+**** DONE Session 050 - Data Provider: Creating and Editing Data
+     - State "DONE"       from "NEXT"       [2010-09-15 Wed 16:29]
+     - State "NEXT"       from "TODO"       [2010-09-15 Wed 16:18]
+     :CLOCK:
+     CLOCK: [2010-09-15 Wed 16:18]--[2010-09-15 Wed 16:29] =>  0:11
+     :END:
+     - State "TODO"       from ""           [2010-09-15 Wed 15:53]
+**** DONE Session 060 - Data Provider: Baskets and Deleting Data
+     - State "DONE"       from "NEXT"       [2010-09-15 Wed 16:59]
+     - State "NEXT"       from "TODO"       [2010-09-15 Wed 16:43]
+     :CLOCK:
+     CLOCK: [2010-09-15 Wed 16:43]--[2010-09-15 Wed 16:54] =>  0:11
+     :END:
+     - State "TODO"       from ""           [2010-09-15 Wed 16:43]
+**** DONE Session 070 - Data Provider: Creating Catalogs and Re-Cataloging
+     - State "DONE"       from "NEXT"       [2010-09-15 Wed 17:35]
+     - State "NEXT"       from "TODO"       [2010-09-15 Wed 17:28]
+     :CLOCK:
+     CLOCK: [2010-09-15 Wed 17:28]--[2010-09-15 Wed 17:35] =>  0:07
+     :END:
+     - State "TODO"       from ""           [2010-09-15 Wed 17:24]
+**** DONE Session 080 - Data Provider: Tasks
+     - State "DONE"       from "NEXT"       [2010-09-15 Wed 18:33]
+     - State "NEXT"       from "TODO"       [2010-09-15 Wed 18:05]
+     :CLOCK:
+     CLOCK: [2010-09-15 Wed 18:05]--[2010-09-15 Wed 18:33] =>  0:28
+     :END:
+     - State "TODO"       from ""           [2010-09-15 Wed 17:23]
+**** DONE Session 090 - Data Provider: Moving Data Through a Workflow
+     - State "DONE"       from "NEXT"       [2010-09-16 Thu 09:58]
+     - State "NEXT"       from "TODO"       [2010-09-16 Thu 09:25]
+     :CLOCK:
+     CLOCK: [2010-09-16 Thu 09:47]--[2010-09-16 Thu 09:58] =>  0:11
+     CLOCK: [2010-09-16 Thu 09:25]--[2010-09-16 Thu 09:44] =>  0:19
+     :END:
+   - State "TODO"       from ""           [2010-09-15 Wed 17:24]
+**** DONE Session 100 - Data Provider: Loading Data
+     - State "DONE"       from "NEXT"       [2010-09-16 Thu 11:11]
+     - State "NEXT"       from "TODO"       [2010-09-16 Thu 10:44]
+     :CLOCK:
+     CLOCK: [2010-09-16 Thu 10:44]--[2010-09-16 Thu 11:11] =>  0:27
+     :END:
+   - State "TODO"       from ""           [2010-09-15 Wed 17:24]
+**** DONE Session 110 - Data Provider: Modifying Data
+     - State "DONE"       from "NEXT"       [2010-09-16 Thu 12:23]
+     - State "NEXT"       from "TODO"       [2010-09-16 Thu 11:52]
+     :CLOCK:
+     CLOCK: [2010-09-16 Thu 11:52]--[2010-09-16 Thu 12:23] =>  0:31
+     :END:
+   - State "TODO"       from ""           [2010-09-15 Wed 17:24]
+**** TODO Session 120 - Loading Data with a Reference to a Parent
+   - State "TODO"       from ""           [2010-09-15 Wed 17:24]
+**** TODO Session 130 - Mapping
+   - State "TODO"       from ""           [2010-09-15 Wed 17:24]
+**** TODO Session 140 - Complex Mapping
+   - State "TODO"       from ""           [2010-09-15 Wed 17:24]
+**** TODO Session 150 - Merging
+   - State "TODO"       from ""           [2010-09-15 Wed 17:24]
+**** TODO Session 160 - Exporting
+   - State "TODO"       from ""           [2010-09-15 Wed 17:24]
+**** TODO Session 170 - Publishing and Creating Contexts
+   - State "TODO"       from ""           [2010-09-15 Wed 17:24]
+**** TODO Session 180 - Creating Categories
+   - State "TODO"       from ""           [2010-09-15 Wed 17:24]
+**** TODO Session 190 - Template Changes
+   - State "TODO"       from ""           [2010-09-15 Wed 17:24]
+**** TODO Session 200 - Subtype Categories
+   - State "TODO"       from ""           [2010-09-15 Wed 17:24]
+**** TODO Session 210 - Importing from DIW
+   - State "TODO"       from ""           [2010-09-15 Wed 17:24]
+**** TODO Session 220 - Exporting to DIW
+   - State "TODO"       from ""           [2010-09-15 Wed 17:24]
+**** TODO Session 230 - Creating a Workflow
+   - State "TODO"       from ""           [2010-09-15 Wed 17:24]
+**** TODO Session 240 - Executable Programs
+   - State "TODO"       from ""           [2010-09-15 Wed 17:24]
+**** TODO Session 250 - XML Data Exchange
+   - State "TODO"       from ""           [2010-09-15 Wed 17:24]
+**** TODO Session 260 - Security
+   - State "TODO"       from ""           [2010-09-15 Wed 17:24]
+**** TODO Session 270 - Auditing Events
+   - State "TODO"       from ""           [2010-09-15 Wed 17:24]
+**** TODO Session 280 - Advanced Categories
+   - State "TODO"       from ""           [2010-09-15 Wed 17:24]
+**** TODO Session 290 - Custom Validationv2
+   - State "TODO"       from ""           [2010-09-15 Wed 17:24]
+**** TODO Session 300 - Customizing the Application
+   - State "TODO"       from ""           [2010-09-15 Wed 17:24]
+
+**** Exercises
+***** DONE Exercise 030 - Data Consumer: Connecting, Changing Context and Party
+      - State "DONE"       from "NEXT"       [2010-09-15 Wed 14:26]
+      - State "NEXT"       from "TODO"       [2010-09-15 Wed 14:24]
+      :CLOCK:
+      CLOCK: [2010-09-15 Wed 14:24]--[2010-09-15 Wed 14:26] =>  0:02
+      :END:
+      - State "TODO"       from ""           [2010-09-15 Wed 13:52]
+***** DONE Exercise 040 - Data Consumer: Browsing and Searching in the MDM
+      - State "DONE"       from "NEXT"       [2010-09-15 Wed 15:50]
+      - State "NEXT"       from "TODO"       [2010-09-15 Wed 15:20]
+      :CLOCK:
+      CLOCK: [2010-09-15 Wed 15:36]--[2010-09-15 Wed 15:50] =>  0:14
+      CLOCK: [2010-09-15 Wed 15:20]--[2010-09-15 Wed 15:32] =>  0:12
+      :END:
+      - State "TODO"       from ""           [2010-09-15 Wed 15:20]
+***** DONE Exercise 050 - Data Provider: Manually Adding New Master Data
+      - State "DONE"       from "NEXT"       [2010-09-15 Wed 16:42]
+      - State "NEXT"       from "TODO"       [2010-09-15 Wed 16:30]
+      :CLOCK:
+      CLOCK: [2010-09-15 Wed 16:30]--[2010-09-15 Wed 16:42] =>  0:12
+      :END:
+      - State "TODO"       from ""           [2010-09-15 Wed 16:30]
+***** DONE Exercise 060a - Data Provider: Performing Bulk Operations with Baskets
+      - State "DONE"       from "NEXT"       [2010-09-15 Wed 17:10]
+      - State "NEXT"       from "TODO"       [2010-09-15 Wed 17:00]
+      :CLOCK:
+      CLOCK: [2010-09-15 Wed 17:08]--[2010-09-15 Wed 17:10] =>  0:02
+      CLOCK: [2010-09-15 Wed 17:00]--[2010-09-15 Wed 17:06] =>  0:06
+      :END:
+      - State "TODO"       from ""           [2010-09-15 Wed 17:00]
+***** DONE Exercise 060b - Data Provider: Deleting Data
+      - State "DONE"       from "NEXT"       [2010-09-15 Wed 17:15]
+      - State "NEXT"       from "TODO"       [2010-09-15 Wed 17:10]
+      :CLOCK:
+      CLOCK: [2010-09-15 Wed 17:10]--[2010-09-15 Wed 17:15] =>  0:05
+      :END:
+      - State "TODO"       from ""           [2010-09-15 Wed 17:00]
+***** DONE Exercise 070 - Data Provider: Creating a Catalog and Re-Cataloging
+      - State "DONE"       from "NEXT"       [2010-09-15 Wed 17:41]
+      - State "NEXT"       from "TODO"       [2010-09-15 Wed 17:35]
+      :CLOCK:
+      CLOCK: [2010-09-15 Wed 17:35]--[2010-09-15 Wed 17:41] =>  0:06
+      :END:
+      - State "TODO"       from ""           [2010-09-15 Wed 17:35]
+***** DONE Exercise 090 - Data Provider: Moving new data through a Workflow
+      - State "DONE"       from "NEXT"       [2010-09-16 Thu 10:24]
+      - State "NEXT"       from "TODO"       [2010-09-16 Thu 10:08]
+      :CLOCK:
+      CLOCK: [2010-09-16 Thu 10:08]--[2010-09-16 Thu 10:24] =>  0:16
+      :END:
+      - State "TODO"       from ""           [2010-09-16 Thu 10:04]
+***** DONE Exercise 100 - Data Provider: Loading new Raw Materials
+      - State "DONE"       from "NEXT"       [2010-09-16 Thu 11:50]
+      - State "NEXT"       from "TODO"       [2010-09-16 Thu 11:44]
+      :CLOCK:
+      CLOCK: [2010-09-16 Thu 11:44]--[2010-09-16 Thu 11:50] =>  0:06
+      :END:
+      - State "TODO"       from ""           [2010-09-16 Thu 11:42]
+***** WAITING Exercise 110 - Data Provider: Modifying Existing Raw Materials
+      - State "WAITING"    from "NEXT"       [2010-09-16 Thu 12:44] \\
+        Chocolate Flake is not listed as the current name, investigate why
+      - State "NEXT"       from "TODO"       [2010-09-16 Thu 12:32]
+      :CLOCK:
+      CLOCK: [2010-09-16 Thu 12:32]--[2010-09-16 Thu 12:44] =>  0:12
+      :END:
+      - State "TODO"       from ""           [2010-09-16 Thu 12:32]
+** NEXT Business-Model-Driven Data Warehousing
+   - State "NEXT"       from "TODO"       [2010-09-08 Wed 11:53]
+   :CLOCK:
+   CLOCK: [2010-09-08 Wed 11:53]--[2010-09-08 Wed 12:40] =>  0:47
+   :END:
+   - State "TODO"       from ""           [2010-09-08 Wed 11:50]
+** TODO Learn pivot table
+   - State "TODO"       from ""           [2010-09-13 Mon 12:07]
+
+** DONE [[file:h:/HN/Key%20Documents/CS-Shell%20Managing%20Product%20Master%20Data.pdf][Kalido Case Study]] - Shell Lubricants: Managing Product Master Data
+   - State "DONE"       from "NEXT"       [2010-09-15 Wed 11:52]
+   - State "NEXT"       from "TODO"       [2010-09-15 Wed 11:37]
+   :CLOCK:
+   CLOCK: [2010-09-15 Wed 11:37]--[2010-09-15 Wed 11:52] =>  0:15
+   :END:
+   - State "TODO"       from ""           [2010-09-15 Wed 11:34]

@@ -1,0 +1,1564 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+               "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+lang="en" xml:lang="en">
+<head>
+<title>kalido-training</title>
+<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
+<meta name="generator" content="Org-mode"/>
+<meta name="generated" content="2010-09-16 08:57:39 "/>
+<meta name="author" content=""/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  html { font-family: Times, serif; font-size: 12pt; }
+  .title  { text-align: center; }
+  .todo   { color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #add8e6; font-weight:normal }
+  .target { }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  p.verse { margin-left: 3% }
+  pre {
+	border: 1pt solid #AEBDCC;
+	background-color: #F3F5F7;
+	padding: 5pt;
+	font-family: courier, monospace;
+        font-size: 90%;
+        overflow:auto;
+  }
+  table { border-collapse: collapse; }
+  td, th { vertical-align: top; }
+  dt { font-weight: bold; }
+  div.figure { padding: 0.5em; }
+  div.figure p { text-align: center; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size:smaller }
+  .code-highlighted {background-color:#ffff00;}
+  .org-info-js_info-navigation { border-style:none; }
+  #org-info-js_console-label { font-size:10px; font-weight:bold;
+                               white-space:nowrap; }
+  .org-info-js_search-highlight {background-color:#ffff00; color:#000000;
+                                 font-weight:bold; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+
+<h1 class="title">kalido-training</h1>
+
+
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1 Slides </a>
+<ul>
+<li><a href="#sec-1_1">1.1 DIW </a>
+<ul>
+<li><a href="#sec-1_1_1">1.1.1 Session 030 - Viewing data in the explorer </a></li>
+<li><a href="#sec-1_1_2">1.1.2 Session 040 - Creating a Query Definition and a Result Set </a></li>
+<li><a href="#sec-1_1_3">1.1.3 Session 050 - Training Business Model Explained </a></li>
+<li><a href="#sec-1_1_4">1.1.4 Session 060 - Result Set with Constraints </a></li>
+<li><a href="#sec-1_1_5">1.1.5 Session 070 - Manually Creating Reference Data </a></li>
+<li><a href="#sec-1_1_6">1.1.6 Session 080 - Reference Data Loading </a></li>
+<li><a href="#sec-1_1_7">1.1.7 Session 090 - Loading Multi-levels of a hierarchy </a></li>
+<li><a href="#sec-1_1_8">1.1.8 Tutorial 100 - Mapping Tables and Attribute Tables </a></li>
+<li><a href="#sec-1_1_9">1.1.9 Session 110 - Updating Reference Data / Loading partial records </a></li>
+<li><a href="#sec-1_1_10">1.1.10 Session 150 - Introduction to Measures </a></li>
+<li><a href="#sec-1_1_11">1.1.11 Session 160 - Defining Calculated Measures </a></li>
+<li><a href="#sec-1_1_12">1.1.12 Session 180 - Understanding Viability </a></li>
+<li><a href="#sec-1_1_13">1.1.13 Session 190 - Extending the business model </a></li>
+<li><a href="#sec-1_1_14">1.1.14 Session 200 - Creating Dimensional Meta Data </a></li>
+<li><a href="#sec-1_1_15">1.1.15 Session 210 - Creating Meta Data for Transactions </a></li>
+<li><a href="#sec-1_1_16">1.1.16 Questions </a></li>
+</ul>
+</li>
+<li><a href="#sec-1_2">1.2 MDM </a>
+<ul>
+<li><a href="#sec-1_2_1">1.2.1 Session 010 - Managing Master Data </a></li>
+<li><a href="#sec-1_2_2">1.2.2 Session 020 - Key Concepts and Business Story </a></li>
+<li><a href="#sec-1_2_3">1.2.3 Session 030 - Data Consumer: Connecting </a></li>
+<li><a href="#sec-1_2_4">1.2.4 Session 040 - Data Consumer: Browsing </a></li>
+<li><a href="#sec-1_2_5">1.2.5 Session 050 - Data Provider: Creating and Editing Data </a></li>
+<li><a href="#sec-1_2_6">1.2.6 Session 060 - Data Provider: Baskets and Deleting Data </a></li>
+<li><a href="#sec-1_2_7">1.2.7 Session 070 - Data Provider: Creating Catalogs and Re-Cataloging </a></li>
+<li><a href="#sec-1_2_8">1.2.8 Session 080 - Data Provider: Tasks </a></li>
+<li><a href="#sec-1_2_9">1.2.9 Exercises </a></li>
+</ul></li>
+</ul>
+</li>
+<li><a href="#sec-2">2 Data Warehousing </a>
+<ul>
+<li><a href="#sec-2_1">2.1 What </a></li>
+<li><a href="#sec-2_2">2.2 Why </a></li>
+<li><a href="#sec-2_3">2.3 Architecture </a></li>
+<li><a href="#sec-2_4">2.4 Conforming Information </a></li>
+<li><a href="#sec-2_5">2.5 Normalized vs dimensional approach for storage of data </a></li>
+<li><a href="#sec-2_6">2.6 Bottom up vs Top down design methodologies </a>
+<ul>
+<li><a href="#sec-2_6_1">2.6.1 Bottom up </a></li>
+<li><a href="#sec-2_6_2">2.6.2 Top down </a></li>
+</ul>
+</li>
+<li><a href="#sec-2_7">2.7 Data warehouses vs operational systems </a></li>
+</ul>
+</li>
+<li><a href="#sec-3">3 Master Data Management </a>
+<ul>
+<li><a href="#sec-3_1">3.1 Kalido Case Study - Shell Lubricants: Managing Product Master Data </a>
+<ul>
+<li><a href="#sec-3_1_1">3.1.1 Brief </a></li>
+</ul></li>
+</ul>
+</li>
+<li><a href="#sec-4">4 Kalido Terminology </a></li>
+<li><a href="#sec-5">5 Business-model-driven data warehousing </a>
+<ul>
+<li><a href="#sec-5_1">5.1 Business model as defined in an information management context is a view of objects of interest to the business. It is </a></li>
+</ul>
+</li>
+<li><a href="#sec-6">6 Icons </a>
+<ul>
+<li><a href="#sec-6_1">6.1 DIW </a></li>
+<li><a href="#sec-6_2">6.2 MDM </a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> Slides </h2>
+<div class="outline-text-2" id="text-1">
+
+
+</div>
+
+<div id="outline-container-1_1" class="outline-3">
+<h3 id="sec-1_1"><span class="section-number-3">1.1</span> DIW </h3>
+<div class="outline-text-3" id="text-1_1">
+
+
+</div>
+
+<div id="outline-container-1_1_1" class="outline-4">
+<h4 id="sec-1_1_1"><span class="section-number-4">1.1.1</span> Session 030 - Viewing data in the explorer </h4>
+<div class="outline-text-4" id="text-1_1_1">
+
+<ul>
+<li id="sec-1_1_1_1">transaction data cannot be viewed in warehouse explorer <br/>
+</li>
+<li id="sec-1_1_1_2">Every business entity is represented by at least two pieces of data <br/>
+<ol>
+<li>
+BE name
+</li>
+<li>
+a code(unique identifier) eg 001A0772
+</li>
+</ol>
+</li>
+<li id="sec-1_1_1_3">Use the dimension icon to view the CBEs in a dimension <br/>
+</li>
+<li id="sec-1_1_1_4">Exercise <br/>
+<ul>
+<li id="sec-1_1_1_4_1">Which product families are managed by Mike Grayson <br/>
+Cassaid and Ronaid
+</li>
+<li id="sec-1_1_1_4_2">What is the code for our Saleable Product in the Product Family Wonderex? (Use the left-hand side of Explorer.) <br/>
+001A9210
+</li>
+<li id="sec-1_1_1_4_3">Which CBEs are below Customer CBE in the Customer Dimension? <br/>
+Customer Site
+</li>
+<li id="sec-1_1_1_4_4">How many Customers are there with names beginning with R? <br/>
+5
+</li>
+<li id="sec-1_1_1_4_5">What is the total number of Sales Reps? <br/>
+9
+</li>
+<li id="sec-1_1_1_4_6">Which Sales Rep in the North Sales Region has the highest code number? (View Object Details). <br/>
+P Law (543)
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-1_1_2" class="outline-4">
+<h4 id="sec-1_1_2"><span class="section-number-4">1.1.2</span> Session 040 - Creating a Query Definition and a Result Set </h4>
+<div class="outline-text-4" id="text-1_1_2">
+
+<ul>
+<li id="sec-1_1_2_1">Exercise <br/>
+<ol>
+<li>
+Which product manager was responsible for the highest sales proceeds in any one Quarter of 2004
+Liz Crawford
+</li>
+</ol>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-1_1_3" class="outline-4">
+<h4 id="sec-1_1_3"><span class="section-number-4">1.1.3</span> Session 050 - Training Business Model Explained </h4>
+<div class="outline-text-4" id="text-1_1_3">
+
+<ul>
+<li id="sec-1_1_3_1">Coding Structure is a special type of hierarchy which can be linked to at any level <br/>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-1_1_4" class="outline-4">
+<h4 id="sec-1_1_4"><span class="section-number-4">1.1.4</span> Session 060 - Result Set with Constraints </h4>
+<div class="outline-text-4" id="text-1_1_4">
+
+<ul>
+<li id="sec-1_1_4_1">Inclusive and Exclusive constraints <br/>
+</li>
+<li id="sec-1_1_4_2">Exercise <br/>
+<ol>
+<li>
+Which Product manager sold the most Food products excluding any in the Axdon and Ronaid families
+Paul Smith
+</li>
+</ol>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-1_1_5" class="outline-4">
+<h4 id="sec-1_1_5"><span class="section-number-4">1.1.5</span> Session 070 - Manually Creating Reference Data </h4>
+<div class="outline-text-4" id="text-1_1_5">
+
+</div>
+
+</div>
+
+<div id="outline-container-1_1_6" class="outline-4">
+<h4 id="sec-1_1_6"><span class="section-number-4">1.1.6</span> Session 080 - Reference Data Loading </h4>
+<div class="outline-text-4" id="text-1_1_6">
+
+<ul>
+<li id="sec-1_1_6_1">2 reference data loaders <br/>
+<ol>
+<li>
+Staging Loader
+</li>
+<li>
+External Loader
+</li>
+</ol>
+</li>
+<li id="sec-1_1_6_2">Kalido creates a staging table for each CBE in the model <br/>
+</li>
+<li id="sec-1_1_6_3">The following db columns in the staging table will be filled by Kalido on successful load <br/>
+<ul>
+<li>
+ROW<sub>STATE</sub>
+</li>
+<li>
+BATCH<sub>ID</sub>
+</li>
+<li>
+OBJECT<sub>ID</sub>
+</li>
+<li>
+DATE<sub>PROCESSED</sub>
+</li>
+</ul>
+</li>
+<li id="sec-1_1_6_4">Suspense table lists records that failed to load <br/>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-1_1_7" class="outline-4">
+<h4 id="sec-1_1_7"><span class="section-number-4">1.1.7</span> Session 090 - Loading Multi-levels of a hierarchy </h4>
+<div class="outline-text-4" id="text-1_1_7">
+
+</div>
+
+</div>
+
+<div id="outline-container-1_1_8" class="outline-4">
+<h4 id="sec-1_1_8"><span class="section-number-4">1.1.8</span> Tutorial 100 - Mapping Tables and Attribute Tables </h4>
+<div class="outline-text-4" id="text-1_1_8">
+
+<ul>
+<li id="sec-1_1_8_1">Attribute Tables <br/>
+<ul>
+<li>
+Attribute tables keep all the data about the BEs of a CBE
+</li>
+<li>
+Each CBE has its own Attribute table
+</li>
+<li>
+Attribute tables are flattened database structures of names, codes and attributes for a single CBE
+</li>
+<li>
+They handle time variance
+</li>
+<li>
+They are used to improve retrieval performance
+</li>
+<li>
+They are also used for retrieving BE details in the Explorer
+</li>
+<li>
+An attribute table is set up (but not built) when a CBE is created
+</li>
+<li>
+Attribute table needs to be rebuilt if the structure of the CBE changes
+</li>
+<li>
+if reference data is added or modified, the relevant attribute tables needs to be refreshed
+</li>
+</ul>
+</li>
+<li id="sec-1_1_8_2">Mapping Tables <br/>
+<ul>
+<li>
+Mapping tables keep all the data about associations between CBEs
+</li>
+<li>
+A mapping table is created for each dimension
+</li>
+<li>
+Mapping  tables improve the performance of queries extracting information out of DIW, eg when creating result sets
+</li>
+<li>
+Flatten the structure
+</li>
+<li>
+Supports multiple hierarchies
+</li>
+<li>
+Handle time variance
+</li>
+<li>
+For involutions a column will be created for each level in the hierarchy
+</li>
+<li>
+Mapping tables should be refreshed when
+<ol>
+<li>
+Every time reference data is changed, added, etc
+</li>
+<li>
+All attribute tables for the CBEs in the respective dimension need to be up to date
+</li>
+</ol>
+</li>
+</ul>
+</li>
+<li id="sec-1_1_8_3">Attribute and mapping tables enhance query performance <br/>
+</li>
+<li id="sec-1_1_8_4">The status of mapping and attribute tables is indicated by green, amber or red icons <br/>
+</li>
+<li id="sec-1_1_8_5">Results sets and Shops will be created even if the mapping and attribute tables have amber lights <br/>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-1_1_9" class="outline-4">
+<h4 id="sec-1_1_9"><span class="section-number-4">1.1.9</span> Session 110 - Updating Reference Data / Loading partial records </h4>
+<div class="outline-text-4" id="text-1_1_9">
+
+<ul>
+<li><br/>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-1_1_10" class="outline-4">
+<h4 id="sec-1_1_10"><span class="section-number-4">1.1.10</span> Session 150 - Introduction to Measures </h4>
+<div class="outline-text-4" id="text-1_1_10">
+
+<ul>
+<li>
+Measures always have a Unit of Measure or Currency
+</li>
+<li>
+Measures have a summable property
+</li>
+<li>
+Measures are defined as BEs
+</li>
+<li id="sec-1_1_10_1">4 different types of measures <br/>
+<ul>
+<li>
+Stored
+</li>
+<li>
+Calculated
+</li>
+<li>
+Converted
+</li>
+<li>
+Aggregated
+</li>
+</ul>
+</li>
+<li id="sec-1_1_10_2">Variable Unit Measures <br/>
+<ul>
+<li>
+This implies that a single measure could have multiple units of measure, usually all of the same type eg Currency or Volume
+</li>
+<li>
+There will be a conversion factor between the various units of measure of the same type
+</li>
+</ul>
+</li>
+<li id="sec-1_1_10_3">summable and non-summable measures <br/>
+<ul>
+<li id="sec-1_1_10_3_1">Summable <br/>
+<ul>
+<li>
+Proceeds
+</li>
+<li>
+Costs
+</li>
+<li>
+Weights
+</li>
+<li>
+Volumes
+</li>
+</ul>
+</li>
+<li id="sec-1_1_10_3_2">Non-Summable <br/>
+<ul>
+<li>
+Temperatures
+</li>
+<li>
+Averages
+</li>
+<li>
+Ratios
+</li>
+<li>
+Rates
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="sec-1_1_10_4">Qualified Summability <br/>
+<ul>
+<li id="sec-1_1_10_4_1">Non-Summable over Time <br/>
+<ul>
+<li>
+Financial Balances
+</li>
+<li>
+Stock Levels
+</li>
+</ul>
+</li>
+<li id="sec-1_1_10_4_2">Non-Summable over a specific Dimension <br/>
+<ul>
+<li>
+Target Proceeds (across Plan Version Numbers)
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-1_1_11" class="outline-4">
+<h4 id="sec-1_1_11"><span class="section-number-4">1.1.11</span> Session 160 - Defining Calculated Measures </h4>
+<div class="outline-text-4" id="text-1_1_11">
+
+<ul>
+<li>
+Calculated Measures are the result of a calculation based on other measures
+</li>
+<li>
+All the component measures must have a fixed unit of measure
+</li>
+<li>
+If a calculation involves dividing by zero, zero is the result
+</li>
+<li>
+Calculated Measures are calculated when a result set is built
+</li>
+<li id="sec-1_1_11_1">Creating a new Unit of Measure <br/>
+<ul>
+<li>
+The Unit of Measure for a new Measure must be defined first
+</li>
+<li>
+Unit of Measure might not exist in the default list
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-1_1_12" class="outline-4">
+<h4 id="sec-1_1_12"><span class="section-number-4">1.1.12</span> Session 180 - Understanding Viability </h4>
+<div class="outline-text-4" id="text-1_1_12">
+
+<ul>
+<li id="sec-1_1_12_1">Viable and partially viable result sets <br/>
+<ul>
+<li>
+Viable dimension and measures are those that can be compared either directly, or indirectly by rolling up, given the data held in the warehouse
+</li>
+<li>
+a partially viable result set is one where the warehouse does not contain data linking every measure to every CBE
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-1_1_13" class="outline-4">
+<h4 id="sec-1_1_13"><span class="section-number-4">1.1.13</span> Session 190 - Extending the business model </h4>
+<div class="outline-text-4" id="text-1_1_13">
+
+<ul>
+<li>
+1 new TDS
+</li>
+<li>
+1 extended TDS
+</li>
+<li>
+3 new measures
+</li>
+<li>
+1 new dimension
+</li>
+<li>
+1 extended dimension
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-1_1_14" class="outline-4">
+<h4 id="sec-1_1_14"><span class="section-number-4">1.1.14</span> Session 200 - Creating Dimensional Meta Data </h4>
+<div class="outline-text-4" id="text-1_1_14">
+
+</div>
+
+</div>
+
+<div id="outline-container-1_1_15" class="outline-4">
+<h4 id="sec-1_1_15"><span class="section-number-4">1.1.15</span> Session 210 - Creating Meta Data for Transactions </h4>
+<div class="outline-text-4" id="text-1_1_15">
+
+<ul>
+<li id="sec-1_1_15_1">Class of Transactions <br/>
+<ul>
+<li>
+Grouping of transaction datasets that hold similar types of transactions
+</li>
+<li>
+Reasons for CoT
+<ul>
+<li>
+Summarizing structurally different data
+</li>
+<li>
+Combining data from different systems
+</li>
+<li>
+Updating when the source system provides slightly different data
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="sec-1_1_15_2">Physical Storage of TDS <br/>
+Two options
+<ol>
+<li>
+Kalido Generic Storage (Warehouse Sections)
+</li>
+<li>
+Custom Transaction Datasets
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption></caption>
+<colgroup><col align="left" /><col align="left" />
+</colgroup>
+<tbody>
+<tr><td>Warehouse Sections</td><td>Custom Transaction Datasets</td></tr>
+<tr><td>Kalido manages all object creation</td><td>Kalido defines the object but creation is manual</td></tr>
+<tr><td>Can store multiple types of transactions in a single warehouse section</td><td>Can only store one type of transactions in a custom transaction dataset</td></tr>
+<tr><td>Can only consist of Dimensional, Measure &amp; Audit fields</td><td>Can add non-dimensional, non-measure columns eg Degenerate Dimensions</td></tr>
+</tbody>
+</table>
+
+
+</li>
+</ol>
+</li>
+<li id="sec-1_1_15_3">Multiple Transaction datasets within a CoT <br/>
+<ul>
+<li id="sec-1_1_15_3_1">Data from all TDS within a CoT will be brought together in a query - but it will be done automatically only if the measures in the Query Definition are in all the TDS <br/>
+</li>
+<li id="sec-1_1_15_3_2">Manual selection of TDS in Query Definitions is required when using a measure not in every TDS within a CoT <br/>
+</li>
+</ul>
+</li>
+<li id="sec-1_1_15_4">When creating a TDS, decisions have to be made on Date Range, Warehouse Section and Duplicate Checking <br/>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-1_1_16" class="outline-4">
+<h4 id="sec-1_1_16"><span class="section-number-4">1.1.16</span> Questions </h4>
+<div class="outline-text-4" id="text-1_1_16">
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption></caption>
+<colgroup><col align="left" /><col align="left" /><col align="left" />
+</colgroup>
+<tbody>
+<tr><td>Slide</td><td>Page</td><td>Question</td></tr>
+<tr><td>030</td><td>6</td><td>Why is there a dimension icon in addition to a folder</td></tr>
+<tr><td></td><td></td><td>Comprehensive list of metadata things</td></tr>
+</tbody>
+</table>
+
+
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-1_2" class="outline-3">
+<h3 id="sec-1_2"><span class="section-number-3">1.2</span> MDM </h3>
+<div class="outline-text-3" id="text-1_2">
+
+
+</div>
+
+<div id="outline-container-1_2_1" class="outline-4">
+<h4 id="sec-1_2_1"><span class="section-number-4">1.2.1</span> Session 010 - Managing Master Data </h4>
+<div class="outline-text-4" id="text-1_2_1">
+
+<ul>
+<li id="sec-1_2_1_1">What <br/>
+<ul>
+<li>
+What is 'Master Data'
+<ul>
+<li>
+has a broad definition and could include meta data, Segmentation data, golden copy, static data, reference data or even XMl schemas
+</li>
+</ul>
+</li>
+<li>
+Why is it important that a business manages its shared 'master data'
+<ul>
+<li>
+Enables accurate, unambiguous business dialogue
+</li>
+<li>
+Cornerstone of the data warehouse
+</li>
+</ul>
+</li>
+<li>
+What are the main facilities of Kalido MDM
+<ul>
+<li>
+Allows companies to manage shared master data by acting as a centralized repository of shared information
+</li>
+<li>
+Once acquired data can be 
+<ol>
+<li>
+Related to other data
+</li>
+<li>
+Validated against business rules
+</li>
+<li>
+Subjected to an authorization process
+</li>
+<li>
+Part of different versions
+</li>
+</ol>
+</li>
+<li>
+Gives a complete view of key business information
+</li>
+</ul>
+</li>
+<li>
+examples of managing master data with kalido MDM 
+</li>
+</ul>
+</li>
+<li id="sec-1_2_1_2">Components <br/>
+<ol>
+<li>
+Data Consumer
+</li>
+<li>
+Data Provider
+</li>
+<li>
+Administrator
+</li>
+<li>
+Data Acquisition
+</li>
+<li>
+Publish and Export
+</li>
+</ol>
+</li>
+<li id="sec-1_2_1_3">Questions <br/>
+<ol>
+<li>
+Examples of master data
+</li>
+<li>
+Broad definition of master data? What is the industry accepted definition
+</li>
+<li>
+Is there anything other than 'shared' master data
+</li>
+</ol>
+</li>
+<li id="sec-1_2_1_4">Notes <br/>
+<a href="http://en.wikipedia.org/wiki/Master_data">Wikipedia - Master Data</a> 
+<ul>
+<li>
+MD is information that is key to the operation of business
+</li>
+<li>
+Often non-transactional in nature
+</li>
+<li>
+Can support transactional processes and operations
+</li>
+<li>
+Often used by several functional groups
+</li>
+<li>
+Master data is that persistent, non-transactional data that defines a business entity for which there is, or should be, an agreed upon view across the organization
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-1_2_2" class="outline-4">
+<h4 id="sec-1_2_2"><span class="section-number-4">1.2.2</span> Session 020 - Key Concepts and Business Story </h4>
+<div class="outline-text-4" id="text-1_2_2">
+
+<ul>
+<li id="sec-1_2_2_1">Goals <br/>
+<ul>
+<li>
+initial understanding of Subjects, Records, Categories and Templates
+</li>
+<li>
+describe how the MDM validation process words
+</li>
+<li>
+initial understanding of Contexts and Catalogs
+</li>
+<li>
+understand the main features of the Training model
+</li>
+</ul>
+</li>
+<li id="sec-1_2_2_2">Definitions <br/>
+<ul>
+<li id="sec-1_2_2_2_1">Subjects <br/>
+<ul>
+<li>
+Data in Kalido MDM is stored as subjects
+</li>
+<li>
+Is something of interest in the business
+</li>
+<li>
+Could be anything eg a person,a product, a class(meta data eg products), a measure(eg proceeds), a business entity
+</li>
+<li>
+subjects can be related to other subjects
+</li>
+<li>
+subjects can be merged if they are the same
+</li>
+</ul>
+</li>
+<li id="sec-1_2_2_2_2">Records <br/>
+<ul>
+<li>
+It is the information that is held within a subject
+</li>
+<li>
+Contains the values for the attributes
+</li>
+</ul>
+</li>
+<li id="sec-1_2_2_2_3">Categories <br/>
+<ul>
+<li>
+It is a grouping of subjects with a common set of validation rules
+</li>
+<li>
+Subjects are instances of data within a Category
+</li>
+<li>
+Can define any data - eg People, Products, Locations, Customers, Classes of Data, Measures
+</li>
+<li>
+Subjects do not have to conform to validation rules
+<ul>
+<li>
+They can be improved until they do
+</li>
+<li>
+They can be published when they are valid
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="sec-1_2_2_2_4">Templates <br/>
+<ul>
+<li>
+contains the validation rules for a category
+</li>
+<li>
+defines the attributes of a category
+</li>
+</ul>
+</li>
+<li id="sec-1_2_2_2_5">Contexts <br/>
+<ul>
+<li>
+Is an area that contains a version of master data
+</li>
+<li>
+Publication occurs for Context as a whole
+</li>
+<li>
+Once published the Context becomes read-only
+</li>
+</ul>
+</li>
+<li id="sec-1_2_2_2_6">Catalogs <br/>
+<ul>
+<li>
+Is an optional area for storing homogeneous(?) data
+</li>
+<li>
+Is an organizational display function in MDM
+</li>
+<li>
+All subjects in the catalog are shown in a list
+</li>
+<li>
+can contain subjects from multiple categories
+</li>
+<li>
+possible to create a hierarchy of catalogs
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="sec-1_2_2_3">What <br/>
+<ul>
+<li>
+Rules for validating a record in a subject are held by the template of the category to which the subject belongs
+</li>
+<li>
+Invalid records can be stored
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-1_2_3" class="outline-4">
+<h4 id="sec-1_2_3"><span class="section-number-4">1.2.3</span> Session 030 - Data Consumer: Connecting </h4>
+<div class="outline-text-4" id="text-1_2_3">
+
+<ul>
+<li id="sec-1_2_3_1">Goals <br/>
+<ul>
+<li>
+Navigate through MDM
+</li>
+<li>
+Understand roles of Consumer, Provider and Administrator
+</li>
+<li>
+how to change Context
+</li>
+<li>
+How to change Party
+</li>
+</ul>
+</li>
+<li id="sec-1_2_3_2">What <br/>
+<ul>
+<li>
+MDM menu varies depending upon the type of Role that the Party is acting as. There are three Roles
+<ol>
+<li>
+Consumer
+</li>
+<li>
+Provider
+</li>
+<li>
+Administrator
+</li>
+</ol>
+</li>
+<li>
+Consumer can browse the Catalog, browse by Category, Search and change Context. Has read only access to MDM
+</li>
+<li>
+Provider can browse and edit data, search, populate, manage, export and monitor. Can view Model Objects but cannot edit them
+</li>
+<li>
+Administrator has write access to all parts of MDM. In addition to options available to Provider can also model and perform admin functions
+</li>
+<li>
+Even if acting as provider or administrator there is no automatic read access to everything since this is controlled by ACLs on individual subjects
+</li>
+<li>
+Change context by clicking on context link
+</li>
+<li>
+A party can take different functional roles
+</li>
+<li>
+Every party has a proxy user or group of users
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-1_2_4" class="outline-4">
+<h4 id="sec-1_2_4"><span class="section-number-4">1.2.4</span> Session 040 - Data Consumer: Browsing </h4>
+<div class="outline-text-4" id="text-1_2_4">
+
+<ul>
+<li id="sec-1_2_4_1">Goals <br/>
+<ul>
+<li>
+BROWSE a hierarchy of catalogs and view a list of subjects
+</li>
+<li>
+View subject details
+</li>
+<li>
+Navigate between related subjects
+</li>
+<li>
+Use three different methods for searching for Subjects
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-1_2_5" class="outline-4">
+<h4 id="sec-1_2_5"><span class="section-number-4">1.2.5</span> Session 050 - Data Provider: Creating and Editing Data </h4>
+<div class="outline-text-4" id="text-1_2_5">
+
+<ul>
+<li id="sec-1_2_5_1">Goals <br/>
+<ul>
+<li>
+Identify three places in MDM to create data
+</li>
+<li>
+At least three ways to create invalid data
+</li>
+<li>
+Use tabular entry page to create a list of new subjects
+</li>
+<li>
+Identify an invalid subject when viewing a lsit
+</li>
+<li>
+Format masks and time variant values
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-1_2_6" class="outline-4">
+<h4 id="sec-1_2_6"><span class="section-number-4">1.2.6</span> Session 060 - Data Provider: Baskets and Deleting Data </h4>
+<div class="outline-text-4" id="text-1_2_6">
+
+<ul>
+<li id="sec-1_2_6_1">Goals <br/>
+<ul>
+<li>
+What is a Basket in MDM?
+</li>
+<li>
+Two methods for selecting a group of subjects for a basket
+</li>
+<li>
+At least one bulk operation on the contents of your basket
+</li>
+<li>
+Three methods for initiating the deletion of subjects
+</li>
+<li>
+Difference between using the Deleted Items basket and destroying permanently so that irretrievable data errors are not made
+</li>
+</ul>
+</li>
+<li id="sec-1_2_6_2">What <br/>
+<ul>
+<li>
+A Basket is an area to store a number of subjects that a user wishes to consider together
+</li>
+<li>
+Once satisfied with the list of subjects in a basket bulk task operations can be performed on it 
+</li>
+<li>
+Select subjects from a category in classic or hierarchy view and add to basket
+</li>
+<li>
+Baskets are user specific
+</li>
+<li>
+A user can work with more than one basket
+</li>
+<li>
+To remove items from MDM place it into the special 'Deleted Items' basket or destroy them permanently
+</li>
+<li>
+The contents of the 'Deleted Items' basket can be reviewed and data undeleted
+</li>
+<li>
+Deleted Items basket can be viewed by all users working in a Context
+</li>
+<li>
+Permanently destroyed subjects cannot be undeleted
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-1_2_7" class="outline-4">
+<h4 id="sec-1_2_7"><span class="section-number-4">1.2.7</span> Session 070 - Data Provider: Creating Catalogs and Re-Cataloging </h4>
+<div class="outline-text-4" id="text-1_2_7">
+
+<ul>
+<li id="sec-1_2_7_1">Goals <br/>
+<ul>
+<li>
+Why are catalogs important
+</li>
+<li>
+Two methods to createa new Catalog
+</li>
+<li>
+Three methods to re-catalog data in MDM
+</li>
+<li>
+How to drag-and-drop data in the Hierarchy browser
+
+</li>
+</ul>
+</li>
+<li id="sec-1_2_7_2">What <br/>
+<ul>
+<li>
+There is a default Catalog associated with each Category
+</li>
+<li>
+Subjects can belong to multiple catalogs
+</li>
+<li>
+Recatalog operation moves subject to a catalog
+</li>
+<li>
+Catalog operation keeps subject in both original and new
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-1_2_8" class="outline-4">
+<h4 id="sec-1_2_8"><span class="section-number-4">1.2.8</span> Session 080 - Data Provider: Tasks </h4>
+<div class="outline-text-4" id="text-1_2_8">
+
+<ul>
+<li id="sec-1_2_8_1">Goals <br/>
+<ul>
+<li>
+Know the four components within Kalido MDM architecture
+</li>
+<li>
+Access Task Monitor and use change options to display appropriate information
+</li>
+<li>
+Identify Task Status icons in Monitor
+</li>
+<li>
+Use three methods to access the log file information
+</li>
+</ul>
+</li>
+<li id="sec-1_2_8_2">Components <br/>
+<ol>
+<li>
+Web Server with J2EE container(JBoss, Websphere)
+</li>
+<li>
+MDM Host (IIS Web Services)
+</li>
+<li>
+License Server
+</li>
+<li>
+Kalido Adaptive Services Core
+</li>
+</ol>
+</li>
+<li id="sec-1_2_8_3">Tasks <br/>
+<ul>
+<li>
+Processes and bulk operations of MDM run as Tasks
+</li>
+<li>
+Tasks run on the Host machine
+</li>
+<li>
+View progress and status through Task Monitor
+</li>
+<li>
+Tasks can be paused or stopped
+</li>
+<li>
+There is a log file for each task which contains information about the operation of the Task
+</li>
+<li>
+Log for each task can be accessed from the Task Monitor
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-1_2_9" class="outline-4">
+<h4 id="sec-1_2_9"><span class="section-number-4">1.2.9</span> Exercises </h4>
+<div class="outline-text-4" id="text-1_2_9">
+
+<ul>
+<li id="sec-1_2_9_1">Exercise 040 - Data Consumer: Browsing and Searching in the MDM <br/>
+<ul>
+<li>
+How many continents are stored in the Catalog?
+5
+</li>
+<li>
+What is the Code for the Americas Continent?
+CON2
+</li>
+<li>
+How many regions is the Americas Continent divided by?
+4
+</li>
+<li>
+What attributes have been defined in the Subject Template for ISO countries?
+9
+</li>
+<li>
+What is the Capital of Afghanistan
+Kabul
+</li>
+<li>
+How many other countries are stored under the South Asia ISO region?
+7
+</li>
+<li>
+What subject in the database has a name containing the letter 'itius'?
+Mauritius
+</li>
+<li>
+How many ISO countries contain teh letters 'istan'
+5
+</li>
+<li>
+Which ISO Region has teh code REG5?
+East Asia
+</li>
+<li>
+Which ISO country has a capital Vilnius?
+Lithuania
+
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> Data Warehousing </h2>
+<div class="outline-text-2" id="text-2">
+
+
+</div>
+
+<div id="outline-container-2_1" class="outline-3">
+<h3 id="sec-2_1"><span class="section-number-3">2.1</span> What </h3>
+<div class="outline-text-3" id="text-2_1">
+
+<p>Data warehousing is used to ask questions to the data in the organization. To that end the data warehouse is populated with organizational data which can then analyzed or reported using the tools provided by the warehouse. An expanded definition for a DW includes tools to extract, transform and load data into the repository and tools to manage and retrieve metadata.
+</p></div>
+
+</div>
+
+<div id="outline-container-2_2" class="outline-3">
+<h3 id="sec-2_2"><span class="section-number-3">2.2</span> Why </h3>
+<div class="outline-text-3" id="text-2_2">
+
+<p>Organizations typically have different software systems for different departments, which are often poorly integrated. This leads to a situation where the departments are isolated, therefore  questions that bridge multiple departments would be difficult to answer since the integration between the systems is not present. Another problem that arises is the level of granularity of enterprise software systems, an ERP solution for a particular department will be customized to it and would contain nitty-gritties and a wealth of data relevant to the operation of that department. The problem arises when looking at the big picture, questions like 'did this department make money last year', 'how did this department do compared to other departments', 'what was the effect of the initiative done last year', etc are difficult to answer becuase the system is not built at that level of granularity. Yet another problem is the presence of inconsistent data, data that sould be the same is represented differently by different deparments, eg sales and finance might have arguments about the costs of the department.
+</p><ul>
+<li>
+It is the job of the data warehouse is to make the data appear consistent, integrated and consolidated despite problems in underlying source systems. 
+</li>
+<li>
+Data warehousing concept intended to provide an architectural model for flow of data from operational systems to decision support environments
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-2_3" class="outline-3">
+<h3 id="sec-2_3"><span class="section-number-3">2.3</span> Architecture </h3>
+<div class="outline-text-3" id="text-2_3">
+
+</div>
+
+</div>
+
+<div id="outline-container-2_4" class="outline-3">
+<h3 id="sec-2_4"><span class="section-number-3">2.4</span> Conforming Information </h3>
+<div class="outline-text-3" id="text-2_4">
+
+</div>
+
+</div>
+
+<div id="outline-container-2_5" class="outline-3">
+<h3 id="sec-2_5"><span class="section-number-3">2.5</span> Normalized vs dimensional approach for storage of data </h3>
+<div class="outline-text-3" id="text-2_5">
+
+<ul>
+<li>
+In dimensional approach transaction data is partitioned into facts, which are generally numeric transaction data, and dimensions which are reference information that gives context to the facts.
+</li>
+<li>
+Advantages
+<ul>
+<li>
+Easy to understand dimensional approach
+</li>
+<li>
+Retrieval is quick
+</li>
+</ul>
+</li>
+<li>
+Disadvantages
+<ul>
+<li>
+Because of the need to maintain integrity of facts and dimensions loading the DW with data from different operational systems is complicated
+</li>
+<li>
+Difficult to modify DW structure if org changes the way it does business
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-2_6" class="outline-3">
+<h3 id="sec-2_6"><span class="section-number-3">2.6</span> Bottom up vs Top down design methodologies </h3>
+<div class="outline-text-3" id="text-2_6">
+
+
+</div>
+
+<div id="outline-container-2_6_1" class="outline-4">
+<h4 id="sec-2_6_1"><span class="section-number-4">2.6.1</span> Bottom up </h4>
+<div class="outline-text-4" id="text-2_6_1">
+
+<p>Ralph Kimball is a leading proponent. An iterative process that begins by starting with a single department in an org. Data mart is designed for the department which can be used immediately, further data marts can then be created. Data is connected across data marts using conformed dimensions. Data marts contain facts and dimensions, facts contain atomic and if necessary summarized data.
+</p></div>
+
+</div>
+
+<div id="outline-container-2_6_2" class="outline-4">
+<h4 id="sec-2_6_2"><span class="section-number-4">2.6.2</span> Top down </h4>
+<div class="outline-text-4" id="text-2_6_2">
+
+<p>Bill Inmon is a leading proponent. Data warehouse is a centralized repository for the entire enterprise. Atomic data is stored in the data warehouse. Dimensional data marts containing data for specific business purposes are created from the data warehouse. Inmon states that the DW is
+</p><ol>
+<li>
+Subject-oriented - Data is orgniazed so that all data elements relating to the same real-world event are linked together
+</li>
+<li>
+Non-volatile - Data in the DW is never over-written or deleted - once committed data is static, read-only and retained for future reporting
+</li>
+<li>
+Integrated - DW contains data from most or all of organization's operational systems and these data are made consistent
+</li>
+<li>
+Time-variant - 
+</li>
+</ol>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-2_7" class="outline-3">
+<h3 id="sec-2_7"><span class="section-number-3">2.7</span> Data warehouses vs operational systems </h3>
+<div class="outline-text-3" id="text-2_7">
+
+<ul>
+<li>
+Operational systems are optimized for preservation of data integrity and speed of recording of business transactions
+</li>
+<li>
+Data warehouses are optimized for speed of data analysis
+</li>
+<li>
+To speed data retrieval, data warehouse data are often stored multiple times, in granular form and in summarized form called aggregates
+</li>
+</ul>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> Master Data Management </h2>
+<div class="outline-text-2" id="text-3">
+
+
+</div>
+
+<div id="outline-container-3_1" class="outline-3">
+<h3 id="sec-3_1"><span class="section-number-3">3.1</span> <a href="h:/HN/Key Documents/CS-Shell Managing Product Master Data.pdf">Kalido Case Study</a> - Shell Lubricants: Managing Product Master Data </h3>
+<div class="outline-text-3" id="text-3_1">
+
+
+</div>
+
+<div id="outline-container-3_1_1" class="outline-4">
+<h4 id="sec-3_1_1"><span class="section-number-4">3.1.1</span> Brief </h4>
+<div class="outline-text-4" id="text-3_1_1">
+
+<p>Shell had duplicated or slightly differentiated product lines across geos. This made it difficult for headquarters to analyze global information since the local information was out of context globally. Dispersed product management caused issues such as translating market requirements into local products. Customers such as GM demanded that Shell undergo standardization across their global purchasing processes. To create a single global product portfolio Shell used Kalido MDM. Standardization of rules around product and attribute names was achieved by using a mapping process between local and global names so that ERP logic would not need to be changed. In other words, the same product was presented with different names in local regions but was managed as a single product globally.
+</p>
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-4" class="outline-2">
+<h2 id="sec-4"><span class="section-number-2">4</span> Kalido Terminology </h2>
+<div class="outline-text-2" id="text-4">
+
+<ul>
+<li>
+Shop - is a data mart(provides specific business information built from queries)
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-5" class="outline-2">
+<h2 id="sec-5"><span class="section-number-2">5</span> Business-model-driven data warehousing </h2>
+<div class="outline-text-2" id="text-5">
+
+
+</div>
+
+<div id="outline-container-5_1" class="outline-3">
+<h3 id="sec-5_1"><span class="section-number-3">5.1</span> Business model as defined in an information management context is a view of objects of interest to the business. It is </h3>
+<div class="outline-text-3" id="text-5_1">
+
+<ul>
+<li>
+the description of a business
+</li>
+<li>
+its activities(business transactions like maintenance tasks or procurement orders)
+</li>
+<li>
+the measures about these activities that are used to monitor and manage them ( such as gross sales, maintenance labor hours, volume, price, etc )
+</li>
+<li>
+the business contexts in which these activities take place ( like facilities, equipmens, wells, customers, products, workers and suppliers)
+</li>
+<li>
+and finally, the business rules binding these things together
+</li>
+</ul>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-6" class="outline-2">
+<h2 id="sec-6"><span class="section-number-2">6</span> Icons </h2>
+<div class="outline-text-2" id="text-6">
+
+
+</div>
+
+<div id="outline-container-6_1" class="outline-3">
+<h3 id="sec-6_1"><span class="section-number-3">6.1</span> DIW </h3>
+<div class="outline-text-3" id="text-6_1">
+
+<ul>
+<li>
+Dark Blue Cubes - CBE
+</li>
+<li>
+Light Blue Squares - BE
+</li>
+<li>
+Double Cube - Coding Structure
+
+
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-6_2" class="outline-3">
+<h3 id="sec-6_2"><span class="section-number-3">6.2</span> MDM </h3>
+<div class="outline-text-3" id="text-6_2">
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption></caption>
+<colgroup><col align="left" /><col align="left" />
+</colgroup>
+<tbody>
+<tr><td>Icon</td><td>Represents</td></tr>
+<tr><td>Pronged Symbol</td><td>Hub</td></tr>
+<tr><td>Yellow cube</td><td>Catalog</td></tr>
+<tr><td>Grey cube</td><td>Subject</td></tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<div id="postamble">
+<p class="author"> Author: 
+</p>
+<p class="date"> Date: 2010-09-16 08:57:39 </p>
+<p class="creator">HTML generated by org-mode 7.01 in emacs 24</p>
+</div>
+</div>
+</body>
+</html>

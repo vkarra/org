@@ -217,3 +217,5 @@
    5. change system password in sqlplus using: alter user system identified by <password>
    6. change sys password in sqlplus using: alter user system identified by <password>
       
+
+* T-SQL Fundamentals

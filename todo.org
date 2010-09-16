@@ -288,3 +288,5 @@
    CLOCK: [2010-08-16 Mon 19:51]--[2010-08-16 Mon 20:19] =>  0:28
    :END:
    - State "TODO"       from ""           [2010-08-16 Mon 19:50]
+** TODO Read Microsoft SQL Server 2008 T-SQL Fundamentals
+   - State "TODO"       from ""           [2010-09-15 Wed 14:38]

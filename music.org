@@ -1,0 +1,10 @@
+* Jazz
+| Artist           | Genre     |
+| Xploding Plastix | acid jazz |
+| Corduroy         | acid jazz |
+| Troublemakers    | downtempo |
+| Young Disciples  | acid jazz |
+| Alberty Ayler    | free jazz |
+| The Calling      | rock      |
+| Alex Band        | rock      |
+|                  |           |

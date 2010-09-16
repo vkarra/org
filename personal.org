@@ -1,3 +1,31 @@
 * Tasks
-** TODO Give cell adaptor to mom
+** CANCELLED Give cell adaptor to mom
+   - State "CANCELLED"  from "TODO"       [2010-09-13 Mon 14:30]
    - State "TODO"       from ""           [2010-08-06 Fri 10:32]
+
+** CANCELLED pay bro's amt in netteller
+   - State "CANCELLED"  from "WAITING"    [2010-09-15 Wed 12:27] \\
+     Neteller refusing to accept credit card throwing an error maximum number of credit cards used
+   - State "WAITING"    from "NEXT"       [2010-09-13 Mon 14:38] \\
+     Waiting for pele to transfer money to citibank
+   - State "NEXT"       from "TODO"       [2010-09-13 Mon 14:30]
+   :CLOCK:
+   CLOCK: [2010-09-13 Mon 14:30]--[2010-09-13 Mon 14:38] =>  0:08
+   :END:
+   - State "TODO"       from ""           [2010-09-13 Mon 14:30]
+* DONE transfer money to bro
+  - State "DONE"       from "NEXT"       [2010-09-15 Wed 12:25]
+  - State "NEXT"       from "TODO"       [2010-09-15 Wed 12:20]
+  :CLOCK:
+  CLOCK: [2010-09-15 Wed 12:20]--[2010-09-15 Wed 12:25] =>  0:05
+  :END:
+  [2010-09-15 Wed 12:19]
+
+
+
+
+
+
+
+
+

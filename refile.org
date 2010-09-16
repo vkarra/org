@@ -5,11 +5,30 @@
   :END:
   [2010-08-05 Thu 08:18]
   http://rspec.info/documentation/mocks/
-
-
-
-
-
-
-
-
+* TODO Read [[http://msdn.microsoft.com/en-us/library/bb190163.aspx#mdm04_topic4][this]] Microsoft article on Master Data Management 
+  :CLOCK:
+  :END:
+  [2010-09-15 Wed 11:11]
+  [[file:~/org/kalido-training.org::*Questions][Questions]]
+* TODO What is data reconciliation
+  :CLOCK:
+  :END:
+  [2010-09-15 Wed 11:12]
+  [[file:~/org/kalido-training.org::*Session%20010%20Managing%20Master%20Data][Session 010 - Managing Master Data]]
+* TODO how is master data the cornerstone of the data warehouse
+  :CLOCK:
+  CLOCK: [2010-09-15 Wed 11:15]--[2010-09-15 Wed 11:16] =>  0:01
+  :END:
+  [2010-09-15 Wed 11:15]
+  [[file:~/org/kalido-training.org::Cornerstone%20of%20the%20data%20warehouse][What]]
+* TODO What is homogeneous data
+  :CLOCK:
+  CLOCK: [2010-09-15 Wed 12:41]--[2010-09-15 Wed 12:42] =>  0:01
+  :END:
+  [2010-09-15 Wed 12:41]
+  [[file:~/org/kalido-training.org::*Catalogs][Catalogs]]
+* TODO why do we need catalogs
+  :CLOCK:
+  :END:
+  [2010-09-15 Wed 12:50]
+  [[file:~/org/kalido-training.org::*What][What]]
