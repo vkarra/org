@@ -1,0 +1,369 @@
+
+Archived entries from file h:/home/org/work.org
+
+
+* Work Tasks
+** DONE [[file:reference.org::*Document%20creation%20of%20netezza%20warehouse][Document creation of netezza warehouse]]
+   - State "DONE"       from "NEXT"       [2010-10-13 Wed 17:54]
+   - State "NEXT"       from "TODO"       [2010-10-13 Wed 14:46]
+   :CLOCK:
+   CLOCK: [2010-10-13 Wed 14:46]--[2010-10-13 Wed 15:00] =>  0:14
+   :END:
+   - State "TODO"       from ""           [2010-10-13 Wed 14:45]
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2010-11-22 Mon 10:01
+   :ARCHIVE_FILE: ~/org/work.org
+   :ARCHIVE_OLPATH: Tasks
+   :ARCHIVE_CATEGORY: work
+   :ARCHIVE_TODO: DONE
+   :END:
+
+** DONE [[file:kalido-automation.org::*Fixing%20broken%20tests][Fixing broken automated tests]]
+   - State "DONE"       from "NEXT"       [2010-10-13 Wed 17:11]
+   - State "NEXT"       from "TODO"       [2010-09-28 Tue 10:29]
+   :CLOCK:
+   CLOCK: [2010-09-28 Tue 10:29]--[2010-09-28 Tue 11:34] =>  1:05
+   :END:
+   - State "TODO"       from ""           [2010-09-23 Thu 16:01]
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2010-11-22 Mon 10:03
+   :ARCHIVE_FILE: ~/org/work.org
+   :ARCHIVE_OLPATH: Tasks
+   :ARCHIVE_CATEGORY: work
+   :ARCHIVE_TODO: DONE
+   :END:
+*** CANCELLED [[id:328b0925-a626-49d4-b265-6d2e83fc08cc][ExportImportOfTimeReferenceData]]
+    - State "CANCELLED"  from "WAITING"    [2010-11-22 Mon 10:01] \\
+      Mass cancelling broken waiting tests
+    - State "WAITING"    from "NEXT"       [2010-09-28 Tue 11:43] \\
+      Since the CR is deferred this test can persist in its current state or be removed if the CR will never be fixed, check with Vishnu
+    - State "NEXT"       from "TODO"       [2010-09-28 Tue 11:34]
+    :CLOCK:
+    CLOCK: [2010-09-28 Tue 11:34]--[2010-09-28 Tue 11:44] =>  0:10
+    :END:
+    - State "TODO"       from ""           [2010-09-28 Tue 11:34]
+*** CANCELLED UpdateLockCanBeAcquiredByOnlyOneApplicationSessionAtATime
+    - State "CANCELLED"  from "WAITING"    [2010-11-22 Mon 10:03]
+    - State "WAITING"    from "NEXT"       [2010-09-28 Tue 11:57] \\
+      original resolution to this CR caused a number of issues in MDM, because of which the fix was rolled back. The CR is in development queue since 2009/08/19
+    - State "NEXT"       from "TODO"       [2010-09-28 Tue 11:55]
+    :CLOCK:
+    CLOCK: [2010-09-28 Tue 11:55]--[2010-09-28 Tue 11:58] =>  0:03
+    :END:
+    - State "TODO"       from ""           [2010-09-28 Tue 11:55]
+*** DONE [[file:kalido-automation.org::*VerifyLoaderIgnoresDuplicates][VerifyLoaderIgnoresDuplicates]]
+    - State "DONE"       from "WAITING"    [2010-09-29 Wed 16:23]
+    - State "NEXT"       from "TODO"       [2010-09-28 Tue 12:05]
+    :CLOCK:
+    CLOCK: [2010-09-29 Wed 14:12]--[2010-09-29 Wed 16:23] =>  2:11
+    CLOCK: [2010-09-29 Wed 09:43]--[2010-09-29 Wed 12:45] =>  3:02
+    CLOCK: [2010-09-28 Tue 16:15]--[2010-09-28 Tue 17:38] =>  1:23
+    CLOCK: [2010-09-28 Tue 12:37]--[2010-09-28 Tue 12:44] =>  0:07
+    CLOCK: [2010-09-28 Tue 12:05]--[2010-09-28 Tue 12:31] =>  0:26
+    :END:
+    - State "TODO"       from ""           [2010-09-28 Tue 12:05]
+*** DONE [[file:kalido-automation.org::*VerifyLoadBeAndModifyFieldValue][VerifyLoadBeAndModifyFieldValue]]
+    - State "DONE"       from "NEXT"       [2010-10-01 Fri 14:11]
+    - State "NEXT"       from "TODO"       [2010-09-29 Wed 16:44]
+    :CLOCK:
+    CLOCK: [2010-10-01 Fri 09:22]--[2010-10-01 Fri 14:11] =>  4:49
+    CLOCK: [2010-09-29 Wed 17:28]--[2010-09-29 Wed 19:11] =>  1:43
+    CLOCK: [2010-09-29 Wed 16:44]--[2010-09-29 Wed 17:01] =>  0:17
+    :END:
+    - State "TODO"       from ""           [2010-09-29 Wed 16:43]
+*** DONE [[file:kalido-automation.org::*VerifyLoadUnicodeWithMergeDups][VerifyLoadUnicodeWithMergeDups]]
+    - State "DONE"       from "NEXT"       [2010-10-06 Wed 12:14]
+    - State "NEXT"       from "TODO"       [2010-10-06 Wed 11:40]
+    :CLOCK:
+    CLOCK: [2010-10-06 Wed 11:40]--[2010-10-06 Wed 12:14] =>  0:34
+    :END:
+    - State "TODO"       from ""           [2010-10-06 Wed 11:40]
+*** CANCELLED [[file:kalido-automation.org::*VerifyModifyFieldValuesOfExistingCbeWithoutIgnorNullManAtts][VerifyModifyFieldValuesOfExistingCbeWithoutIgnorNullManAtts]]
+    - State "CANCELLED"  from "WAITING"    [2010-11-22 Mon 10:03]
+    - State "WAITING"    from "NEXT"       [2010-10-06 Wed 13:30] \\
+      Records with null values are not going into suspense in 21804, rather they are loaded into custom cbe table with $NOOID.
+      This test cannot be fixed until the associated bug is fixed
+    - State "NEXT"       from "TODO"       [2010-10-06 Wed 12:44]
+    :CLOCK:
+    CLOCK: [2010-10-06 Wed 12:44]--[2010-10-06 Wed 13:32] =>  0:48
+    :END:
+    - State "TODO"       from ""           [2010-10-06 Wed 12:34]
+*** DONE [[file:kalido-automation.org::*RollbackBEloadedwithConflictingHistoryforAttributes][RollbackBEloadedwithConflictingHistoryforAttributes]]
+    - State "DONE"       from "NEXT"       [2010-10-06 Wed 17:33]
+    - State "NEXT"       from "TODO"       [2010-10-06 Wed 14:23]
+    :CLOCK:
+    CLOCK: [2010-10-06 Wed 17:00]--[2010-10-06 Wed 17:33] =>  0:33
+    CLOCK: [2010-10-06 Wed 15:37]--[2010-10-06 Wed 16:22] =>  0:45
+    CLOCK: [2010-10-06 Wed 14:23]--[2010-10-06 Wed 14:58] =>  0:35
+    :END:
+    - State "TODO"       from ""           [2010-10-06 Wed 14:23]
+*** DONE RollbackBEloadedwithConflictingHistoryforParentAssociation
+    - State "DONE"       from "NEXT"       [2010-10-07 Thu 13:00]
+    - State "NEXT"       from "TODO"       [2010-10-07 Thu 11:22]
+    :CLOCK:
+    CLOCK: [2010-10-07 Thu 11:22]--[2010-10-07 Thu 13:00] =>  1:38
+    :END:
+    - State "TODO"       from ""           [2010-10-07 Thu 11:22]
+*** DONE LoadBatchintoSuspensebyPredatedDeletionofParents
+    - State "DONE"       from "NEXT"       [2010-10-08 Fri 14:41]
+    - State "NEXT"       from "TODO"       [2010-10-07 Thu 13:54]
+    :CLOCK:
+    CLOCK: [2010-10-08 Fri 14:29]--[2010-10-08 Fri 14:41] =>  0:12
+    CLOCK: [2010-10-07 Thu 13:54]--[2010-10-07 Thu 14:23] =>  0:29
+    :END:
+*** CANCELLED CommasAndNewlinesWorkInASCIIAndUNICODELoads
+    - State "CANCELLED"  from "WAITING"    [2010-11-22 Mon 10:03]
+    - State "WAITING"    from "NEXT"       [2010-10-07 Thu 15:36] \\
+      More information on test required
+      Currently no test id, no data files and no CR
+    - State "NEXT"       from "TODO"       [2010-10-07 Thu 15:23]
+    :CLOCK:
+    CLOCK: [2010-10-07 Thu 15:23]--[2010-10-07 Thu 16:06] =>  0:43
+    :END:
+    - State "TODO"       from ""           [2010-10-07 Thu 15:23]
+*** DONE DIWCusCBEQuery01
+    - State "DONE"       from "NEXT"       [2010-10-07 Thu 16:32]
+    - State "NEXT"       from "TODO"       [2010-10-07 Thu 16:06]
+    :CLOCK:
+    CLOCK: [2010-10-07 Thu 16:06]--[2010-10-07 Thu 16:32] =>  0:26
+    :END:
+    - State "TODO"       from ""           [2010-10-07 Thu 16:06]
+*** CANCELLED SimpleTDSCanBeArchivedPurgedAndRestored
+    - State "CANCELLED"  from "WAITING"    [2010-11-22 Mon 10:03]
+    - State "WAITING"    from "NEXT"       [2010-10-11 Mon 16:45] \\
+      kpurge8 and krestore8 are crashing, test cannot pass until they run
+    - State "NEXT"       from "TODO"       [2010-10-07 Thu 22:29]
+    :CLOCK:
+    CLOCK: [2010-10-11 Mon 14:00]--[2010-10-12 Tue 09:22] => 19:22
+    CLOCK: [2010-10-08 Fri 10:31]--[2010-10-08 Fri 14:05] =>  3:34
+    CLOCK: [2010-10-08 Fri 09:43]--[2010-10-08 Fri 10:27] =>  0:44
+    CLOCK: [2010-10-07 Thu 22:29]--[2010-10-07 Thu 23:46] =>  1:17
+    :END:
+    - State "TODO"       from ""           [2010-10-07 Thu 22:29]
+*** CANCELLED LoadBatchintoSuspensebymodifyingSubtypebeforeStartDate
+    - State "CANCELLED"  from "WAITING"    [2010-11-22 Mon 10:03]
+    - State "WAITING"    from "NEXT"       [2010-10-08 Fri 14:12] \\
+      Associated defect 24685 has not been resolved
+    - State "NEXT"       from "TODO"       [2010-10-08 Fri 14:05]
+    :CLOCK:
+    CLOCK: [2010-10-08 Fri 14:05]--[2010-10-08 Fri 14:29] =>  0:24
+    :END:
+    - State "TODO"       from ""           [2010-10-08 Fri 14:05]
+*** CANCELLED [[file:kalido-automation.org::*FilterSuspendedRecordsbasedonTimeRange][FilterSuspendedRecordsbasedonTimeRange]]
+    - State "CANCELLED"  from "WAITING"    [2010-11-22 Mon 10:03]
+    - State "WAITING"    from "NEXT"       [2010-10-12 Tue 17:19] \\
+      test is expected failure
+    - State "NEXT"       from "TODO"       [2010-10-12 Tue 15:55]
+    :CLOCK:
+    CLOCK: [2010-10-12 Tue 15:55]--[2010-10-12 Tue 17:22] =>  1:27
+    :END:
+    - State "TODO"       from ""           [2010-10-12 Tue 15:55]
+*** DONE [[file:kalido-automation.org::*SingleBEWithTwoDuplicateIdenticalRecordsDeleteEffDate][SingleBEWithTwoDuplicateIdenticalRecordsDeleteEffDate]]
+    - State "DONE"       from "NEXT"       [2010-11-16 Tue 12:30]
+    - State "NEXT"       from "TODO"       [2010-10-12 Tue 17:22]
+    :CLOCK:
+    CLOCK: [2010-10-12 Tue 17:22]--[2010-10-12 Tue 18:21] =>  0:59
+    :END:
+    - State "TODO"       from ""           [2010-10-12 Tue 17:22]
+*** CANCELLED Investigate issue of staging table being updated as loaded for rejected record
+    - State "CANCELLED"  from "TODO"       [2010-11-22 Mon 10:03]
+    - State "TODO"       from ""           [2010-10-12 Tue 18:21]
+*** DONE [[file:kalido-automation.org::*Run%20fixed%20tests%20against%20Netezza][Run fixed tests against Netezza]]
+    - State "DONE"       from "NEXT"       [2010-10-13 Wed 14:22]
+    - State "NEXT"       from "TODO"       [2010-10-13 Wed 11:35]
+    :CLOCK:
+    CLOCK: [2010-10-13 Wed 11:35]--[2010-10-13 Wed 14:22] =>  2:47
+    :END:
+    - State "TODO"       from ""           [2010-10-13 Wed 11:31]
+*** CANCELLED [[file:kalido-automation.org::*Run%20fixed%20tests%20against%20Teradata][Run fixed tests against Teradata]]
+    - State "CANCELLED"  from "NEXT"       [2010-10-13 Wed 14:43] \\
+      Tests are currently not running on Teradata
+    - State "NEXT"       from "TODO"       [2010-10-13 Wed 14:23]
+    :CLOCK:
+    CLOCK: [2010-10-13 Wed 14:23]--[2010-10-13 Wed 14:43] =>  0:20
+    :END:
+    - State "TODO"       from ""           [2010-10-13 Wed 14:22]
+** DONE [[file:h:/HN/Key%20Documents/CS-Shell%20Managing%20Product%20Master%20Data.pdf][Kalido Case Study]] - Shell Lubricants: Managing Product Master Data
+   - State "DONE"       from "NEXT"       [2010-09-15 Wed 11:52]
+   - State "NEXT"       from "TODO"       [2010-09-15 Wed 11:37]
+   :CLOCK:
+   CLOCK: [2010-09-15 Wed 11:37]--[2010-09-15 Wed 11:52] =>  0:15
+   :END:
+   - State "TODO"       from ""           [2010-09-15 Wed 11:34]
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2010-11-22 Mon 10:06
+   :ARCHIVE_FILE: ~/org/work.org
+   :ARCHIVE_OLPATH: Tasks
+   :ARCHIVE_CATEGORY: work
+   :ARCHIVE_TODO: DONE
+   :END:
+** DONE [[file:h:/HN/Key%20Documents/CS-Shell%20Managing%20Product%20Master%20Data.pdf][Kalido Case Study]] - Shell Lubricants: Managing Product Master Data
+   - State "DONE"       from "NEXT"       [2010-09-15 Wed 11:52]
+   - State "NEXT"       from "TODO"       [2010-09-15 Wed 11:37]
+   :CLOCK:
+   CLOCK: [2010-09-15 Wed 11:37]--[2010-09-15 Wed 11:52] =>  0:15
+   :END:
+   - State "TODO"       from ""           [2010-09-15 Wed 11:34]
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2010-11-22 Mon 10:06
+   :ARCHIVE_FILE: ~/org/work.org
+   :ARCHIVE_OLPATH: Tasks
+   :ARCHIVE_CATEGORY: work
+   :ARCHIVE_TODO: DONE
+   :END:
+** DONE CR Verification
+   - State "DONE"       from "NEXT"       [2010-09-23 Thu 16:01]
+   - State "NEXT"       from "TODO"       [2010-09-20 Mon 11:47]
+   :CLOCK:
+   CLOCK: [2010-09-20 Mon 11:47]--[2010-09-20 Mon 11:59] =>  0:12
+   :END:
+   - State "TODO"       from ""           [2010-09-20 Mon 11:43]
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2010-11-22 Mon 10:06
+   :ARCHIVE_FILE: ~/org/work.org
+   :ARCHIVE_OLPATH: Tasks
+   :ARCHIVE_CATEGORY: work
+   :ARCHIVE_TODO: DONE
+   :END:
+*** My CR List
+| CR ID | Status    | Product |
+| 33460 | concluded | MDM     |
+| 33601 | TIP       | MDM     |
+| 34064 | concluded | MDM     |
+| 34088 | reopened  | MDM     |
+| 34146 | TIP       | MDM     |
+| 34150 | TIP       | MDM     |
+| 32092 | TIP       | DIW     |
+| 34357 | concluded | DIW     |
+| 34414 | concluded | DIW     |
+|       |           |         |
+
+*** CRs assigned for shadow verification
+**** DONE [[file:kalido-training.org::*LON%2034413%20DIW%20BE%20associations%20missing%20after%20migration][LON #34413 - DIW (BE associations missing after migration)]]
+     - State "DONE"       from "NEXT"       [2010-09-21 Tue 11:44]
+     - State "NEXT"       from "TODO"       [2010-09-21 Tue 09:15]
+     :CLOCK:
+     CLOCK: [2010-09-21 Tue 10:49]--[2010-09-21 Tue 10:59] =>  0:10
+     CLOCK: [2010-09-21 Tue 09:15]--[2010-09-21 Tue 10:44] =>  1:29
+     :END:
+     - State "TODO"       from ""           [2010-09-20 Mon 14:26]
+**** DONE [[file:kalido-training.org::*LON%2034413%20DIW%20Slowness%20in%20deployment%20tab][LON #34412 - DIW (Slowness in deployment tab)]]
+     - State "DONE"       from "NEXT"       [2010-09-21 Tue 17:23]
+     - State "NEXT"       from "TODO"       [2010-09-21 Tue 11:47]
+     :CLOCK:
+     CLOCK: [2010-09-21 Tue 12:48]--[2010-09-21 Tue 17:23] =>  4:35
+     CLOCK: [2010-09-21 Tue 11:47]--[2010-09-21 Tue 12:40] =>  0:53
+     :END:
+     - State "TODO"       from ""           [2010-09-20 Mon 14:26]
+**** DONE LON #34342 - MDM (Copying a subject and saving an attribute with a null value takes the original subjects attribute value)
+     - State "DONE"       from "NEXT"       [2010-09-22 Wed 16:02]
+     - State "NEXT"       from "TODO"       [2010-09-22 Wed 15:50]
+     - State "TODO"       from "NEXT"       [2010-09-22 Wed 11:10]
+     - State "NEXT"       from "TODO"       [2010-09-22 Wed 11:09]
+     :CLOCK:
+     CLOCK: [2010-09-22 Wed 15:50]--[2010-09-22 Wed 16:02] =>  0:12
+     CLOCK: [2010-09-22 Wed 11:09]--[2010-09-22 Wed 11:10] =>  0:01
+     :END:
+     - State "TODO"       from ""           [2010-09-20 Mon 14:26]
+**** DONE LON #34350 - MDM (Copy function on a published subject results in error)
+     - State "DONE"       from "NEXT"       [2010-09-22 Wed 15:50]
+     - State "NEXT"       from "TODO"       [2010-09-22 Wed 11:11]
+     :CLOCK:
+     CLOCK: [2010-09-22 Wed 11:11]--[2010-09-22 Wed 15:50] =>  4:39
+     :END:
+     - State "TODO"       from ""           [2010-09-20 Mon 14:26]
+** CANCELLED Evaluate TestDriven.NET as an alternative to nunit runner
+   - State "CANCELLED"  from "TODO"       [2010-10-08 Fri 15:20] \\
+     Using Resharper to run tests
+   - State "TODO"       from ""           [2010-09-23 Thu 16:07]
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2010-11-22 Mon 10:07
+   :ARCHIVE_FILE: ~/org/work.org
+   :ARCHIVE_OLPATH: Tasks
+   :ARCHIVE_CATEGORY: work
+   :ARCHIVE_TODO: CANCELLED
+   :END:
+** CANCELLED Understand Cruise Control
+   - State "CANCELLED"  from "NEXT"       [2010-11-15 Mon 10:40] \\
+     No need to set up cruise server
+   - State "NEXT"       from "TODO"       [2010-10-14 Thu 11:50]
+   :CLOCK:
+   CLOCK: [2010-10-14 Thu 14:31]--[2010-10-14 Thu 18:18] =>  3:47
+   CLOCK: [2010-10-14 Thu 11:50]--[2010-10-14 Thu 12:33] =>  0:43
+   :END:
+   - State "TODO"       from ""           [2010-10-14 Thu 11:50]
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2010-11-22 Mon 10:07
+   :ARCHIVE_FILE: ~/org/work.org
+   :ARCHIVE_OLPATH: Tasks
+   :ARCHIVE_CATEGORY: work
+   :ARCHIVE_TODO: CANCELLED
+   :END:
+** CANCELLED Evaluate Partcover
+   - State "CANCELLED"  from "NEXT"       [2010-10-21 Thu 15:44] \\
+     Partcover does not work with managed code
+   - State "NEXT"       from "TODO"       [2010-10-15 Fri 10:19]
+   :CLOCK:
+   CLOCK: [2010-10-15 Fri 10:19]--[2010-10-15 Fri 17:29] =>  7:10
+   :END:
+   - State "TODO"       from ""           [2010-10-14 Thu 11:33]
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2010-11-22 Mon 10:07
+   :ARCHIVE_FILE: ~/org/work.org
+   :ARCHIVE_OLPATH: Tasks
+   :ARCHIVE_CATEGORY: work
+   :ARCHIVE_TODO: CANCELLED
+   :END:
+** CANCELLED Generate partcover report in laptop
+   - State "CANCELLED"  from "NEXT"       [2010-10-21 Thu 15:44] \\
+     Partcover does not work with managed code
+   - State "NEXT"       from "TODO"       [2010-10-15 Fri 17:44]
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2010-11-22 Mon 10:07
+   :ARCHIVE_FILE: ~/org/work.org
+   :ARCHIVE_OLPATH: Tasks
+   :ARCHIVE_CATEGORY: work
+   :ARCHIVE_TODO: CANCELLED
+   :END:
+   :CLOCK:
+   :END:
+   - State "TODO"       from ""           [2010-10-15 Fri 17:44]
+** CANCELLED Automate reference data purge tests
+   - State "CANCELLED"  from "TODO"       [2010-10-21 Thu 15:45] \\
+     Cancelled post meeting to decide automation priorities
+   - State "TODO"       from ""           [2010-10-12 Tue 11:48] \\
+     DIW / DIW v8.4 SP2 / 5.3 Reference Data / TestLink_QA.10033 DIWTP-RefData-Purging / TestLink_QA.10033 DIWTP-RefData-Purging: [Manual] /
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2010-11-22 Mon 10:07
+   :ARCHIVE_FILE: ~/org/work.org
+   :ARCHIVE_OLPATH: Tasks
+   :ARCHIVE_CATEGORY: work
+   :ARCHIVE_TODO: CANCELLED
+   :END:
+
+** CANCELLED Create an xsl transform to convert ms coverage xml to emma format
+   - State "CANCELLED"  from "NEXT"       [2010-11-15 Mon 10:41] \\
+     extended coverage analysis instead
+   - State "NEXT"       from "TODO"       [2010-10-20 Wed 11:00]
+   :CLOCK:
+   CLOCK: [2010-10-20 Wed 11:00]--[2010-10-20 Wed 12:45] =>  1:45
+   :END:
+   - State "TODO"       from ""           [2010-10-19 Tue 17:54]
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2010-11-22 Mon 10:07
+   :ARCHIVE_FILE: ~/org/work.org
+   :ARCHIVE_OLPATH: Tasks
+   :ARCHIVE_CATEGORY: work
+   :ARCHIVE_TODO: CANCELLED
+   :END:
+** CANCELLED Reply to Hari on 8r4sp2 test review and comments	       :MAIL:
+   - State "CANCELLED"  from "NEXT"       [2010-11-16 Tue 12:24] \\
+     Called up
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2010-11-22 Mon 10:07
+   :ARCHIVE_FILE: ~/org/work.org
+   :ARCHIVE_OLPATH: Tasks
+   :ARCHIVE_CATEGORY: work
+   :ARCHIVE_TODO: CANCELLED
+   :END:
+

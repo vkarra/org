@@ -1,0 +1,54 @@
+* Links
+| 8.5 sp1 mr8 CR report | Synergy -> Shared > PV Information Engine -> CRs to be verifeid in Next 8.5 SP1 Sprint |
+| \\10.54.8.8           | Location of MR8 builds                                                                 |
+|                       |                                                                                        |
+
+* Notes
+** How to convert diw db from production to development and viceversa
+Check what warehouse type you have:
+- Run the following SQL against warehouses: 
+select PTY from attributet where class_id = '$WHS_OPSTS' and subject = '$DEFOBJ' 
+Convert warehouse to Development:
+- update attributet set pty = '$WHSOS_DEV' where class_id = '$WHS_OPSTS' and subject = '$DEFOBJ' 
+Convert warehouse to Production:
+- update attributet set pty = '$WHSOS_PRD' where class_id = '$WHS_OPSTS' and subject = '$DEFOBJ' 
+*** Production dbs can be imported
+** Document creation of netezza warehouse
+   Netezza Database Server - 10.54.1.3:nz/nz
+   1. Use the above credentials to create the warehouse creation scripts from warehouse manager
+   2. Using WinSCP copy script from C:\Documents and Settings\Administrator\Application Data\Warehouse Manager\NETEZZA_NETEZZA\<WarehouseName> to /export/home/nz/HN/<warehousename>
+   3. Login using putty to netezza server
+   4. run dos2unix on the warehouse creation scripts
+   5. run chmod 777 on run_all_scripts
+   6. Execute literally - ./run_all_scripts system admin password
+* Machines
+|          IP | Purpose         |
+| 10.24.4.139 | Pratyush UK-box |
+|   10.14.1.2 | UK DB-box       |
+|   10.54.8.9 | My VM           |
+
+* Queries
+** Load Custom CBE Staging table
+
+INSERT INTO [DIW_8r5mr8].[dbo].[ST_CUSTOM_1]
+           ([ROW_SEQ]
+           ,[PRIMARY_ID]
+           ,[EFFECTIVE_DATE]
+           ,[NAME]
+           ,[CUSTOM_1_CODE])
+     VALUES
+		(1, 'PBE1', '20080101 00:00:00', 'PBE1', 'PBE1'),		
+		(2, 'PBE2', '20080101 00:00:00', 'PBE2', 'PBE2')		
+GO
+
+
+
+
+* Reference Keys
+Ent Ed: GVMTV-GMXWH-C234M-8FMWP-TFPFP
+Std Ed: XJG6B-4D4YV-4M338-Q42H6-39VT2 
+* Logins
+** Hotfile
+   username:	3747587
+   password:	libyvd
+

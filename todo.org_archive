@@ -1,0 +1,211 @@
+
+Archived entries from file h:/home/org/todo.org
+
+
+* My Tasks
+** DONE Solve Ruby Quiz problem 1				       :RUBY:
+   - State "DONE"       from "NEXT"       [2010-08-04 Wed 18:58]
+   - State "NEXT"       from "TODO"       [2010-08-03 Tue 12:54]
+   - State "TODO"       from "NEXT"       [2010-08-02 Mon 01:17]
+   - State "NEXT"       from "TODO"       [2010-08-01 Sun 18:05]
+   - State "TODO"       from "NEXT"       [2010-07-31 Sat 23:49]
+   :CLOCK:
+   CLOCK: [2010-08-04 Wed 18:07]--[2010-08-04 Wed 18:57] =>  0:50
+   CLOCK: [2010-08-04 Wed 17:56]--[2010-08-04 Wed 18:07] =>  0:11
+   CLOCK: [2010-08-04 Wed 17:38]--[2010-08-04 Wed 17:56] =>  0:18
+   CLOCK: [2010-08-04 Wed 17:21]--[2010-08-04 Wed 17:32] =>  0:11
+   CLOCK: [2010-08-04 Wed 01:38]--[2010-08-04 Wed 02:18] =>  0:40
+   CLOCK: [2010-08-04 Wed 00:22]--[2010-08-04 Wed 01:12] =>  0:50
+   CLOCK: [2010-08-03 Tue 22:39]--[2010-08-03 Tue 23:12] =>  0:33
+   CLOCK: [2010-08-03 Tue 22:33]--[2010-08-03 Tue 22:38] =>  0:05
+   CLOCK: [2010-08-03 Tue 21:30]--[2010-08-03 Tue 22:06] =>  0:36
+   CLOCK: [2010-08-03 Tue 21:08]--[2010-08-03 Tue 21:14] =>  0:06
+   CLOCK: [2010-08-03 Tue 17:26]--[2010-08-03 Tue 18:01] =>  0:35
+   CLOCK: [2010-08-03 Tue 14:15]--[2010-08-03 Tue 14:20] =>  0:05
+   CLOCK: [2010-08-03 Tue 13:31]--[2010-08-03 Tue 13:50] =>  0:19
+   CLOCK: [2010-08-03 Tue 12:54]--[2010-08-03 Tue 13:24] =>  0:30
+   CLOCK: [2010-08-02 Mon 00:51]--[2010-08-02 Mon 01:03] =>  0:12
+   CLOCK: [2010-08-01 Sun 18:05]--[2010-08-01 Sun 19:05] =>  1:00
+   CLOCK: [2010-07-31 Sat 14:52]--[2010-07-31 Sat 15:12] =>  0:20
+   :END:
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2010-11-22 Mon 10:10
+   :ARCHIVE_FILE: ~/org/todo.org
+   :ARCHIVE_OLPATH: Tasks
+   :ARCHIVE_CATEGORY: todo
+   :ARCHIVE_TODO: DONE
+   :END:
+   [2010-08-04 Wed 01:11] - move! function is not correct, shift is not implemented, logic error
+** DONE What is font lock in emacs				      :EMACS:
+   - State "DONE"       from "NEXT"       [2010-08-02 Mon 15:30]
+   - State "NEXT"       from "TODO"       [2010-08-02 Mon 15:26]
+   :CLOCK:
+   CLOCK: [2010-08-02 Mon 15:26]--[2010-08-02 Mon 15:30] =>  0:04
+   :END:
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2010-11-22 Mon 10:10
+   :ARCHIVE_FILE: ~/org/todo.org
+   :ARCHIVE_OLPATH: Tasks
+   :ARCHIVE_CATEGORY: todo
+   :ARCHIVE_TODO: DONE
+   :END:
+   [2010-08-01 Sun 14:55]
+   http://www.gnu.org/software/emacs/manual/html_node/emacs/Font-Lock.html
+** DONE try out [[http://emacs-fu.blogspot.com/2010/06/console-apps-in-emacs-with-multi-term.html][multiterm]] for emacs			       :ACTION:EMACS:
+   - State "DONE"       from "NEXT"       [2010-08-02 Mon 22:39]
+   - State "NEXT"       from "TODO"       [2010-08-02 Mon 22:21]
+   :CLOCK:
+   CLOCK: [2010-08-02 Mon 22:34]--[2010-08-02 Mon 22:39] =>  0:05
+   CLOCK: [2010-08-02 Mon 22:21]--[2010-08-02 Mon 22:30] =>  0:09
+   :END:
+   - State "TODO"       from ""           [2010-08-02 Mon 16:13]
+     added multiterm and updated repo
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2010-11-22 Mon 10:10
+   :ARCHIVE_FILE: ~/org/todo.org
+   :ARCHIVE_OLPATH: Tasks
+   :ARCHIVE_CATEGORY: todo
+   :ARCHIVE_TODO: DONE
+   :END:
+
+** DONE evaluate [[http://stackoverflow.com/questions/9951/what-color-scheme-do-you-use-for-programming][color themes]] for emacs				      :EMACS:
+   - State "DONE"       from "NEXT"       [2010-08-03 Tue 20:51]
+   - State "NEXT"       from "TODO"       [2010-08-03 Tue 20:43]
+   - State "TODO"       from "NEXT"       [2010-08-03 Tue 09:07]
+   - State "NEXT"       from "TODO"       [2010-08-03 Tue 08:51]
+   :CLOCK:
+   CLOCK: [2010-08-03 Tue 20:43]--[2010-08-03 Tue 20:51] =>  0:08
+   CLOCK: [2010-08-03 Tue 08:51]--[2010-08-03 Tue 09:07] =>  0:16
+   :END:
+   - State "TODO"       from ""           [2010-08-02 Mon 16:29]
+     picked billw
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2010-11-22 Mon 10:10
+   :ARCHIVE_FILE: ~/org/todo.org
+   :ARCHIVE_OLPATH: Tasks
+   :ARCHIVE_CATEGORY: todo
+   :ARCHIVE_TODO: DONE
+   :END:
+** DONE evaluate [[http://stackoverflow.com/questions/555376/lgrep-and-rgrep-in-emacs][ack or grep]] for emacs				      :EMACS:
+   - State "DONE"       from "NEXT"       [2010-08-03 Tue 11:43]
+     added ack support to emacs
+   - State "NEXT"       from "TODO"       [2010-08-03 Tue 11:25]
+   - State "TODO"       from "NEXT"       [2010-08-03 Tue 11:15] \\
+     installed ack
+   - State "NEXT"       from "TODO"       [2010-08-03 Tue 11:09]
+   :CLOCK:
+   CLOCK: [2010-08-03 Tue 11:25]--[2010-08-03 Tue 11:43] =>  0:18
+   CLOCK: [2010-08-03 Tue 11:11]--[2010-08-03 Tue 11:15] =>  0:04
+   CLOCK: [2010-08-03 Tue 11:09]--[2010-08-03 Tue 11:11] =>  0:02
+   :END:
+  - State "TODO"       from ""           [2010-08-02 Mon 16:32]
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2010-11-22 Mon 10:10
+   :ARCHIVE_FILE: ~/org/todo.org
+   :ARCHIVE_OLPATH: Tasks
+   :ARCHIVE_CATEGORY: todo
+   :ARCHIVE_TODO: DONE
+   :END:
+    
+** DONE check out [[http://conkeror.org/][conkeror]], a keyboard oriented browser		     :ACTION:
+   - State "DONE"       from "NEXT"       [2010-08-02 Mon 22:03]
+   - State "NEXT"       from "TODO"       [2010-08-02 Mon 21:46]
+   :CLOCK:
+   CLOCK: [2010-08-02 Mon 21:46]--[2010-08-02 Mon 22:03] =>  0:17
+   :END:
+   - State "TODO"       from ""           [2010-08-02 Mon 16:53]
+     installed conkeror and checked out its basic features, using it now as default browser
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2010-11-22 Mon 10:10
+   :ARCHIVE_FILE: ~/org/todo.org
+   :ARCHIVE_OLPATH: Tasks
+   :ARCHIVE_CATEGORY: todo
+   :ARCHIVE_TODO: DONE
+   :END:
+
+** DONE research music player alternatives for linux		     :LINUX::
+   - State "DONE"       from "NEXT"       [2010-08-02 Mon 22:18]
+   - State "NEXT"       from "TODO"       [2010-08-02 Mon 22:12]
+   :CLOCK:
+   CLOCK: [2010-08-02 Mon 22:12]--[2010-08-02 Mon 22:18] =>  0:06
+   :END:
+   - State "TODO"       from ""           [2010-08-02 Mon 22:12]
+
+     picked rhythmbox
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2010-11-22 Mon 10:10
+   :ARCHIVE_FILE: ~/org/todo.org
+   :ARCHIVE_OLPATH: Tasks
+   :ARCHIVE_CATEGORY: todo
+   :ARCHIVE_TODO: DONE
+   :END:
+** DONE setup conkeror as default browser		      :ACTION:LINUX::
+   - State "DONE"       from "NEXT"       [2010-08-02 Mon 22:56]
+   - State "NEXT"       from "TODO"       [2010-08-02 Mon 22:40]
+   :CLOCK:
+   CLOCK: [2010-08-02 Mon 22:40]--[2010-08-02 Mon 22:56] =>  0:16
+   :END:
+   - State "TODO"       from ""           [2010-08-02 Mon 22:22]
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2010-11-22 Mon 10:10
+   :ARCHIVE_FILE: ~/org/todo.org
+   :ARCHIVE_OLPATH: Tasks
+   :ARCHIVE_CATEGORY: todo
+   :ARCHIVE_TODO: DONE
+   :END:
+** DONE fix incomplete initialization of emacs startup files   :EMACS:ACTION:
+   - State "DONE"       from "TODO"       [2010-08-04 Wed 13:15]
+   - State "TODO"       from ""           [2010-08-03 Tue 09:11]
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2010-11-22 Mon 10:10
+   :ARCHIVE_FILE: ~/org/todo.org
+   :ARCHIVE_OLPATH: Tasks
+   :ARCHIVE_CATEGORY: todo
+   :ARCHIVE_TODO: DONE
+   :END:
+** DONE learn ack						      :TOOLS:
+   - State "DONE"       from "NEXT"       [2010-08-03 Tue 11:23]
+   - State "NEXT"       from "TODO"       [2010-08-03 Tue 11:16]
+   :CLOCK:
+   CLOCK: [2010-08-03 Tue 11:16]--[2010-08-03 Tue 11:23] =>  0:07
+   :END:
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2010-11-22 Mon 10:10
+   :ARCHIVE_FILE: ~/org/todo.org
+   :ARCHIVE_OLPATH: Tasks
+   :ARCHIVE_CATEGORY: todo
+   :ARCHIVE_TODO: DONE
+   :END:
+   [2010-08-03 Tue 11:11]
+   
+   ack --type=ruby string_to_search
+
+** DONE cleanup emacs library				       :EMACS:ACTION:
+   - State "DONE"       from "NEXT"       [2010-08-03 Tue 12:00]
+   - State "NEXT"       from "TODO"       [2010-08-03 Tue 11:44]
+   :CLOCK:
+   CLOCK: [2010-08-03 Tue 11:44]--[2010-08-03 Tue 12:00] =>  0:16
+   :END:
+   - State "TODO"       from ""           [2010-08-03 Tue 11:44]
+     merged emacs-linux to emacs24-linux
+     deleted vendor/cedet
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2010-11-22 Mon 10:10
+   :ARCHIVE_FILE: ~/org/todo.org
+   :ARCHIVE_OLPATH: Tasks
+   :ARCHIVE_CATEGORY: todo
+   :ARCHIVE_TODO: DONE
+   :END:
+** DONE find total time spend on a task in org mode			:ORG:
+   - State "DONE"       from "TODO"       [2010-11-22 Mon 09:22]
+   :PROPERTIES:
+   :ARCHIVE_TIME: 2010-11-22 Mon 10:10
+   :ARCHIVE_FILE: ~/org/todo.org
+   :ARCHIVE_OLPATH: Tasks
+   :ARCHIVE_CATEGORY: todo
+   :ARCHIVE_TODO: DONE
+   :END:
+   :CLOCK:
+   :END:
+   [2010-08-04 Wed 18:07]
+

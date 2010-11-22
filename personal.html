@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+               "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+lang="en" xml:lang="en">
+<head>
+<title>personal</title>
+<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
+<meta name="generator" content="Org-mode"/>
+<meta name="generated" content="2010-10-12 09:46:36 "/>
+<meta name="author" content=""/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  html { font-family: Times, serif; font-size: 12pt; }
+  .title  { text-align: center; }
+  .todo   { color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #add8e6; font-weight:normal }
+  .target { }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  p.verse { margin-left: 3% }
+  pre {
+	border: 1pt solid #AEBDCC;
+	background-color: #F3F5F7;
+	padding: 5pt;
+	font-family: courier, monospace;
+        font-size: 90%;
+        overflow:auto;
+  }
+  table { border-collapse: collapse; }
+  td, th { vertical-align: top; }
+  dt { font-weight: bold; }
+  div.figure { padding: 0.5em; }
+  div.figure p { text-align: center; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size:smaller }
+  .code-highlighted {background-color:#ffff00;}
+  .org-info-js_info-navigation { border-style:none; }
+  #org-info-js_console-label { font-size:10px; font-weight:bold;
+                               white-space:nowrap; }
+  .org-info-js_search-highlight {background-color:#ffff00; color:#000000;
+                                 font-weight:bold; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+
+<h1 class="title">personal</h1>
+
+
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1 Mining </a>
+<ul>
+<li><a href="#sec-1_1">1.1 Summary </a></li>
+<li><a href="#sec-1_2">1.2 Brief </a></li>
+<li><a href="#sec-1_3">1.3 Result </a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-1" class="outline-3">
+<h3 id="sec-1"><span class="section-number-3">1</span> Mining </h3>
+<div class="outline-text-3" id="text-1">
+
+
+</div>
+
+<div id="outline-container-1_1" class="outline-4">
+<h4 id="sec-1_1"><span class="section-number-4">1.1</span> Summary </h4>
+<div class="outline-text-4" id="text-1_1">
+
+<p>Devise an algorithm for optimal utilization of resources in ore blending
+</p></div>
+
+</div>
+
+<div id="outline-container-1_2" class="outline-4">
+<h4 id="sec-1_2"><span class="section-number-4">1.2</span> Brief </h4>
+<div class="outline-text-4" id="text-1_2">
+
+<p>A mining company is blending ore to produce copper, the ore should be blended in a particular ratio to produce a product with the desired quality characteristics. The ore is blended in batches of 5, the batches are to be mixed in a particular ratio that will maximize ore utilization as well as produce an output of the desired quality. 
+</p><ol>
+<li>
+A batch of ore contains 30 or more minerals
+</li>
+<li>
+The percentage proportion of each mineral within a batch is known
+</li>
+<li>
+Batches blended with each other should produce a product meeting a criteria such as
+0.5 &lt; m1 &lt; 0.52
+0.2 &lt; m2 &lt; 0.21
+a3 &lt; m3 &lt; b3
+&hellip;.
+&hellip;.
+a30 &lt; m30 &lt; b30
+where m1, m2, m3 &hellip; m30 are percentage presence of ore in the final product and a1,a2&hellip;a30;b1,b2&hellip;b30 are tolerable limits within which quality is maintained
+</li>
+<li>
+In what order should n batches (n &lt;= 20) be processed to maximize ore output
+</li>
+<li>
+In what ratio should the batches be blended so that quality is maintained
+</li>
+</ol>
+</div>
+
+</div>
+
+<div id="outline-container-1_3" class="outline-4">
+<h4 id="sec-1_3"><span class="section-number-4">1.3</span> Result </h4>
+<div class="outline-text-4" id="text-1_3">
+
+<ol>
+<li>
+The order in which the batches should be blended in groups of 5
+</li>
+<li>
+The ratio in which each group of 5 batches should be blended
+</li>
+<li>
+Example result for 10 batches
+<ul>
+<li>
+Mix 1st set of batches 5, 1, 10, 6, 7 in ratio 1 : 3 : 2 : 4 : 3
+</li>
+<li>
+Mix 2nd set of batches 8, 5, 1, 10, 6 in ratio 2 : 5 : 1 : 4 : 4
+</li>
+<li>
+Mix 3rd set of batches 3, 8, 5, 1, 10 in ratio 1 : 2 : 3 : 4 : 5
+</li>
+<li>
+Mix 4th set of batches 4, 3, 8, 5, 1  in ratio 6 : 3 : 4 : 2 : 1
+</li>
+<li>
+Mix 5th set of batches 9, 4, 3, 8, 5  in ratio 2 : 2 : 3 : 3 : 4
+</li>
+<li>
+At this point all batches are utilized and only remnants of 4 batches remain, these may or may not be blended to produce an acceptable product. If they can be there will be another mix
+</li>
+<li>
+Mix 6th set of batches 9, 4, 3, 8 in ratio 3 : 1 : 2 : 2
+
+
+
+
+
+
+</li>
+</ul>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="postamble">
+<p class="author"> Author: 
+</p>
+<p class="date"> Date: 2010-10-12 09:46:36 </p>
+<p class="creator">HTML generated by org-mode 7.01 in emacs 24</p>
+</div>
+</div>
+</body>
+</html>

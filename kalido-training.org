@@ -138,6 +138,7 @@
 ***** Data from all TDS within a CoT will be brought together in a query - but it will be done automatically only if the measures in the Query Definition are in all the TDS
 ***** Manual selection of TDS in Query Definitions is required when using a measure not in every TDS within a CoT
 **** When creating a TDS, decisions have to be made on Date Range, Warehouse Section and Duplicate Checking
+*** Session 295 - Custom CBEs in Kalido DIW
 *** Questions
 | Slide | Page | Question                                              |
 |   030 |    6 | Why is there a dimension icon in addition to a folder |
@@ -396,6 +397,54 @@
      + An XML file can load subjects into multiple categories from one file
      + Elements in the XML file must match attribute labels of the category against which the file is loaded
      + XML file must conform to Kalido MDM Native XML file format
+*** Session 120 - Data Provider: Loading Data with a Reference to a Parent
+**** Goals
+     + Set up a feed definition to make an association to a parent subject at the time of loading
+     + Understand the importance of key prefix attributes of the parent category
+     + scenario when parent subject cannot be found
+**** Category Requirement
+     + If the category under data load has an association to a parent category with a reference attribute the subjects being loaded can be linked to parents
+     + When creating the feed definition select a column mapping between
+       - the reference attribute
+       - a column type of key
+       - the matching field of the parent category
+     + If an associated subject is not found the data is stored with the loaded record but not link is created
+*** Session 130 - Data Provider: Mapping
+**** Goals
+     + Describe what an automatic mapping process does
+     + two examples of mapping using mdm
+     + create a new mapping specification using the field comparison method in order to compare data between categories
+**** What
+     + Mapping is the automatic process of referencing subjects in one category(child) to another(parent)
+     + a reference attribute must be modeled between the two categories
+     + mapping is undertaken as a task
+     + a Mapping Specification contains the rules for identifying mappings
+**** Mapping methods
+     + Three mapping methods available
+       - Field Comparison
+       - Prior Match
+       - Lookup Table
+     + Most common method is field comparison
+      + Field comparison is a mapping method that compares an attribute value in child category to an attribute value in the parent category, if they match the subjects are mapped
+*** Session 140 - Data Provider: Complex Mapping
+**** Goals
+     + Use more than one set of cross match fields and a 'contains' criteria for comparing child to parent subjects
+     + deal with a mapping task that results in several possible matching parents
+     + describe the prior match mapping method and set up a spec to use it
+     + describe the lookup table mapping method and set up a spec to use it
+**** Mapping specification options
+     + can add additional cross match fields if the data needs to be matched on multiple sets of child and parent attributes
+     + can add additional mapping methods if data needs to be matched by different methods in sequence
+**** Prior Match mapping method
+     + A Prior Match mapping method checks if another subject in the child category matching the criteria has already been mapped to a subject in the parent category
+     + the child subject is then mapped to the same subject in the parent category
+     + the mapping can previously have been done manually or by a data load
+**** Lookup Table mapping method
+     + A lookup table is a category that contains two fields
+       - a lookup attribute; and
+       - a reference attribute
+     + the category subjects can then be used as a mapping method
+     + If an attribute of a subject in the child category matches a lookup attribute value a link is made to the subject in the parent category with the associated reference attribute
 *** Exercises
 **** Exercise 040 - Data Consumer: Browsing and Searching in the MDM
      + How many continents are stored in the Catalog?
@@ -419,6 +468,12 @@
      + Which ISO country has a capital Vilnius?
        Lithuania
        
+**** Exercise 130 - Data Provider: Mapping
+     + How many products mappped using selected matching criteria?
+       4
+**** Exercise 140 - Complex mapping
+     + How many products mapped using multi-match contains matching criteria?
+       8
 * Data Warehousing
 ** What
    Data warehousing is used to ask questions to the data in the organization. To that end the data warehouse is populated with organizational data which can then analyzed or reported using the tools provided by the warehouse. An expanded definition for a DW includes tools to extract, transform and load data into the repository and tools to manage and retrieve metadata.
@@ -463,16 +518,123 @@
    + the measures about these activities that are used to monitor and manage them ( such as gross sales, maintenance labor hours, volume, price, etc )
    + the business contexts in which these activities take place ( like facilities, equipmens, wells, customers, products, workers and suppliers)
    + and finally, the business rules binding these things together
+* CV Reverification
+** LON #34413 - DIW (BE associations missing after migration)
+*** Reprduction steps on 11703 where defect exists
+    - [X] On a source warehouse create a Parent CBE and give it a child CBE
+    - [X] Create a version with the parent and child CBE in it and migrate to a target instance.
+      - [X] Create version
+      - [X] Migrate to target instance
+    - [X] On the target instance create a BE for child and parent and associate them
+    - [X] On the the source instance remove the association between parent and child and save.
+    - [X] On the source instance reestablish the association between Parent and Child. Ensure that the association name between child and parent is the same as it was for the first assoc (this should happen automatically)
+    - [X] Create another version on the source which includes the parent and child CBEs.
+    - [X] Migrate the second version to the target instance without the SYNCHRONIZE_ON_LABEL parameter.
+**** After following the above steps the association between the BEs is not removed. This is incorrect because the association was recreated in the source which will cause it to have a different association id. The orgiginal association connecting the BEs on the target warehouse no longer exists. Unless the SYNCHRONIZE_ON_LABEL switch is provided the association should no longer persist on the target.
+*** Reprduction steps on 21802(rel8) where defect is fixed
+    - [X] On a source warehouse create a Parent CBE and give it a child CBE
+    - [X] Create a version with the parent and child CBE in it and migrate to a target instance.
+      - [X] Create version
+      - [X] Migrate to target instance
+    - [X] On the target instance create a BE for child and parent and associate them
+    - [X] On the the source instance remove the association between parent and child and save.
+    - [X] On the source instance reestablish the association between Parent and Child. Ensure that the association name between child and parent is the same as it was for the first assoc (this should happen automatically)
+    - [X] Create another version on the source which includes the parent and child CBEs.
+    - [X] Migrate the second version to the target instance without the SYNCHRONIZE_ON_LABEL parameter.
+**** After following above steps the connection between the BEs is removed.
+*** Questions
+    + What is use of SYNCHRONIZE_ON_LABEL parameter
+    + Since in step 5 the association is made betwee nparent and child how can we expect the association to be absent in the migrated server
+    + In steps 4 and 5 associations between parent and child are made and unmade. Since a version is made after *both* operations what is the relevance of said operation. Would it not make sense not to create the association at all in step 4 since it is unmade in step 5
+      - The relevance lies in the fact that history is maintained
+** LON #34412 - DIW (Slowness in deployment tab)
+*** Reproduce in DIW 8.4.22530 SP2 MR15
+    1. [X] Restore db 
+    2. [X] Install build
+    3. [X] Create warehouse using restored db
+    4. [X] Record time taken for following actions in explorer tab
+       + [X] Right click and select properties for dimension 
+             | Dimension        | Time to load properties |
+             | Billed to RIM    | 5 sec                   |
+             | Employee         | 10 sec                  |
+             | Activity * (All) | < 5 sec                 |
+       + [X] Right click and select properties for query definition
+             | Query                      | Time to load properties |
+             | Expand query definition    | 1 min 30 sec            |
+             | Attendance rate by BU Q110 | 10 sec                  |
+    5. [X] Record time taken for following actions in deployment tab
+       + [X] Create a new version - 10 min
+       + [X] Click on version history and select a version in the drop down
+             |        Version | Time to load |
+             |          7.3.0 | 45 sec       |
+             | Latest version | > 25 min     |
+*** Verify in DIW 8.5.21503 SP2 MR8
+    Restored db is already available in relevant build(by Pratyush)
+    1. [X] Record time taken for following actions in explorer tab
+       + [X] Right click and select properties for dimension
+             | Dimension        | Time to load properties |
+             | Billed to RIM    | 8 sec                   |
+             | Employee         | 5 sec                   |
+             | Activity * (All) | < 5 sec each            |
+       + [X] Right click and select properties for query definition
+             | Query                      | Time to load properties |
+             | Attendance rate by BU Q110 | 10 sec                  |
+    2. [X] Record time taken for following actions in deployment tab
+       + [X] Create a new version - 4 min 40 sec
+       + [X] Click on version history and select a version in the drop down
+             |        Version | Time to load |
+             |          7.3.0 | 36 sec       |
+             |          7.0.0 | 1 min 10 sec |
+             | Latest version | 1 min 45 sec |
+             |          3.0.0 | 52 sec       |
+
+** LON #34350 - MDM (Copy function on a published subject results in error)
+*** Reproduce in MDM 8.5.11603 MR6
+    1. [X] Install build
+    2. [X] Create a category and deploy it
+    3. [X] Create a subject of the category
+    4. [X] Authorize and publish the subject
+    5. [X] Search master context records and see the published subject
+    6. [X] View the subject and choose to copy
+**** Issue reproduced, an error "com.kalido.rdm.hubapi.wsclient.WSFaultException: Subject does not have an Id" resulted on completion of the reprodcution steps
+*** Verify in MDM 8.5.21802 MR8
+    1. [X] Install build
+    2. [X] Create a category and deploy it
+    3. [X] Create a subject of the category
+    4. [X] Authorize and publish the subject
+    5. [X] Search master context records and see the published subject
+    6. [X] View the subject and choose to copy
+**** Copy can be created
+** LON #34342 - MDM (Copying a subject and saving an attribute with a null value takes the original subjects attribute value)
+*** Reproduce in MDM 8.5.11603 MR6
+    1. [X] Set up a simple category with a mandatory code and name, the code has a key prefix and is the default lookup
+    2. [X] Create a subject against the category with valid code and name and publish
+    3. [X] Bring the subject back into workign context by adding it to basket nad emptying the basket
+    4. [X] Open the subject that is now in working context and hit Copy
+    5. [X] On next screen change code value to null and save
+**** Received error that default lookup code already in use by a different subject
+*** Verify in MDM 8.5.21802 MR8
+    1. [X] Set up a simple category with a mandatory code and name, the code has a key prefix and is the default lookup
+    2. [X] Create a subject against the category with valid code and name and publish
+    3. [X] Bring the subject back into workign context by adding it to basket nad emptying the basket
+    4. [X] Open the subject that is now in working context and hit Copy
+    5. [X] On next screen change code value to null and save
+**** Verified, able to create subject with warning that mandatory field is missing
 * Icons
 ** DIW
    + Dark Blue Cubes - CBE
    + Light Blue Squares - BE
    + Double Cube - Coding Structure
-   
-
 ** MDM
 | Icon           | Represents |
 | Pronged Symbol | Hub        |
 | Yellow cube    | Catalog    |
 | Grey cube      | Subject    |
 |                |            |
+
+
+* Questions
+|-------------------------+--------------------+--------|
+| Question                | Source             | Answer |
+|-------------------------+--------------------+--------|
+| What is a naming scheme | DIWTestPack.vb,533 |        |

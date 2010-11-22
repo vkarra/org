@@ -1,0 +1,93 @@
+* DIWTests
+** CSharpTests
+** DIWPerformancePack
+** DIWTestPack
+*** Details
+    + Contains test harness in DIWTestPack.vb
+    + Contains a host of utility functions
+    + Is coded in VB
+*** Folder Structure
+    + OfflineTaskutilities
+*** Files
+    + OfflineTaskUtilities.vb
+      This class is responsible for providing a set of helper functions that are common to two or more tests related to offline tasks
+      * Public Class OfflineTaskUtilities Inherits DiwTestPack
+	- Public Function LoadFromStagingTable
+	  Performs a staging table load for the supplied Generic CBE and checks against the supplied expected results
+	- Public Function LoadFromStagingTableForInvalidGenericCBE
+	  Invokes a staging table load for a supplied generic CBE where the expected outcome is CBE validation failure
+	- Public Sub InsertSingleRowStagingTableDataForCBE
+	  Inserts a single row of data into the staging table of the supplied CBE
+	- Public Sub InsertStagingTableDataForCBE
+	  Utility to insert generated data into the staging table for the supplied CBE
+	- Public Function CreateSourceTableForFeed
+	  Provides a database independent way of creating a table that can be used as the source when populating a staging table through a feed
+	- Public Sub TruncateStagingTableForCBE
+	- Public Sub DropStagingTableForCBE
+	- Public Sub TestCreateModifyAndDeleteLoadForCBE
+	  Takes a CBE and performs a load featuring creates, modifies and deletes
+	- Public Sub TestParallelLoads
+	  Takes details of two CBEs and respective feeds and loads data against them in parallel
+	- Public Sub TestSimpleExport
+	- Public Function CheckMappingTableColumns
+	  Checks the supplied mapping table compound to see if it contains *exactly* the columns supplied in the expectedColumns array
+	- Public Sub BuildMappingAndAttributeTableForCBE
+	  Build the attribute table and the mapping table for the supplied and ensure that they succeed
+	- Public Sub BuildMappingTableForCBE
+	- Public Sub BuildAttributeTableForCBE
+	- Public Sub TestBEHasBeenLoaded
+	  Test that the supplied BE is loaded correctly, should be called after a load to ensure that the database contents are being tested
+	- Public Sub TestBEGroupHasBeenLoaded
+    + OfflineTaskThread.vb
+      This class is responsible for wrapping an instance of an offline task and a thread to run it in. The class keeps a record of the return code from the offline task so that it can be obtained once the thread has completed
+      * Public Class OfflineTaskThread
+	- Public ReadOnly Property Result() As ExeResult
+	  Obtains the result from the last invocation of the offline task
+	- Public Sub Run
+	  Runs the offline task in the background thread, storign the result for later use
+	- Public Sub WaitForExit
+	  Synchronizes with the background thread, blocks until either the thread has completed or the default timeout period is exceeded
+	- Public Sub ThreadEntryPoint()
+	  Entry point for the thread, ie the function that is called when the background thread is started
+    + LogFileCustomCBELoader.vb
+      * Public Class logFileCustomCBELoader Inherits LogFile
+	- Shared ReadOnly Property DefaultFileName() As String
+	- Public Function VerifyRecordsLoaded As Boolean
+	- Public Function VerifyRecordsRejected As Boolean
+	- Public Function HasFailedtoFindFeedLabel As Boolean
+	- Public Function HasMissingFieldLabel As Boolean
+	- Public Function HasMandatoryFieldEmpty As Boolean
+    + ApplicationFactory.vb
+      * Public Class ApplicationFactory
+	- Public Shared Property SqlFiles() As StringCollection
+	- Public Overloads Shared Function BeginSession(Username,Password,GateKeeperCode,Optional ByVal CreateNonPooledSession as Boolean = True) As Session
+	  Returns a session object. If CreateNonPooledSession is False then the session is stored in a collection of sessions
+	- Public Shared Sub Cleanup	  
+    + CompareDB.vb
+      * Public Class CompareDB
+	- Public Property MaxErrors() As Integer
+	  This property is the maximum number of errors that are written to the log file before the comparison is abandoned
+	- Public Function Compare(dbRequestSpec, resultsFile, logFile, sqlFiles) As Boolean
+	  Used to compare the database specified via the parameters supplied to the constructor against the one described in the results file. Achieved by running the SQL operation specified by the sqloperation parameter against the target database and then comparing the resultant XML against the supplied results file
+	- Public Function CompareUsingSqlFile(sqlFile, rsultsFile, logFile) As Boolean
+	  Same as above but achieved by running the SQL operation contained within the XML file specified by the sqlFile parameter against the target database, and then comparing the resultant XML file against the supplied results file
+    + CreateBaseline.vb
+      * 
+    + Utilies83.vb
+      * Public Class Utilities83 Inherits Utilities82
+	 - Public Overloads Function isPost82() As Boolean
+	 - Public Sub RunCbeLoader(ByVal PathToLogFile As String, ByVal Oid As String, ByVal updateMethod As String, ByVal expectedResult As ExeResult)
+	 - Public Sub RunCbeLoader(ByVal PathToLogFile As String, ByVal Oid As String, ByVal updateMethod As String)
+	 - Public Sub CreateCustomTable(ByVal m_session As Session, ByVal custCBE As Cbe)
+	 - Overloads Sub setTDSStructureValidIfNeeded(ByVal tds As TransactionDataset)
+	 - Sub ConvertStandardCBEsToCustomCBEs(ByVal Session As Session, ByVal normalCbe As Cbe)
+	 - Public Overloads Sub SetPreProcIgnoreWarningsToTrueIfPossible(ByVal pp As ReferenceDataPreProcessor)
+    + DIWTestPack.vb
+      * Public Class DiwTestPack
+	- Public m_testDirectories as TestDirectories
+	- Public m_databaseType As String
+
+** DIWTestPackCSharp
+** DIWTutorialTests
+** DiwUITests
+** VBTests

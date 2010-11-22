@@ -1,10 +1,517 @@
-* Jazz
-| Artist           | Genre     |
-| Xploding Plastix | acid jazz |
-| Corduroy         | acid jazz |
-| Troublemakers    | downtempo |
-| Young Disciples  | acid jazz |
-| Alberty Ayler    | free jazz |
-| The Calling      | rock      |
-| Alex Band        | rock      |
-|                  |           |
+* Music
+| Artist               | Genre      |
+| Xploding Plastix     | acid jazz  |
+| Corduroy             | acid jazz  |
+| Troublemakers        | downtempo  |
+| Young Disciples      | acid jazz  |
+| Alberty Ayler        | free jazz  |
+| The Calling          | rock       |
+| Alex Band            | rock       |
+| Antonio Carlos Jobim | bossa nova |
+| Poncho Sanchez       | latin jazz |
+|                      |            |
+
+* Rolling Stones top 500
+|--------------------------------------------------------------------------------------------+------------+----------|
+| Album                                                                                      | Downloaded | Listened |
+|--------------------------------------------------------------------------------------------+------------+----------|
+| 1. Sgt. Pepper's Lonely Hearts Club Band THE BEATLES                                       |            |          |
+| 2. Pet Sounds THE BEACH BOYS                                                               |            |          |
+| 3. Revolver THE BEATLES                                                                    |            |          |
+| 4. Highway 61 Revisited BOB DYLAN                                                          |            |          |
+| 5. Rubber Soul THE BEATLES                                                                 |            |          |
+| 6. What's Going On MARVIN GAYE                                                             |            |          |
+| 7. Exile on Main Street THE ROLLING STONES                                                 |            |          |
+| 8. London Calling THE CLASH                                                                |            |          |
+| 9. Blonde on Blonde BOB DYLAN                                                              |            |          |
+| 10. The White Album THE BEATLES                                                            |            |          |
+| 11. Sunrise ELVIS PRESLEY                                                                  |            |          |
+| 12. Kind of Blue MILES DAVIS                                                               |            |          |
+| 13. The Velvet Underground THE VELVET UNDERGROUND & NICO                                   |            |          |
+| 14. Abbey Road THE BEATLES                                                                 |            |          |
+| 15. Are You Experienced? THE JIMI HENDRIX EXPERIENCE                                       |            |          |
+| 16. Blood On The Tracks BOB DYLAN                                                          |            |          |
+| 17. Nevermind NIRVANA                                                                      |            |          |
+| 18. Born To Run BRUCE SPRINGSTEEN                                                          |            |          |
+| 19. Astral Weeks VAN MORRISON                                                              |            |          |
+| 20. Thriller MICHAEL JACKSON                                                               |            |          |
+| 21. The Great Twenty-Eight CHUCK BERRY                                                     |            |          |
+| 22. The Complete Recordings ROBERT JOHNSON                                                 |            |          |
+| 23. Plastic Ono Band JOHN LENNON                                                           |            |          |
+| 24. Innervisions STEVIE WONDER                                                             |            |          |
+| 25. Live At The Apollo JAMES BROWN                                                         |            |          |
+| 26. Rumours FLEETWOOD MAC                                                                  |            |          |
+| 27. The Joshua Tree U2                                                                     |            |          |
+| 28. Who's Next THE WHO                                                                     |            |          |
+| 29. Led Zeppelin LED ZEPPELIN                                                              |            |          |
+| 30. Blue JONI MITCHELL                                                                     |            |          |
+| 31. Bringing It All Back Home BOB DYLAN                                                    |            |          |
+| 32. Let It Bleed THE ROLLING STONES                                                        |            |          |
+| 33. Ramones RAMONES                                                                        |            |          |
+| 34. Music From Big Pink THE BAND                                                           |            |          |
+| 35. The Rise and Fall of Ziggy Stardust and the Spiders From Mars DAVID BOWIE              |            |          |
+| 36. Tapestry CAROLE KING                                                                   |            |          |
+| 37. Hotel California THE EAGLES                                                            |            |          |
+| 38. The Anthology MUDDY WATERS                                                             |            |          |
+| 39. Please Please Me THE BEATLES                                                           |            |          |
+| 40. Forever Changes LOVE                                                                   |            |          |
+| 41. Never Mind the Bullocks, Here's the Sex Pistols THE SEX PISTOLS                        |            |          |
+| 42. The Doors THE DOORS                                                                    |            |          |
+| 43. The Dark Side of the Moon PINK FLOYD                                                   |            |          |
+| 44. Horses PATTI SMITH                                                                     |            |          |
+| 45. The Band THE BAND                                                                      |            |          |
+| 46. Legend BOB MARLEY AND THE WAILERS                                                      |            |          |
+| 47. A Love Supreme JOHN COLTRANE                                                           |            |          |
+| 48. It Takes a Nation of Millions to Hold Us Back PUBLIC ENEMY                             |            |          |
+| 49. At Fillmore East THE ALLMAN BROTHERS BAND                                              |            |          |
+| 50. Here's Little Richard LITTLE RICHARD                                                   |            |          |
+| 51. Bridge Over Troubled Water SIMON AND GARFUNKEL                                         |            |          |
+| 52. Greatest Hits AL GREEN                                                                 |            |          |
+| 53. Meet the Beatles THE BEATLES                                                           |            |          |
+| 54. The Birth of Soul: The Complete Atlantic R&B RAY CHARLES                               |            |          |
+| 55. Electric Ladyland JIMI HENDRIX EXPERIENCE                                              |            |          |
+| 56. Elvis Presley ELVIS PRESLEY                                                            |            |          |
+| 57. Songs in the Key of Life STEVIE WONDER                                                 |            |          |
+| 58. Beggar's Banquet THE ROLLING STONES                                                    |            |          |
+| 59. Trout Mask Replica CAPTAIN BEEFHEART AND HIS MAGIC BAND                                |            |          |
+| 60. Greatest Hits SLY & THE FAMILY STONE                                                   |            |          |
+| 61. Appetite for Destruction GUNS N' ROSES                                                 |            |          |
+| 62. Achtung Baby U2                                                                        |            |          |
+| 63. Sticky Fingers THE ROLLING STONES                                                      |            |          |
+| 64. Back to Mono PHIL SPECTOR                                                              |            |          |
+| 65. Moondance VAN MORRISON                                                                 |            |          |
+| 66. Led Zeppelin IV LED ZEPPELIN                                                           |            |          |
+| 67. The Stranger BILLY JOEL                                                                |            |          |
+| 68. Off The Wall MICHAEL JACKSON                                                           |            |          |
+| 69. Superfly CURTIS MAYFIELD                                                               |            |          |
+| 70. Physical Graffiti LED ZEPPELIN                                                         |            |          |
+| 71. After The Gold Rush NEIL YOUNG                                                         |            |          |
+| 72. Star Time JAMES BROWN                                                                  |            |          |
+| 73. Purple Rain PRINCE AND THE REVOLUTION                                                  |            |          |
+| 74. Back In Black AC/DC                                                                    |            |          |
+| 75. Otis Blue OTIS REDDING                                                                 |            |          |
+| 76. Led Zeppelin II LED ZEPPELIN                                                           |            |          |
+| 77. Imagine JOHN LENNON                                                                    |            |          |
+| 78. The Clash THE CLASH                                                                    |            |          |
+| 79. Harvest NEIL YOUNG                                                                     |            |          |
+| 80. Odessey and Oracle THE ZOMBIES                                                         |            |          |
+| 81. Graceland PAUL SIMON                                                                   |            |          |
+| 82. Axis: Bold As Love JIMI HENDRIX EXPERIENCE                                             |            |          |
+| 83. I Never Loved a Man the Way I Love You ARETHA FRANKLIN                                 |            |          |
+| 84. Lady Soul ARETHA FRANKLIN                                                              |            |          |
+| 85. Born in the U.S.A. BRUCE SPRINGSTEEN                                                   |            |          |
+| 86. Let It Be THE BEATLES                                                                  |            |          |
+| 87. The Wall PINK FLOYD                                                                    |            |          |
+| 88. At Folsom Prison JOHNNY CASH                                                           |            |          |
+| 89. Dusty in Memphis DUSTY SPRINGFIELD                                                     |            |          |
+| 90. Talking Book STEVIE WONDER                                                             |            |          |
+| 91. Goodbye Yellow Brick Road ELTON JOHN                                                   |            |          |
+| 92. 20 Golden Greats BUDDY HOLLY                                                           |            |          |
+| 93. Sign 'O' The Times PRINCE                                                              |            |          |
+| 94. 40 Greatest Hits HANK WILLIAMS                                                         |            |          |
+| 95. Bitches Brew MILES DAVIS                                                               |            |          |
+| 96. Green River CREEDENCE CLEARWATER REVIVAL                                               |            |          |
+| 97. Tommy THE WHO                                                                          |            |          |
+| 98. The Freewheelin' Bob Dylan BOB DYLAN                                                   |            |          |
+| 99. This Year's Model ELVIS COSTELLO                                                       |            |          |
+| 100. There's a Riot Goin' On SLY & THE FAMILY STONE                                        |            |          |
+| 101. In The Wee Small Hours FRANK SINATRA                                                  |            |          |
+| 102. Fresh Cream CREAM                                                                     |            |          |
+| 103. Giant Steps JOHN COLTRANE                                                             |            |          |
+| 104. Sweet Baby James JAMES TAYLOR                                                         |            |          |
+| 105. Modern Sounds in Country and Western Music RAY CHARLES                                |            |          |
+| 106. Rocket to Russia RAMONES                                                              |            |          |
+| 107. Portrait of a Legend 1951-1964 SAM COOKE                                              |            |          |
+| 108. Hunky Dory DAVID BOWIE                                                                |            |          |
+| 109. Aftermath THE ROLLING STONES                                                          |            |          |
+| 110. Loaded THE VELVET UNDERGROUND                                                         |            |          |
+| 111. The Bends RADIOHEAD                                                                   |            |          |
+| 112. If You Can Believe Your Eyes and Ears THE MAMAS AND THE PAPAS                         |            |          |
+| 113. Court and Spark JONI MITCHELL                                                         |            |          |
+| 114. Disraeli Gears CREAM                                                                  |            |          |
+| 115. The Who sell Out THE WHO                                                              |            |          |
+| 116. Out of Our Heads THE ROLLING STONES                                                   |            |          |
+| 117. Layla and Other Assorted Love Songs DEREK AND THE DOMINOES                            |            |          |
+| 118. At Last! ETTA JAMES                                                                   |            |          |
+| 119. Sweetheart of the Rodeo THE BYRDS                                                     |            |          |
+| 120. Stand! SLY & THE FAMILY STONE                                                         |            |          |
+| 121. The Harder They Come ORIGINAL SOUNDTRACK                                              |            |          |
+| 122. Raising Hell RUN DMC                                                                  |            |          |
+| 123. Moby Grape MOBY GRAPE                                                                 |            |          |
+| 124. Pearl JANIS JOPLIN                                                                    |            |          |
+| 125. Catch a Fire BOB MARLEY AND THE WAILERS                                               |            |          |
+| 126. Younger Than Yesterday THE BYRDS                                                      |            |          |
+| 127. Raw Power THE STOOGES                                                                 |            |          |
+| 128. Remain in Light TALKING HEADS                                                         |            |          |
+| 129. Marquee Moon TELEVISION                                                               |            |          |
+| 130. Paranoid BLACK SABBATH                                                                |            |          |
+| 131. Saturday Night Fever ORIGINAL SOUNDTRACK                                              |            |          |
+| 132. The Wild, the Innocent and the E Street Shuffle BRUCE SPRINGSTEEN                     |            |          |
+| 133. Ready To Die THE NOTORIOUS B.I.G.                                                     |            |          |
+| 134. Slanted and Enchanted PAVEMENT                                                        |            |          |
+| 135. Greatest Hits ELTON JOHN                                                              |            |          |
+| 136. Tim THE REPLACEMENTS                                                                  |            |          |
+| 137. The Chronic DR. DRE                                                                   |            |          |
+| 138. Rejuvuenation THE METERS                                                              |            |          |
+| 139. All That You Can't Leave Behind U2                                                    |            |          |
+| 140. Parallel Lines BLONDIE                                                                |            |          |
+| 141. Live at the Regal B.B. KING                                                           |            |          |
+| 142. A Christmas Gift for You PHIL SPECTOR                                                 |            |          |
+| 143. Gris-Gris DR. JOHN                                                                    |            |          |
+| 144. Straight Outta Compton N.W.A.                                                         |            |          |
+| 145. Aja STEELY DAN                                                                        |            |          |
+| 146. Surrealistic Pillow JEFFERSON AIRPLANE                                                |            |          |
+| 147. Deja Vu CROSBY, STILLS , NASH AND YOUNG                                               |            |          |
+| 148. Houses of the Holy LED ZEPPELIN                                                       |            |          |
+| 149. Santana SANTANA                                                                       |            |          |
+| 150. Darkness on the Edge of Town BRUCE SPRINGSTEEN                                        |            |          |
+| 151. The B-52's THE B-52'S                                                                 |            |          |
+| 152. The Low End Theory A TRIBE CALLED QUEST                                               |            |          |
+| 153. Moanin' in the Moonlight HOWLIN' WOLF                                                 |            |          |
+| 154. Pretenders THE PRETENDERS                                                             |            |          |
+| 155. Paul's Boutique BEASTIE BOYS                                                          |            |          |
+| 156. Closer JOY DIVISION                                                                   |            |          |
+| 157. Captain Fantastic and the Brown Dirt Cowboy ELTON JOHN                                |            |          |
+| 158. Alive KISS                                                                            |            |          |
+| 159. Electric Warrior T.REX                                                                |            |          |
+| 160. The Dock of the Bay OTIS REDDING                                                      |            |          |
+| 161. OK Computer RADIOHEAD                                                                 |            |          |
+| 162. 1999 PRINCE                                                                           |            |          |
+| 163. Heart Like a Wheel LINDA RONSTADT                                                     |            |          |
+| 164. Let's Get It On MARVIN GAYE                                                           |            |          |
+| 165. Imperial Bedroom EVLIS COSTELLO AND THE ATTRACTIONS                                   |            |          |
+| 166. Master of Puppets METALLICA                                                           |            |          |
+| 167. My Aim Is True ELVIS COSTELLO                                                         |            |          |
+| 168. Exodus BOB MARLEY AND THE WAILERS                                                     |            |          |
+| 169. Live at Leeds THE WHO                                                                 |            |          |
+| 170. The Notorious Byrd Brothers THE BYRDS                                                 |            |          |
+| 171. Every Picture Tells a Story ROD STEWART                                               |            |          |
+| 172. Something / Anything? TODD RUNDGREN                                                   |            |          |
+| 173. Desire BOB DYLAN                                                                      |            |          |
+| 174. Close to You THE CARPENTERS                                                           |            |          |
+| 175. Rocks AEROSMITH                                                                       |            |          |
+| 176. One Nation Under a Groove FUNKADELIC                                                  |            |          |
+| 177. The Anthology 1961-1977 CURTIS MAYFIELD AND THE IMPRESSIONS                           |            |          |
+| 178. The Definitive Collection ABBA                                                        |            |          |
+| 179. The Rolling Stones, Now! THE ROLLING STONES                                           |            |          |
+| 180. Natty Dread BOB MARLEY AND THE WAILERS                                                |            |          |
+| 181. Fleetwood Mac FLEETWOOD MAC                                                           |            |          |
+| 182. Red Headed Stranger WILLIE NELSON                                                     |            |          |
+| 183. The Stooges THE STOOGES                                                               |            |          |
+| 184. Fresh SLY & THE FAMILY STONE                                                          |            |          |
+| 185. So PETER GABRIEL                                                                      |            |          |
+| 186. Buffalo Springfield Again BUFFALO SPRINGFIELD                                         |            |          |
+| 187. Happy Trails QUICKSILVER MESSENGER SERVICE                                            |            |          |
+| 188. From Elvis in Memphis ELVIS PRESLEY                                                   |            |          |
+| 189. Fun House THE STOOGES                                                                 |            |          |
+| 190. The Gilded Palace of Sin THE FLYING BURRITO BROTHERS                                  |            |          |
+| 191. Dookie GREEN DAY                                                                      |            |          |
+| 192. Transformer LOU REED                                                                  |            |          |
+| 193. Blues Breakers JOHN MAYALL with ERIC CLAPTON                                          |            |          |
+| 194. Nuggets: Original Artyfacts From the First Psychedelic Era, 1965-1968 VARIOUS ARTISTS |            |          |
+| 195. Murmur R.E.M.                                                                         |            |          |
+| 196. The Best Of LITTLE WALTER                                                             |            |          |
+| 197. Highway To Tell AC/DC                                                                 |            |          |
+| 198. The Dowward Spiral NINE INCH NAILS                                                    |            |          |
+| 199. Parsley Sage, Rosemary and Thyme SIMON AND GARFUNKEL                                  |            |          |
+| 200. Bad MICHAEL JACKSON                                                                   |            |          |
+| 201. Wheels of Fire CREAM                                                                  |            |          |
+| 202. Dirty Mind PRINCE                                                                     |            |          |
+| 203. Abraxas SANTANA                                                                       |            |          |
+| 204. Tea for the Tillerman CAT STEVENS                                                     |            |          |
+| 205. Ten PEARL JAM                                                                         |            |          |
+| 206. Everybody Knows This Is Nowhere NEIL YOUNG with CRAZY HORSE                           |            |          |
+| 207. Wish You Were Here PINK FLOYD                                                         |            |          |
+| 208. Crooked Rain, Crooked Rain PAVEMENT                                                   |            |          |
+| 209. Tattoo You THE ROLLING STONES                                                         |            |          |
+| 210. Proud Mary: The Best of IKE and TINA TURNER                                           |            |          |
+| 211. New York Dolls NEW YORK DOLLS                                                         |            |          |
+| 212. Bo Diddley / Go Bo Diddley BO DIDDLEY                                                 |            |          |
+| 213. Two Steps From The Blues BOBBY BLAND                                                  |            |          |
+| 214. The Queen Is Dead THE SMITHS                                                          |            |          |
+| 215. Licensed to Ill BEASTIE BOYS                                                          |            |          |
+| 216. Look-Ka Py Py THE METERS                                                              |            |          |
+| 217. Loveless MY BLOODY VALENTINE                                                          |            |          |
+| 218. New Orleans Piano PROFESSOR LONGHAIR                                                  |            |          |
+| 219. War U2                                                                                |            |          |
+| 220. The Neil Diamond Collection NEIL DIAMOND                                              |            |          |
+| 221. Nebraska BRUCE SPRINGSTEEN                                                            |            |          |
+| 222. Doolittle PIXIES                                                                      |            |          |
+| 223. Paid In Full ERIC B. & RAKIM                                                          |            |          |
+| 224. Toys in the Attic AEROSMITH                                                           |            |          |
+| 225. Nick of Time BONNIE RAITT                                                             |            |          |
+| 226. A Night at the Opera QUEEN                                                            |            |          |
+| 227. The Kink Kronikles THE KINKS                                                          |            |          |
+| 228. Mr. Tambourine Man THE BYRDS                                                          |            |          |
+| 229. Bookends SIMON AND GARFUNKEL                                                          |            |          |
+| 230. The Ultimate Collection PATSY CLINE                                                   |            |          |
+| 231. Mr. Excitement! JACKIE WILSON                                                         |            |          |
+| 232. The Who Sings My Generation THE WHO                                                   |            |          |
+| 233. Howlin' Wolf HOWLIN" WOLF                                                             |            |          |
+| 234. Like a Prayer MADONNA                                                                 |            |          |
+| 235. Can't Buy a Thrill STEELY DAN                                                         |            |          |
+| 236. Let It Be THE REPLACEMENTS                                                            |            |          |
+| 237. Run-DMC Run-DMC                                                                       |            |          |
+| 238. Black Sabbath BLACK SABBATH                                                           |            |          |
+| 239. All Killer, NO Filler! JERRY LEE LEWIS                                                |            |          |
+| 240. Freak Out! THE MOTHERS OF INVENTION                                                   |            |          |
+| 241. Live Dead GRATEFUL DEAD                                                               |            |          |
+| 242. Bryter Layter NICK DRAKE                                                              |            |          |
+| 243. The Shape of Jazz to Come ORNETTE COLEMAN                                             |            |          |
+| 244. Automatic for the People R.E.M.                                                       |            |          |
+| 245. Reasonable Doubt JAY-Z                                                                |            |          |
+| 246. Low DAVID BOWIE                                                                       |            |          |
+| 247. The River BRUCE SPRINGSTEEN                                                           |            |          |
+| 248. Dictionary of Soul OTIS REDDING                                                       |            |          |
+| 249. Metallica METALLICA                                                                   |            |          |
+| 250. Trans-Europe Express KRAFTWERK                                                        |            |          |
+| 251. Whitney Houston WHITNEY HOUSTON                                                       |            |          |
+| 252. The Village Green Preservation Society THE KINKS                                      |            |          |
+| 253. The Velvet Rope JANET JACKSON                                                         |            |          |
+| 254. Stadust WILLIE NELSON                                                                 |            |          |
+| 255. American Beauty GRATEFUL DEAD                                                         |            |          |
+| 256. Crosby Stills and Nash CROSBY, STILLS AND NASH                                        |            |          |
+| 257. Buena Vista Social Club BUENA VISTA SOCIAL CLUB                                       |            |          |
+| 258. Tracy Chapman TRACY CHAPMAN                                                           |            |          |
+| 259. Workingman's Dead GRATEFUL DEAD                                                       |            |          |
+| 260. The Genius of RAY CHARLES                                                             |            |          |
+| 261. Child is Father to the Man BLOOD, SWEAT AND TEARS                                     |            |          |
+| 262. Cosmo's Factory CREEDENCE CLEARWATER REVIVAL                                          |            |          |
+| 263. Quadrophenia THE WHO                                                                  |            |          |
+| 264. There Goes Rhymin' Simon PAUL SIMON                                                   |            |          |
+| 265. Psycho Candy THE JESUS AND MARY CHAIN                                                 |            |          |
+| 266. Some Girls THE ROLLING STONES                                                         |            |          |
+| 267. The Beach Boys Today! THE BEACH BOYS                                                  |            |          |
+| 268. Going to a Go-Go SMOKEY ROBINSON/THE MIRACLES                                         |            |          |
+| 269. Nightbirds LABELLE                                                                    |            |          |
+| 270. The Slim Shady LP EMINEM                                                              |            |          |
+| 271. Mothership Connection PARLIAMENT                                                      |            |          |
+| 272. Rhythm Nation 1814 JANET JACKSON                                                      |            |          |
+| 273. Anthology of American Folk Music HARRY SMITH, ED.                                     |            |          |
+| 274. Aladdin Sane DAVID BOWIE                                                              |            |          |
+| 275. The Immaculate Collection MADONNA                                                     |            |          |
+| 276. My Life MARY J. BLIGE                                                                 |            |          |
+| 277. Folk Singer MUDDY WATERS                                                              |            |          |
+| 278. Can't Get Enough BARRY WHITE                                                          |            |          |
+| 279. The Cars THE CARS                                                                     |            |          |
+| 280. Five Leaves Left NICK DRAKE                                                           |            |          |
+| 281. Music of My Mind STEVIE WONDER                                                        |            |          |
+| 282. I'm Still in Love With You AL GREEN                                                   |            |          |
+| 283. Los Angeles X                                                                         |            |          |
+| 284. Anthem of the Sun GRATEFUL DEAD                                                       |            |          |
+| 285. Something Else By THE KINKS                                                           |            |          |
+| 286. Call Me AL GREEN                                                                      |            |          |
+| 287. Talking Heads: 77 TALKING HEADS                                                       |            |          |
+| 288. The Basement Tapes BOB DYLAN AND THE BAND                                             |            |          |
+| 289. White Light / White Heat THE VELVET UNDERGROUND                                       |            |          |
+| 290. Kick Out the Jams MC5                                                                 |            |          |
+| 291. Meat is Murder THE SMITHS                                                             |            |          |
+| 292. We're Only in It for the Money THE MOTHERS OF INVENTION                               |            |          |
+| 293. Weezer (The Blue Album) WEEZER                                                        |            |          |
+| 294. Master of Reality BLACK SABBATH                                                       |            |          |
+| 295. Coat of Many Colors DOLLY PARTON                                                      |            |          |
+| 296. Fear of a Black Planet PUBLIC ENEMY                                                   |            |          |
+| 297. John Wesley Harding BOB DYLAN                                                         |            |          |
+| 298. The Marshall Mathers LP EMINEM                                                        |            |          |
+| 299. Grace JEFF BUCKLEY                                                                    |            |          |
+| 300. Car Wheels on a Gravel Road LUCINDA WILLIAMS                                          |            |          |
+| 301. Odelay BECK                                                                           |            |          |
+| 302. Songs for Swingin' Lovers FRANK SINATRA                                               |            |          |
+| 303. Avalon ROXY MUSIC                                                                     |            |          |
+| 304. The Sun Records Collection VARIOUS ARTISTS                                            |            |          |
+| 305. Nothing's Shocking JANE'S ADDICTION                                                   |            |          |
+| 306. BloodSugarSexMagik RED HOT CHILI PEPPERS                                              |            |          |
+| 307. MTV Unplugged in New York NIRVANA                                                     |            |          |
+| 308. The Miseducation of LAURYN HILL                                                       |            |          |
+| 309. Damn The Torpedoes TOM PETTY & THE HEARTBREAKERS                                      |            |          |
+| 310. The Velvet Underground THE VELVET UNDERGROUND                                         |            |          |
+| 311. Surfer Rosa PIXIES                                                                    |            |          |
+| 312. Rock Steady NO DOUBT                                                                  |            |          |
+| 313. The Eminem Show EMINEM                                                                |            |          |
+| 314. Back Stabbers THE O'JAYS                                                              |            |          |
+| 315. Burnin' THE WAILERS                                                                   |            |          |
+| 316. Pink Moon NICK DRAKE                                                                  |            |          |
+| 317. Sail Away RANDY NEWMAN                                                                |            |          |
+| 318. Ghost in the Machine THE POLICE                                                       |            |          |
+| 319. Station to Station DAVID BOWIE                                                        |            |          |
+| 320. The Very Best of LINDA RONSTADT                                                       |            |          |
+| 321. Slowhand ERIC CLAPTON                                                                 |            |          |
+| 322. Disintegration THE CURE                                                               |            |          |
+| 323. Jagged Little Pill ALANIS MORISSETTE                                                  |            |          |
+| 324. Exile in Guyville LIZ PHAIR                                                           |            |          |
+| 325. Daydream Nation SONIC YOUTH                                                           |            |          |
+| 326. In The Jungle Groove JAMES BROWN                                                      |            |          |
+| 327. Tonight's The Night NEIL YOUNG                                                        |            |          |
+| 328. Help! THE BEATLES                                                                     |            |          |
+| 329. Shoot Out the Lights RICHARD AND LINDA THOMPSON                                       |            |          |
+| 330. Wild Gift X                                                                           |            |          |
+| 331. Squeezing Out Sparks GRAHAM PARKER                                                    |            |          |
+| 332. Superunknown SOUNDGARDEN                                                              |            |          |
+| 333. Aqualung JETHRO TULL                                                                  |            |          |
+| 334. Cheap Thrills BIG BROTHER & HOLDING COMPANY                                           |            |          |
+| 335. The Heart of Saturday Night TOM WAITS                                                 |            |          |
+| 336. Damaged BLACK FLAG                                                                    |            |          |
+| 337. Play MOBY                                                                             |            |          |
+| 338. Violator DEPECHE MODE                                                                 |            |          |
+| 339. Bat Out of Hell MEAT LOAF                                                             |            |          |
+| 340. Berlin LOU REED                                                                       |            |          |
+| 341. Stop Making Sense TALKING HEADS                                                       |            |          |
+| 342. 3 Feet High and Rising DE LA SOUL                                                     |            |          |
+| 343. The Piper at the Gates of Dawn PINK FLOYD                                             |            |          |
+| 344. At Newport 1960 MUDDY WATERS                                                          |            |          |
+| 345. Roger the Engineer THE YARDBIRDS                                                      |            |          |
+| 346. Rust Never Sleeps NEIL YOUNG AND CRAZY HORSE                                          |            |          |
+| 347. Brothers in Arms DIRE STRAITS                                                         |            |          |
+| 348. 52nd Street BILLY JOEL                                                                |            |          |
+| 349. Having a Rave Up with THE YARDBIRDS                                                   |            |          |
+| 350. 12 Songs RANDY NEWMAN                                                                 |            |          |
+| 351. Between the Buttons THE ROLLING STONES                                                |            |          |
+| 352. Sketches of Spain MILES DAVIS                                                         |            |          |
+| 353. Honky Chateau ELTON JOHN                                                              |            |          |
+| 354. Singles Going Steady THE BUZZCOCKS                                                    |            |          |
+| 355. Stankonia OUTKAST                                                                     |            |          |
+| 356. Siamese Dream THE SMASHING PUMPKINS                                                   |            |          |
+| 357. Substance NEW ORDER                                                                   |            |          |
+| 358. L.A. Woman THE DOORS                                                                  |            |          |
+| 359. Ray of Light MADONNA                                                                  |            |          |
+| 360. American Recordings JOHNNY CASH                                                       |            |          |
+| 361. Louder Than Bombs THE SMITHS                                                          |            |          |
+| 362. Mott the Hoople MOTT                                                                  |            |          |
+| 363. Is This It THE STROKES                                                                |            |          |
+| 364. Rage Against the Machine RAGE AGAINST THE MACHINE                                     |            |          |
+| 365. Regatta de Blanc THE POLICE                                                           |            |          |
+| 366. Volunteers JEFFERSON AIRPLANE                                                         |            |          |
+| 367. Siren ROXY MUSIC                                                                      |            |          |
+| 368. Late for the Sky JACKSON BROWNE                                                       |            |          |
+| 369. Post BJORK                                                                            |            |          |
+| 370. The Eagles THE EAGLES                                                                 |            |          |
+| 371. The Ultimate Collection 1948-1990 JOHN LEE HOOKER                                     |            |          |
+| 372. (What's the Story) Morning Glory? OASIS                                               |            |          |
+| 373. CrazySexyCool TLC                                                                     |            |          |
+| 374. Funky Kingston TOOTS AND THE MAYTALS                                                  |            |          |
+| 375. Greetings from Asbury Park BRUCE SPRINGSTEEN                                          |            |          |
+| 376. Sunflower THE BEACH BOYS                                                              |            |          |
+| 377. Modern Lovers MODERN LOVERS                                                           |            |          |
+| 378. More Songs About Buildings and Food TALKING HEADS                                     |            |          |
+| 379. A Quick One (Happy Jack) THE WHO                                                      |            |          |
+| 380. Pyromania DEF LEPPARD                                                                 |            |          |
+| 381. Pretzel Logic STEELY DAN                                                              |            |          |
+| 382. Enter the Wu-Tang: 36 Chambers WU-TANG CLAN                                           |            |          |
+| 383. Country Life ROXY MUSIC                                                               |            |          |
+| 384. A Hard Day's Night THE BEATLES                                                        |            |          |
+| 385. The End of the Innocence DON HENLEY                                                   |            |          |
+| 386. Elephant THE WHITE STRIPES                                                            |            |          |
+| 387. The Pretender JACKSON BROWNE                                                          |            |          |
+| 388. Willy and the Poor Boys CREEDENCE CLEARWATER REVIVAL                                  |            |          |
+| 389. Good Old Boys RANDY NEWMAN                                                            |            |          |
+| 390. For Your Pleasure ROXY MUSIC                                                          |            |          |
+| 391. Blue Lines MASSIVE ATTACK                                                             |            |          |
+| 392. Eliminator ZZ TOP                                                                     |            |          |
+| 393. Rain Dogs TOM WAITS                                                                   |            |          |
+| 394. Anthology THE TEMPTATIONS                                                             |            |          |
+| 395. Californication RED HOT CHILI PEPPERS                                                 |            |          |
+| 396. Illmatic NAS                                                                          |            |          |
+| 397. (Pronounced Leh-nerd Skin-Nerd) LYNYRD SKYNYRD                                        |            |          |
+| 398. Dr. John's Gumbo DR. JOHN                                                             |            |          |
+| 399. Radio City BIG STAR                                                                   |            |          |
+| 400. Sandinista! THE CLASH                                                                 |            |          |
+| 401. Rid of Me PJ HARVEY                                                                   |            |          |
+| 402. I Do Not Want What I Haven't Got SINEAD O'CONNOR                                      |            |          |
+| 403. Strange Days THE DOORS                                                                |            |          |
+| 404. Time Out of Mind BOB DYLAN                                                            |            |          |
+| 405. 461 Ocean Boulevard ERIC CLAPTON                                                      |            |          |
+| 406. Pink Flag WIRE                                                                        |            |          |
+| 407. Double Nickels on the Dime MINUTEMEN                                                  |            |          |
+| 408. Mezzanine MASSIVE ATTACK                                                              |            |          |
+| 409. Beauty and the Beat THE GO-GO's                                                       |            |          |
+| 410. Van Halen VAN HALEN                                                                   |            |          |
+| 411. Mule Variations TOM WAITS                                                             |            |          |
+| 412. Boy U2                                                                                |            |          |
+| 413. Band on the Run WINGS                                                                 |            |          |
+| 414. Dummy PORTISHEAD                                                                      |            |          |
+| 415. The "Chirping" Crickets BUDDY HOLLY & CRICKETS                                        |            |          |
+| 416. The Best of the Girl Groups Vol. 1 & 2 VARIOUS ARTISTS                                |            |          |
+| 417. Changesone DAVID BOWIE                                                                |            |          |
+| 418. The Battle of Los Angelos RAGE AGAINST THE MACHINE                                    |            |          |
+| 419. Presenting the Fabulous Ronettes THE RONETTES                                         |            |          |
+| 420. Kid A RADIOHEAD                                                                       |            |          |
+| 421. Grievous Angel GRAM PARSONS                                                           |            |          |
+| 422. At Budakan CHEAP TRICK                                                                |            |          |
+| 423. Anthology DIANA ROSS AND THE SUPREMES                                                 |            |          |
+| 424. Sleepless PETER WOLF                                                                  |            |          |
+| 425. Another Green World BRIAN ENO                                                         |            |          |
+| 426. Outlandos d'Amour THE POLICE                                                          |            |          |
+| 427. To Bring You My Love PJ HARVEY                                                        |            |          |
+| 428. Here Come the Warm Jets BRIAN ENO                                                     |            |          |
+| 429. All Things Must Pass GEORGE HARRISON                                                  |            |          |
+| 430. #1 Record BIG STAR                                                                    |            |          |
+| 431. In Utero NIRVANA                                                                      |            |          |
+| 432. Sea Change BECK                                                                       |            |          |
+| 433. Tragic Kingdom NO DOUBT                                                               |            |          |
+| 434. Boys Don't Cry THE CURE                                                               |            |          |
+| 435. Live at the Harlem Square Club, 1963 SAM COOKE                                        |            |          |
+| 436. Criminal Minded BOOGIE DOWN PRODUCTIONS                                               |            |          |
+| 437. Rum, Sodomy and the Lash THE POGUES                                                   |            |          |
+| 438. Suicide SUICIDE                                                                       |            |          |
+| 439. Q: Are We Not Men? A:We Are Devo! DEVO                                                |            |          |
+| 440. In Color CHEAP TRICK                                                                  |            |          |
+| 441. The World Is a Ghetto WAR                                                             |            |          |
+| 442. Fly Like an Eagle STEVE MILLER BAND                                                   |            |          |
+| 443. Back in the USA MC5                                                                   |            |          |
+| 444. Music MADONNA                                                                         |            |          |
+| 445. Ritual de lo Habitual JANE'S ADDICTION                                                |            |          |
+| 446. Getz / Gilberto STAN GETZ                                                             |            |          |
+| 447. Synchronicity THE POLICE                                                              |            |          |
+| 448. Third/Sister Lovers BIG STAR                                                          |            |          |
+| 449. For Everyman JACKSON BROWNE                                                           |            |          |
+| 450. John Prine JOHN PRINE                                                                 |            |          |
+| 451. Strictly Business EPMD                                                                |            |          |
+| 452. Love It to Death ALICE COOPER                                                         |            |          |
+| 453. How Will the Wolf Survive? LOS LOBOS                                                  |            |          |
+| 454. Here, My Dear MARVIN GAYE                                                             |            |          |
+| 455. Tumbleweed Connection ELTON JOHN                                                      |            |          |
+| 456. The Blueprint JAY-Z                                                                   |            |          |
+| 457. Golden Hits THE DRIFTERS                                                              |            |          |
+| 458. Live Through This HOLE                                                                |            |          |
+| 459. Love and Theft BOB DYLAN                                                              |            |          |
+| 460. Elton John ELTON JOHN                                                                 |            |          |
+| 461. Metal Box PUBLIC IMAGE LTD.                                                           |            |          |
+| 462. Document R.E.M.                                                                       |            |          |
+| 463. Heaven Up Here ECHO & THE BUNNYMEN                                                    |            |          |
+| 464. Hysteria DEF LEPPARD                                                                  |            |          |
+| 465. A Rush of Blood to the Head COLDPLAY                                                  |            |          |
+| 466. Live in Europe OTIS REDDING                                                           |            |          |
+| 467. Tunnel of Love BRUCE SPRINGSTEEN                                                      |            |          |
+| 468. The Paul Butterfield Blues Band THE PAUL BUTTERFIELD BLUES BAND                       |            |          |
+| 469. The Score THE FUGEES                                                                  |            |          |
+| 470. Radio LL COOL J                                                                       |            |          |
+| 471. I Want to See the Bright Lights Tonight RICHARD AND LINDA THOMPSON                    |            |          |
+| 472. Faith GEORGE MICHAEL                                                                  |            |          |
+| 473. The Smiths THE SMITHS                                                                 |            |          |
+| 474. Armed Forces ELVIS COSTELLO AND THE ATTRACTIONS                                       |            |          |
+| 475. Life After Death THE NOTORIOUS B.I.G.                                                 |            |          |
+| 476. Branded Man MERLE HAGGARD                                                             |            |          |
+| 477. All-Time Greatest Hits LORETTA LYNN                                                   |            |          |
+| 478. Maggot Brain FUNKADELIC                                                               |            |          |
+| 479. Mellon Collie and the Infinite Sadness THE SMASHING PUMPKINS                          |            |          |
+| 480. Voodoo D'ANGELO                                                                       |            |          |
+| 481. Guitar Town STEVE EARLE                                                               |            |          |
+| 482. Entertainment GANG OF FOUR                                                            |            |          |
+| 483. All The Young Dudes MOTT THE HOOPLE                                                   |            |          |
+| 484. Vitalogy PEARL JAM                                                                    |            |          |
+| 485. That's the Way of the World EARTH, WIND AND FIRE                                      |            |          |
+| 486. She's So Unusual CYNDI LAUPER                                                         |            |          |
+| 487. New Day Rising HUSKER DU                                                              | Y          |          |
+| 488. Destroyer KISS                                                                        | Y          |          |
+| 489. Yo! Bum Rush the Show PUBLIC ENEMY                                                    | Y          |          |
+| 490. Tres Hombres ZZ TOP                                                                   | Y          |          |
+| 491. Born Under a Bad Sign ALBERT KING                                                     |            |          |
+| 492. Touch EURYTHMICS                                                                      |            |          |
+| 493. Yankee Hotel Foxtrot WILCO                                                            | Y          |          |
+| 494. Boz Scaggs BOZ SCAGGS                                                                 |            |          |
+| 495. New Boots and Panties!! IAN DURY AND THE BLOCKHEADS                                   | Y          |          |
+| 496. Give It Up BONNIE RAITT                                                               |            |          |
+| 497. The Stone Roses THE STONE ROSES                                                       |            |          |
+| 498. Head Hunters HERBIE HANCOCK                                                           | Y          |          |
+| 499. Live at Cook County Jail B.B. KING                                                    |            |          |
+| 500. Aquemini OUTKAST                                                                      | Y          |          |

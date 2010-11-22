@@ -1,0 +1,20 @@
+* Present a session on code coverage in DIW
+** Outcome
+   Present a session on code coverage that encompasses my work
+** Why?
+   + to share current status of code coverage in DIW
+   + to present an update of my work till date
+   + to present techniques of code coverage
+   + to generate comments from team
+   + posit improvements on the lines of code quality analysis
+** What?
+   + http://www.bullseye.com/coverage.html
+   + http://www.ibm.com/developerworks/java/library/j-cq01316/
+   + http://www.ericsink.com/articles/Code_Coverage.html
+   + http://blog.objectmentor.com/articles/2010/05/28/a-coverage-metric-that-matters
+   + http://blogs.msdn.com/b/codeanalysis/archive/2007/10/03/new-for-visual-studio-2008-code-metrics.aspx
+   + http://googletesting.blogspot.com/2010/07/code-coverage-goal-80-and-no-less.html
+   + http://blogs.msdn.com/b/seliot/archive/2010/01/05/code-coverage-it-s-exciting.aspx
+   + http://msdn.microsoft.com/en-us/magazine/cc163981.aspx
+   + http://blogs.msdn.com/b/ms_joc/archive/2005/04/08/406608.aspx
+   + http://searchsoftwarequality.techtarget.com/tip/0,289483,sid92_gci1306495,00.html

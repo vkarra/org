@@ -1,0 +1,794 @@
+                           kalido-training
+                           ===============
+
+Author: 
+Date: 2010-09-21 16:56:06 
+
+
+Table of Contents
+=================
+1 Slides 
+    1.1 DIW 
+        1.1.1 Session 030 - Viewing data in the explorer 
+        1.1.2 Session 040 - Creating a Query Definition and a Result Set 
+        1.1.3 Session 050 - Training Business Model Explained 
+        1.1.4 Session 060 - Result Set with Constraints 
+        1.1.5 Session 070 - Manually Creating Reference Data 
+        1.1.6 Session 080 - Reference Data Loading 
+        1.1.7 Session 090 - Loading Multi-levels of a hierarchy 
+        1.1.8 Tutorial 100 - Mapping Tables and Attribute Tables 
+        1.1.9 Session 110 - Updating Reference Data / Loading partial records 
+        1.1.10 Session 150 - Introduction to Measures 
+        1.1.11 Session 160 - Defining Calculated Measures 
+        1.1.12 Session 180 - Understanding Viability 
+        1.1.13 Session 190 - Extending the business model 
+        1.1.14 Session 200 - Creating Dimensional Meta Data 
+        1.1.15 Session 210 - Creating Meta Data for Transactions 
+        1.1.16 Questions 
+    1.2 MDM 
+        1.2.1 Session 010 - Managing Master Data 
+        1.2.2 Session 020 - Key Concepts and Business Story 
+        1.2.3 Session 030 - Data Consumer: Connecting 
+        1.2.4 Session 040 - Data Consumer: Browsing 
+        1.2.5 Session 050 - Data Provider: Creating and Editing Data 
+        1.2.6 Session 060 - Data Provider: Baskets and Deleting Data 
+        1.2.7 Session 070 - Data Provider: Creating Catalogs and Re-Cataloging 
+        1.2.8 Session 080 - Data Provider: Tasks 
+        1.2.9 Session 090 - Data Provider: Moving Data Through a Workflow 
+        1.2.10 Session 100 - Data Provider: Loading Data 
+        1.2.11 Session 110 - Data Provider: Modifying Data 
+        1.2.12 Session 120 - Data Provider: Loading Data with a Reference to a Parent 
+        1.2.13 Session 130 - Data Provider: Mapping 
+        1.2.14 Session 140 - Data Provider: Complex Mapping 
+        1.2.15 Exercises 
+2 Data Warehousing 
+    2.1 What 
+    2.2 Why 
+    2.3 Architecture 
+    2.4 Conforming Information 
+    2.5 Normalized vs dimensional approach for storage of data 
+    2.6 Bottom up vs Top down design methodologies 
+        2.6.1 Bottom up 
+        2.6.2 Top down 
+    2.7 Data warehouses vs operational systems 
+3 Master Data Management 
+    3.1 Kalido Case Study - Shell Lubricants: Managing Product Master Data 
+        3.1.1 Brief 
+4 Kalido Terminology 
+5 Business-model-driven data warehousing 
+    5.1 Business model as defined in an information management context is a view of objects of interest to the business. It is 
+6 CV Reverification 
+    6.1 LON #34413 - DIW (BE associations missing after migration) 
+        6.1.1 Reprduction steps on 11703 where defect exists 
+        6.1.2 Reprduction steps on 21802(rel8) where defect is fixed 
+        6.1.3 Questions 
+    6.2 LON #34412 - DIW (Slowness in deployment tab) 
+        6.2.1 Reproduce in DIW 8.4.22530 SP2 MR15 
+        6.2.2 Verify in DIW 8.5.21503 SP2 MR8 
+7 Icons 
+    7.1 DIW 
+    7.2 MDM 
+
+
+1 Slides 
+~~~~~~~~~
+
+1.1 DIW 
+========
+
+1.1.1 Session 030 - Viewing data in the explorer 
+-------------------------------------------------
+* transaction data cannot be viewed in warehouse explorer 
+* Every business entity is represented by at least two pieces of data 
+  1. BE name
+  2. a code(unique identifier) eg 001A0772
+* Use the dimension icon to view the CBEs in a dimension 
+* Exercise 
+  + Which product families are managed by Mike Grayson 
+    Cassaid and Ronaid
+  + What is the code for our Saleable Product in the Product Family Wonderex? (Use the left-hand side of Explorer.) 
+    001A9210
+  + Which CBEs are below Customer CBE in the Customer Dimension? 
+    Customer Site
+  + How many Customers are there with names beginning with R? 
+    5
+  + What is the total number of Sales Reps? 
+    9
+  + Which Sales Rep in the North Sales Region has the highest code number? (View Object Details). 
+    P Law (543)
+
+1.1.2 Session 040 - Creating a Query Definition and a Result Set 
+-----------------------------------------------------------------
+* Exercise 
+  1. Which product manager was responsible for the highest sales proceeds in any one Quarter of 2004
+     Liz Crawford
+
+1.1.3 Session 050 - Training Business Model Explained 
+------------------------------------------------------
+* Coding Structure is a special type of hierarchy which can be linked to at any level 
+
+1.1.4 Session 060 - Result Set with Constraints 
+------------------------------------------------
+* Inclusive and Exclusive constraints 
+* Exercise 
+  1. Which Product manager sold the most Food products excluding any in the Axdon and Ronaid families
+     Paul Smith
+
+1.1.5 Session 070 - Manually Creating Reference Data 
+-----------------------------------------------------
+
+1.1.6 Session 080 - Reference Data Loading 
+-------------------------------------------
+* 2 reference data loaders 
+  1. Staging Loader
+  2. External Loader
+* Kalido creates a staging table for each CBE in the model 
+* The following db columns in the staging table will be filled by Kalido on successful load 
+  + ROW_STATE
+  + BATCH_ID
+  + OBJECT_ID
+  + DATE_PROCESSED
+* Suspense table lists records that failed to load 
+
+1.1.7 Session 090 - Loading Multi-levels of a hierarchy 
+--------------------------------------------------------
+
+1.1.8 Tutorial 100 - Mapping Tables and Attribute Tables 
+---------------------------------------------------------
+* Attribute Tables 
+  + Attribute tables keep all the data about the BEs of a CBE
+  + Each CBE has its own Attribute table
+  + Attribute tables are flattened database structures of names, codes and attributes for a single CBE
+  + They handle time variance
+  + They are used to improve retrieval performance
+  + They are also used for retrieving BE details in the Explorer
+  + An attribute table is set up (but not built) when a CBE is created
+  + Attribute table needs to be rebuilt if the structure of the CBE changes
+  + if reference data is added or modified, the relevant attribute tables needs to be refreshed
+* Mapping Tables 
+  + Mapping tables keep all the data about associations between CBEs
+  + A mapping table is created for each dimension
+  + Mapping  tables improve the performance of queries extracting information out of DIW, eg when creating result sets
+  + Flatten the structure
+  + Supports multiple hierarchies
+  + Handle time variance
+  + For involutions a column will be created for each level in the hierarchy
+  + Mapping tables should be refreshed when
+    1. Every time reference data is changed, added, etc
+    2. All attribute tables for the CBEs in the respective dimension need to be up to date
+* Attribute and mapping tables enhance query performance 
+* The status of mapping and attribute tables is indicated by green, amber or red icons 
+* Results sets and Shops will be created even if the mapping and attribute tables have amber lights 
+
+1.1.9 Session 110 - Updating Reference Data / Loading partial records 
+----------------------------------------------------------------------
+* 
+
+1.1.10 Session 150 - Introduction to Measures 
+----------------------------------------------
+    + Measures always have a Unit of Measure or Currency
+    + Measures have a summable property
+    + Measures are defined as BEs
+* 4 different types of measures 
+  + Stored
+  + Calculated
+  + Converted
+  + Aggregated
+* Variable Unit Measures 
+  + This implies that a single measure could have multiple units of measure, usually all of the same type eg Currency or Volume
+  + There will be a conversion factor between the various units of measure of the same type
+* summable and non-summable measures 
+  + Summable 
+    + Proceeds
+    + Costs
+    + Weights
+    + Volumes
+  + Non-Summable 
+    + Temperatures
+    + Averages
+    + Ratios
+    + Rates
+* Qualified Summability 
+  + Non-Summable over Time 
+    + Financial Balances
+    + Stock Levels
+  + Non-Summable over a specific Dimension 
+    + Target Proceeds (across Plan Version Numbers)
+
+1.1.11 Session 160 - Defining Calculated Measures 
+--------------------------------------------------
+    + Calculated Measures are the result of a calculation based on other measures
+    + All the component measures must have a fixed unit of measure
+    + If a calculation involves dividing by zero, zero is the result
+    + Calculated Measures are calculated when a result set is built
+* Creating a new Unit of Measure 
+  + The Unit of Measure for a new Measure must be defined first
+  + Unit of Measure might not exist in the default list
+
+1.1.12 Session 180 - Understanding Viability 
+---------------------------------------------
+* Viable and partially viable result sets 
+  + Viable dimension and measures are those that can be compared either directly, or indirectly by rolling up, given the data held in the warehouse
+  + a partially viable result set is one where the warehouse does not contain data linking every measure to every CBE
+
+1.1.13 Session 190 - Extending the business model 
+--------------------------------------------------
+    + 1 new TDS
+    + 1 extended TDS
+    + 3 new measures
+    + 1 new dimension
+    + 1 extended dimension
+
+1.1.14 Session 200 - Creating Dimensional Meta Data 
+----------------------------------------------------
+
+1.1.15 Session 210 - Creating Meta Data for Transactions 
+---------------------------------------------------------
+* Class of Transactions 
+  + Grouping of transaction datasets that hold similar types of transactions
+  + Reasons for CoT
+    - Summarizing structurally different data
+    - Combining data from different systems
+    - Updating when the source system provides slightly different data
+* Physical Storage of TDS 
+  Two options
+  1. Kalido Generic Storage (Warehouse Sections)
+  2. Custom Transaction Datasets
+    Warehouse Sections                                                       Custom Transaction Datasets                                              
+    Kalido manages all object creation                                       Kalido defines the object but creation is manual                         
+    Can store multiple types of transactions in a single warehouse section   Can only store one type of transactions in a custom transaction dataset  
+    Can only consist of Dimensional, Measure & Audit fields                  Can add non-dimensional, non-measure columns eg Degenerate Dimensions    
+  
+* Multiple Transaction datasets within a CoT 
+  + Data from all TDS within a CoT will be brought together in a query - but it will be done automatically only if the measures in the Query Definition are in all the TDS 
+  + Manual selection of TDS in Query Definitions is required when using a measure not in every TDS within a CoT 
+* When creating a TDS, decisions have to be made on Date Range, Warehouse Section and Duplicate Checking 
+
+1.1.16 Questions 
+-----------------
+  Slide   Page   Question                                               
+    030      6   Why is there a dimension icon in addition to a folder  
+                 Comprehensive list of metadata things                  
+
+1.2 MDM 
+========
+
+1.2.1 Session 010 - Managing Master Data 
+-----------------------------------------
+* What 
+  + What is 'Master Data'
+    - has a broad definition and could include meta data, Segmentation data, golden copy, static data, reference data or even XMl schemas
+  + Why is it important that a business manages its shared 'master data'
+    - Enables accurate, unambiguous business dialogue
+    - Cornerstone of the data warehouse
+  + What are the main facilities of Kalido MDM
+    - Allows companies to manage shared master data by acting as a centralized repository of shared information
+    - Once acquired data can be 
+      1) Related to other data
+      2) Validated against business rules
+      3) Subjected to an authorization process
+      4) Part of different versions
+    - Gives a complete view of key business information
+  + examples of managing master data with kalido MDM 
+* Components 
+  1. Data Consumer
+  2. Data Provider
+  3. Administrator
+  4. Data Acquisition
+  5. Publish and Export
+* Questions 
+  1. Examples of master data
+  2. Broad definition of master data? What is the industry accepted definition
+  3. Is there anything other than 'shared' master data
+* Notes 
+  [Wikipedia - Master Data] 
+  + MD is information that is key to the operation of business
+  + Often non-transactional in nature
+  + Can support transactional processes and operations
+  + Often used by several functional groups
+  + Master data is that persistent, non-transactional data that defines a business entity for which there is, or should be, an agreed upon view across the organization
+
+  [Wikipedia - Master Data]: http://en.wikipedia.org/wiki/Master_data
+
+1.2.2 Session 020 - Key Concepts and Business Story 
+----------------------------------------------------
+* Goals 
+  + initial understanding of Subjects, Records, Categories and Templates
+  + describe how the MDM validation process words
+  + initial understanding of Contexts and Catalogs
+  + understand the main features of the Training model
+* Definitions 
+  + Subjects 
+    + Data in Kalido MDM is stored as subjects
+    + Is something of interest in the business
+    + Could be anything eg a person,a product, a class(meta data eg products), a measure(eg proceeds), a business entity
+    + subjects can be related to other subjects
+    + subjects can be merged if they are the same
+  + Records 
+    + It is the information that is held within a subject
+    + Contains the values for the attributes
+  + Categories 
+    + It is a grouping of subjects with a common set of validation rules
+    + Subjects are instances of data within a Category
+    + Can define any data - eg People, Products, Locations, Customers, Classes of Data, Measures
+    + Subjects do not have to conform to validation rules
+      - They can be improved until they do
+      - They can be published when they are valid
+  + Templates 
+    + contains the validation rules for a category
+    + defines the attributes of a category
+  + Contexts 
+    + Is an area that contains a version of master data
+    + Publication occurs for Context as a whole
+    + Once published the Context becomes read-only
+  + Catalogs 
+    + Is an optional area for storing homogeneous(?) data
+    + Is an organizational display function in MDM
+    + All subjects in the catalog are shown in a list
+    + can contain subjects from multiple categories
+    + possible to create a hierarchy of catalogs
+* What 
+  + Rules for validating a record in a subject are held by the template of the category to which the subject belongs
+  + Invalid records can be stored
+
+1.2.3 Session 030 - Data Consumer: Connecting 
+----------------------------------------------
+* Goals 
+  + Navigate through MDM
+  + Understand roles of Consumer, Provider and Administrator
+  + how to change Context
+  + How to change Party
+* What 
+  + MDM menu varies depending upon the type of Role that the Party is acting as. There are three Roles
+    1. Consumer
+    2. Provider
+    3. Administrator
+  + Consumer can browse the Catalog, browse by Category, Search and change Context. Has read only access to MDM
+  + Provider can browse and edit data, search, populate, manage, export and monitor. Can view Model Objects but cannot edit them
+  + Administrator has write access to all parts of MDM. In addition to options available to Provider can also model and perform admin functions
+  + Even if acting as provider or administrator there is no automatic read access to everything since this is controlled by ACLs on individual subjects
+  + Change context by clicking on context link
+  + A party can take different functional roles
+  + Every party has a proxy user or group of users
+
+1.2.4 Session 040 - Data Consumer: Browsing 
+--------------------------------------------
+* Goals 
+  + BROWSE a hierarchy of catalogs and view a list of subjects
+  + View subject details
+  + Navigate between related subjects
+  + Use three different methods for searching for Subjects
+
+1.2.5 Session 050 - Data Provider: Creating and Editing Data 
+-------------------------------------------------------------
+* Goals 
+  + Identify three places in MDM to create data
+  + At least three ways to create invalid data
+  + Use tabular entry page to create a list of new subjects
+  + Identify an invalid subject when viewing a lsit
+  + Format masks and time variant values
+
+1.2.6 Session 060 - Data Provider: Baskets and Deleting Data 
+-------------------------------------------------------------
+* Goals 
+  + What is a Basket in MDM?
+  + Two methods for selecting a group of subjects for a basket
+  + At least one bulk operation on the contents of your basket
+  + Three methods for initiating the deletion of subjects
+  + Difference between using the Deleted Items basket and destroying permanently so that irretrievable data errors are not made
+* What 
+  + A Basket is an area to store a number of subjects that a user wishes to consider together
+  + Once satisfied with the list of subjects in a basket bulk task operations can be performed on it 
+  + Select subjects from a category in classic or hierarchy view and add to basket
+  + Baskets are user specific
+  + A user can work with more than one basket
+  + To remove items from MDM place it into the special 'Deleted Items' basket or destroy them permanently
+  + The contents of the 'Deleted Items' basket can be reviewed and data undeleted
+  + Deleted Items basket can be viewed by all users working in a Context
+  + Permanently destroyed subjects cannot be undeleted
+
+1.2.7 Session 070 - Data Provider: Creating Catalogs and Re-Cataloging 
+-----------------------------------------------------------------------
+* Goals 
+  + Why are catalogs important
+  + Two methods to createa new Catalog
+  + Three methods to re-catalog data in MDM
+  + How to drag-and-drop data in the Hierarchy browser
+  
+* What 
+  + There is a default Catalog associated with each Category
+  + Subjects can belong to multiple catalogs
+  + Recatalog operation moves subject to a catalog
+  + Catalog operation keeps subject in both original and new
+
+1.2.8 Session 080 - Data Provider: Tasks 
+-----------------------------------------
+* Goals 
+  + Know the four components within Kalido MDM architecture
+  + Access Task Monitor and use change options to display appropriate information
+  + Identify Task Status icons in Monitor
+  + Use three methods to access the log file information
+* Components 
+  1. Web Server with J2EE container(JBoss, Websphere)
+  2. MDM Host (IIS Web Services)
+  3. License Server
+  4. Kalido Adaptive Services Core
+* Tasks 
+  + Processes and bulk operations of MDM run as Tasks
+  + Tasks run on the Host machine
+  + View progress and status through Task Monitor
+  + Tasks can be paused or stopped
+  + There is a log file for each task which contains information about the operation of the Task
+  + Log for each task can be accessed from the Task Monitor
+
+1.2.9 Session 090 - Data Provider: Moving Data Through a Workflow 
+------------------------------------------------------------------
+* Goals 
+  + Understand the usefulness of Workflows for providing business users a warning about their information
+  + Describe the functions of a Workflow in terms of States, Transitions and Events
+  + Manage data within an MDM Workflow from the Inbox of different Parties
+  + Raise and resolve an Issue or change Request for a particular subject
+* Workflow 
+  + A workflow is a definition of a process used to move data between states
+  + Users can browse information that is in different States and take appropriate action to move it to another state
+  + A workflow can be assigned when defining a Category. When one of the defined Events occurs, Subjects within that category are passed into the Workflow
+* States 
+  + A state is a staging post for subjects moving through a workflow
+  + Subjects appear in the inbox of the party that the state has been assigned to
+  + States are named and defined when creating or editing a Workflow definition
+* Event 
+  + An event is a manual or programmatic action take against a record that can cause the record to enter a Workflow at a predefined State or move it to a different state
+  + Events are assigned to states
+  + Events are of these types
+    - Record Created
+    - Record Amended
+    - Record Deleted
+    - Record undeleted
+    - Becomes valid
+    - Validation failure
+    - Change Request Raised
+    - Issue Raised
+    - Match Required
+* Issue 
+  + An issue can be raised when editing any subject in MDM
+  + An issue is a comment made by a user about a particular subject. It requires a response by another user
+  + If a record is rejected as part of a workflow process an issue is automatically raised
+  + An issue has a higher priority than a Change Request
+
+1.2.10 Session 100 - Data Provider: Loading Data 
+-------------------------------------------------
+* Goals 
+  + Create a new source system and instance for associating with individual load feeds
+  + Create a feed definition to map source data with the attributes of a category
+  + Understand the importance of key column type
+  + Define a load for invalid data
+  + Start the loading task and monitor the result
+* Data Loading 
+  + Provider or Administrator can load data into MDM
+  + Create a feed to load data from file
+  + Can also define source system before creating a feed
+* Source System 
+  + Source System is a source of data for MDM
+  + When importing data user can associate the feed with the source system that the information is coming from
+* Process of Loading Data 
+  + Loading data is a two stage process
+    1. Create a file feed that defines the following
+       - the fields to be loaded
+       - the Category being loaded against
+       - the Catalog where data can be viewed; and
+       - the properties of the source data
+    2. Start the task to load data
+  + A File Feed needs to be created for every category for which data is to be loaded except if loading in Native XML
+    - More than one File Feed for a category can be created if the source data is in files of different formats
+* Creating a new Feed 
+  + Feed definition has seven stages
+    1. Select Source System
+    2. Select File Format
+    3. Select the Category
+    4. Select a Catalog
+    5. Select a Prototype file
+    6. Feed Columns page
+
+1.2.11 Session 110 - Data Provider: Modifying Data 
+---------------------------------------------------
+* Goals 
+  + Use an existing Feed Definition to load a file
+  + Understand the importance of the Key column in the Feed Definition to lookup to see if a Subject already exists
+  + Briefly describe the four updating options available when the subject already exists
+  + Load a column containing effective dates for time variant attribute values
+  + Know how to define columns for the other three types of data import file
+* File Loading Updating Options if data already exists 
+  1. Overwrite Existing Record
+     - If subject does not exist create new record and populate from import
+     - If subject already exists replace existing contents with import
+  2. Append fields to Existing Record
+     - If subject does not exist create new record and populate from import
+     - If subject already exists update only empty fields in record with corresponding fields from import
+  3. Merge fields with those in existing record
+     - If field in import has a new value for existing attribute the new value is added
+     - new values are annotated with name of feed definition
+     - can cause attributes to have multiple values
+     - can cause subjects to become invalid if maximum occurences for attribute are exceeded
+  4. Merge and Replace Existing Fields
+     - performs in the same way as overwrite load but only affects data in the supplied fields
+     - existing fields not referenced in the load are not affected
+* Key Column type 
+  + A column type of Key in the feed definition contains entries used to look up whether the Subject already exists
+  + if no column is selected as a key the all records loaded will create new subjects which could cause a duplication of data
+* Loading time variant attribute values 
+  + To specify dates for a time-variant field supply an effective date in the load
+  + if no date specified the time at load will be used
+  + Contiguous rows for a subject represent the values in a time-variant field
+  + Load time variance information as an extra column with an Effective Date column type
+  + To update time-variant values use merge import option in a feed definition
+* Feed File Formats 
+  + If loading from a CSV file without headings the relevant column number for each field must be supplied
+  + If loading from a Fixed Format file the character number for the start of the column and the number of characters in the column must be supplied
+  + An XML file can load subjects into multiple categories from one file
+  + Elements in the XML file must match attribute labels of the category against which the file is loaded
+  + XML file must conform to Kalido MDM Native XML file format
+
+1.2.12 Session 120 - Data Provider: Loading Data with a Reference to a Parent 
+------------------------------------------------------------------------------
+* Goals 
+  + Set up a feed definition to make an association to a parent subject at the time of loading
+  + Understand the importance of key prefix attributes of the parent category
+  + scenario when parent subject cannot be found
+* Category Requirement 
+  + If the category under data load has an association to a parent category with a reference attribute the subjects being loaded can be linked to parents
+  + When creating the feed definition select a column mapping between
+    - the reference attribute
+    - a column type of key
+    - the matching field of the parent category
+  + If an associated subject is not found the data is stored with the loaded record but not link is created
+
+1.2.13 Session 130 - Data Provider: Mapping 
+--------------------------------------------
+* Goals 
+  + Describe what an automatic mapping process does
+  + two examples of mapping using mdm
+  + create a new mapping specification using the field comparison method in order to compare data between categories
+* What 
+  + Mapping is the automatic process of referencing subjects in one category(child) to another(parent)
+  + a reference attribute must be modeled between the two categories
+  + mapping is undertaken as a task
+  + a Mapping Specification contains the rules for identifying mappings
+* Mapping methods 
+  + Three mapping methods available
+    - Field Comparison
+    - Prior Match
+    - Lookup Table
+  + Most common method is field comparison
+   + Field comparison is a mapping method that compares an attribute value in child category to an attribute value in the parent category, if they match the subjects are mapped
+
+1.2.14 Session 140 - Data Provider: Complex Mapping 
+----------------------------------------------------
+* Goals 
+  + Use more than one set of cross match fields and a 'contains' criteria for comparing child to parent subjects
+  + deal with a mapping task that results in several possible matching parents
+  + describe the prior match mapping method and set up a spec to use it
+  + describe the lookup table mapping method and set up a spec to use it
+* Mapping specification options 
+  + can add additional cross match fields if the data needs to be matched on multiple sets of child and parent attributes
+  + can add additional mapping methods if data needs to be matched by different methods in sequence
+* Prior Match mapping method 
+  + A Prior Match mapping method checks if another subject in the child category matching the criteria has already been mapped to a subject in the parent category
+  + the child subject is then mapped to the same subject in the parent category
+  + the mapping can previously have been done manually or by a data load
+* Lookup Table mapping method 
+  + A lookup table is a category that contains two fields
+    - a lookup attribute; and
+    - a reference attribute
+  + the category subjects can then be used as a mapping method
+  + If an attribute of a subject in the child category matches a lookup attribute value a link is made to the subject in the parent category with the associated reference attribute
+
+1.2.15 Exercises 
+-----------------
+* Exercise 040 - Data Consumer: Browsing and Searching in the MDM 
+  + How many continents are stored in the Catalog?
+    5
+  + What is the Code for the Americas Continent?
+    CON2
+  + How many regions is the Americas Continent divided by?
+    4
+  + What attributes have been defined in the Subject Template for ISO countries?
+    9
+  + What is the Capital of Afghanistan
+    Kabul
+  + How many other countries are stored under the South Asia ISO region?
+    7
+  + What subject in the database has a name containing the letter 'itius'?
+    Mauritius
+  + How many ISO countries contain teh letters 'istan'
+    5
+  + Which ISO Region has teh code REG5?
+    East Asia
+  + Which ISO country has a capital Vilnius?
+    Lithuania
+    
+* Exercise 130 - Data Provider: Mapping 
+  + How many products mappped using selected matching criteria?
+    4
+* Exercise 140 - Complex mapping 
+  + How many products mapped using multi-match contains matching criteria?
+    8
+
+2 Data Warehousing 
+~~~~~~~~~~~~~~~~~~~
+
+2.1 What 
+=========
+   Data warehousing is used to ask questions to the data in the organization. To that end the data warehouse is populated with organizational data which can then analyzed or reported using the tools provided by the warehouse. An expanded definition for a DW includes tools to extract, transform and load data into the repository and tools to manage and retrieve metadata.
+
+2.2 Why 
+========
+   Organizations typically have different software systems for different departments, which are often poorly integrated. This leads to a situation where the departments are isolated, therefore  questions that bridge multiple departments would be difficult to answer since the integration between the systems is not present. Another problem that arises is the level of granularity of enterprise software systems, an ERP solution for a particular department will be customized to it and would contain nitty-gritties and a wealth of data relevant to the operation of that department. The problem arises when looking at the big picture, questions like 'did this department make money last year', 'how did this department do compared to other departments', 'what was the effect of the initiative done last year', etc are difficult to answer becuase the system is not built at that level of granularity. Yet another problem is the presence of inconsistent data, data that sould be the same is represented differently by different deparments, eg sales and finance might have arguments about the costs of the department.
+   + It is the job of the data warehouse is to make the data appear consistent, integrated and consolidated despite problems in underlying source systems. 
+   + Data warehousing concept intended to provide an architectural model for flow of data from operational systems to decision support environments
+
+2.3 Architecture 
+=================
+
+2.4 Conforming Information 
+===========================
+
+2.5 Normalized vs dimensional approach for storage of data 
+===========================================================
+   + In dimensional approach transaction data is partitioned into facts, which are generally numeric transaction data, and dimensions which are reference information that gives context to the facts.
+   + Advantages
+     - Easy to understand dimensional approach
+     - Retrieval is quick
+   + Disadvantages
+     - Because of the need to maintain integrity of facts and dimensions loading the DW with data from different operational systems is complicated
+     - Difficult to modify DW structure if org changes the way it does business
+
+2.6 Bottom up vs Top down design methodologies 
+===============================================
+
+2.6.1 Bottom up 
+----------------
+    Ralph Kimball is a leading proponent. An iterative process that begins by starting with a single department in an org. Data mart is designed for the department which can be used immediately, further data marts can then be created. Data is connected across data marts using conformed dimensions. Data marts contain facts and dimensions, facts contain atomic and if necessary summarized data.
+
+2.6.2 Top down 
+---------------
+    Bill Inmon is a leading proponent. Data warehouse is a centralized repository for the entire enterprise. Atomic data is stored in the data warehouse. Dimensional data marts containing data for specific business purposes are created from the data warehouse. Inmon states that the DW is
+    1. Subject-oriented - Data is orgniazed so that all data elements relating to the same real-world event are linked together
+    2. Non-volatile - Data in the DW is never over-written or deleted - once committed data is static, read-only and retained for future reporting
+    3. Integrated - DW contains data from most or all of organization's operational systems and these data are made consistent
+    4. Time-variant - 
+
+2.7 Data warehouses vs operational systems 
+===========================================
+   - Operational systems are optimized for preservation of data integrity and speed of recording of business transactions
+   - Data warehouses are optimized for speed of data analysis
+   - To speed data retrieval, data warehouse data are often stored multiple times, in granular form and in summarized form called aggregates
+
+3 Master Data Management 
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+3.1 [Kalido Case Study] - Shell Lubricants: Managing Product Master Data 
+=========================================================================
+
+[Kalido Case Study]: file:h:/HN/Key%20Documents/CS-Shell%20Managing%20Product%20Master%20Data.pdf
+
+3.1.1 Brief 
+------------
+    Shell had duplicated or slightly differentiated product lines across geos. This made it difficult for headquarters to analyze global information since the local information was out of context globally. Dispersed product management caused issues such as translating market requirements into local products. Customers such as GM demanded that Shell undergo standardization across their global purchasing processes. To create a single global product portfolio Shell used Kalido MDM. Standardization of rules around product and attribute names was achieved by using a mapping process between local and global names so that ERP logic would not need to be changed. In other words, the same product was presented with different names in local regions but was managed as a single product globally.
+
+4 Kalido Terminology 
+~~~~~~~~~~~~~~~~~~~~~
+  + Shop - is a data mart(provides specific business information built from queries)
+
+5 Business-model-driven data warehousing 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+5.1 Business model as defined in an information management context is a view of objects of interest to the business. It is 
+===========================================================================================================================
+   + the description of a business
+   + its activities(business transactions like maintenance tasks or procurement orders)
+   + the measures about these activities that are used to monitor and manage them ( such as gross sales, maintenance labor hours, volume, price, etc )
+   + the business contexts in which these activities take place ( like facilities, equipmens, wells, customers, products, workers and suppliers)
+   + and finally, the business rules binding these things together
+
+6 CV Reverification 
+~~~~~~~~~~~~~~~~~~~~
+
+6.1 LON #34413 - DIW (BE associations missing after migration) 
+===============================================================
+
+6.1.1 Reprduction steps on 11703 where defect exists 
+-----------------------------------------------------
+    - [X] On a source warehouse create a Parent CBE and give it a child CBE
+    - [X] Create a version with the parent and child CBE in it and migrate to a target instance.
+      - [X] Create version
+      - [X] Migrate to target instance
+    - [X] On the target instance create a BE for child and parent and associate them
+    - [X] On the the source instance remove the association between parent and child and save.
+    - [X] On the source instance reestablish the association between Parent and Child. Ensure that the association name between child and parent is the same as it was for the first assoc (this should happen automatically)
+    - [X] Create another version on the source which includes the parent and child CBEs.
+    - [X] Migrate the second version to the target instance without the SYNCHRONIZE_ON_LABEL parameter.
+* After following the above steps the association between the BEs is not removed. This is incorrect because the association was recreated in the source which will cause it to have a different association id. The orgiginal association connecting the BEs on the target warehouse no longer exists. Unless the SYNCHRONIZE_ON_LABEL switch is provided the association should no longer persist on the target. 
+
+6.1.2 Reprduction steps on 21802(rel8) where defect is fixed 
+-------------------------------------------------------------
+    - [X] On a source warehouse create a Parent CBE and give it a child CBE
+    - [X] Create a version with the parent and child CBE in it and migrate to a target instance.
+      - [X] Create version
+      - [X] Migrate to target instance
+    - [X] On the target instance create a BE for child and parent and associate them
+    - [X] On the the source instance remove the association between parent and child and save.
+    - [X] On the source instance reestablish the association between Parent and Child. Ensure that the association name between child and parent is the same as it was for the first assoc (this should happen automatically)
+    - [X] Create another version on the source which includes the parent and child CBEs.
+    - [X] Migrate the second version to the target instance without the SYNCHRONIZE_ON_LABEL parameter.
+* After following above steps the connection between the BEs is removed. 
+
+6.1.3 Questions 
+----------------
+    + What is use of SYNCHRONIZE_ON_LABEL parameter
+    + Since in step 5 the association is made betwee nparent and child how can we expect the association to be absent in the migrated server
+    + In steps 4 and 5 associations between parent and child are made and unmade. Since a version is made after *both* operations what is the relevance of said operation. Would it not make sense not to create the association at all in step 4 since it is unmade in step 5
+      - The relevance lies in the fact that history is maintained
+
+6.2 LON #34412 - DIW (Slowness in deployment tab) 
+==================================================
+
+6.2.1 Reproduce in DIW 8.4.22530 SP2 MR15 
+------------------------------------------
+    1. [X] Restore db 
+    2. [X] Install build
+    3. [X] Create warehouse using restored db
+    4. [X] Record time taken for following actions in explorer tab
+       + [X] Right click and select properties for dimension 
+               Dimension          Time to load properties  
+               Billed to RIM      5 sec                    
+               Employee           10 sec                   
+               Activity * (All)   < 5 sec                  
+       + [X] Right click and select properties for query definition
+               Query                        Time to load properties  
+               Expand query definition      1 min 30 sec             
+               Attendance rate by BU Q110   10 sec                   
+    5. [-] Record time taken for following actions in deployment tab
+       + [X] Create a new version - 10 min
+       + [ ] Click on version history and select a version in the drop down
+                      Version   Time to load  
+                        7.3.0   45 sec        
+                        7.0.0                 
+               Latest version                 
+                        3.0.0                 
+
+6.2.2 Verify in DIW 8.5.21503 SP2 MR8 
+--------------------------------------
+    Restored db is already available in relevant build(by Pratyush)
+    1. [X] Record time taken for following actions in explorer tab
+       + [X] Right click and select properties for dimension
+               Dimension          Time to load properties  
+               Billed to RIM      8 sec                    
+               Employee           5 sec                    
+               Activity * (All)   < 5 sec each             
+       + [X] Right click and select properties for query definition
+               Query                        Time to load properties  
+               Attendance rate by BU Q110   10 sec                   
+    2. [X] Record time taken for following actions in deployment tab
+       + [X] Create a new version - 4 min 40 sec
+       + [X] Click on version history and select a version in the drop down
+                      Version   Time to load  
+                        7.3.0   36 sec        
+                        7.0.0   1 min 10 sec  
+               Latest version   1 min 45 sec  
+                        3.0.0   52 sec        
+
+7 Icons 
+~~~~~~~~
+
+7.1 DIW 
+========
+   + Dark Blue Cubes - CBE
+   + Light Blue Squares - BE
+   + Double Cube - Coding Structure
+
+7.2 MDM 
+========
+  Icon             Represents  
+  Pronged Symbol   Hub         
+  Yellow cube      Catalog     
+  Grey cube        Subject     

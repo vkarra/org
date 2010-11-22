@@ -1,0 +1,2 @@
+* DIW
+** When multiple staging table records that change the same BE are loaded in a single staging table load is the history maintained

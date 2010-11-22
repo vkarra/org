@@ -2,7 +2,6 @@
 ** CANCELLED Give cell adaptor to mom
    - State "CANCELLED"  from "TODO"       [2010-09-13 Mon 14:30]
    - State "TODO"       from ""           [2010-08-06 Fri 10:32]
-
 ** CANCELLED pay bro's amt in netteller
    - State "CANCELLED"  from "WAITING"    [2010-09-15 Wed 12:27] \\
      Neteller refusing to accept credit card throwing an error maximum number of credit cards used
@@ -13,19 +12,146 @@
    CLOCK: [2010-09-13 Mon 14:30]--[2010-09-13 Mon 14:38] =>  0:08
    :END:
    - State "TODO"       from ""           [2010-09-13 Mon 14:30]
-* DONE transfer money to bro
-  - State "DONE"       from "NEXT"       [2010-09-15 Wed 12:25]
-  - State "NEXT"       from "TODO"       [2010-09-15 Wed 12:20]
-  :CLOCK:
-  CLOCK: [2010-09-15 Wed 12:20]--[2010-09-15 Wed 12:25] =>  0:05
-  :END:
-  [2010-09-15 Wed 12:19]
+** DONE transfer money to bro
+   - State "DONE"       from "NEXT"       [2010-09-15 Wed 12:25]
+   - State "NEXT"       from "TODO"       [2010-09-15 Wed 12:20]
+   :CLOCK:
+   CLOCK: [2010-09-15 Wed 12:20]--[2010-09-15 Wed 12:25] =>  0:05
+   :END:
+   [2010-09-15 Wed 12:19]
+
+** DONE Research ISP for Golf Manor 
+   - State "DONE"       from "NEXT"       [2010-09-20 Mon 10:14]
+   - State "NEXT"       from "TODO"       [2010-09-16 Thu 10:27]
+   :CLOCK:
+   CLOCK: [2010-09-16 Thu 10:27]--[2010-09-16 Thu 10:32] =>  0:05
+   :END:
+   - State "TODO"       from ""           [2010-09-16 Thu 10:27]
+     Picked Airtel     
+** DONE Send Tatasky number to Austin
+   - State "DONE"       from "NEXT"       [2010-09-16 Thu 17:02]
+   - State "NEXT"       from "TODO"       [2010-09-16 Thu 17:00]
+   :CLOCK:
+   CLOCK: [2010-09-16 Thu 17:00]--[2010-09-16 Thu 17:02] =>  0:02
+   :END:
+   - State "TODO"       from ""           [2010-09-16 Thu 17:00]
+
+** DONE Pay Airtel bill of 2422
+   - State "DONE"       from "TODO"       [2010-10-12 Tue 09:21]
+   - State "TODO"       from ""           [2010-09-29 Wed 16:47]
+** DONE [[*Mining][State the mining problem]]
+   - State "DONE"       from "NEXT"       [2010-10-12 Tue 09:49]
+   - State "NEXT"       from "TODO"       [2010-10-12 Tue 09:22]
+   :CLOCK:
+   CLOCK: [2010-10-12 Tue 09:22]--[2010-10-12 Tue 09:49] =>  0:27
+   :END:
+   - State "TODO"       from ""           [2010-10-12 Tue 09:21]
+** CANCELLED Call Surej about idea
+   - State "CANCELLED"  from "TODO"       [2010-11-15 Mon 10:10] \\
+     Not done in time
+   - State "TODO"       from ""           [2010-10-12 Tue 09:49]
+** DONE Make payment of 15000 to Standard Chartered Credit Card
+   - State "DONE"       from "NEXT"       [2010-10-27 Wed 10:21]
+   - State "NEXT"       from "TODO"       [2010-10-27 Wed 10:16]
+   :CLOCK:
+   CLOCK: [2010-10-27 Wed 10:16]--[2010-10-27 Wed 10:21] =>  0:05
+   :END:
+   - State "TODO"       from ""           [2010-10-27 Wed 10:16]
+** PROJECT Contact acquaintances regarding possible openings for Anchit
+   - State "PROJECT"    from ""           [2010-11-22 Mon 10:30]
+   - State "TODO"       from ""           [2010-11-15 Mon 10:11]
+*** NEXT Check with PR
+** PROJECT Create an Exchange 2010 DVD
+   DEADLINE: <2010-11-15 Mon>
+   - State "PROJECT"    from "TODO"       [2010-11-22 Mon 10:30]
+   - State "TODO"       from ""           [2010-11-15 Mon 10:11]
+*** DONE Download Exchange 2010
+    - State "DONE"       from "NEXT"       [2010-11-16 Tue 12:29]
+    :CLOCK:
+    CLOCK: [2010-11-15 Mon 10:28]--[2010-11-15 Mon 10:43] =>  0:15
+    :END:
+    - State "NEXT"       from "TODO"       [2010-11-15 Mon 10:25]
+    - State "TODO"       from ""           [2010-11-15 Mon 10:25]
+*** NEXT Write the DVD
+** DONE Buy 5 packs of non-indian ovaltine
+   DEADLINE: <2010-11-15 Mon>
+   - State "DONE"       from "TODO"       [2010-11-16 Tue 16:03]
+   - State "TODO"       from ""           [2010-11-15 Mon 10:12]
+*** DONE Try from SPAR
+    - State "DONE"       from "NEXT"       [2010-11-16 Tue 09:39]
+*** DONE Try National Market
+    - State "DONE"       from "NEXT"       [2010-11-16 Tue 16:03]
+** DONE Buy AVT tea						       :SHOP:
+   - State "DONE"       from "TODO"       [2010-11-22 Mon 10:30]
+   - State "TODO"       from ""           [2010-11-16 Tue 16:06]
+*** DONE Goto shop and buy
+    - State "DONE"       from "NEXT"       [2010-11-22 Mon 10:30]
+* Transfers
+| From   | To                          | Amount | Transaction Number | Timestamp              |
+| MyCiti | MyHSBC                      |   2000 |    090080953725996 |                        |
+| MyCiti | MyHSBC                      |   5000 |                    |                        |
+| MyHSBC | MyCiti                      |  16000 |        142230X7270 | <2010-09-27 Mon 10:56> |
+| MyCiti | PRCiti                      |  16000 |    070080136761066 | <2010-09-27 Mon 14:50> |
+| MyHSBC | MyCiti                      |  17000 |       142800X12004 | <2010-10-01 Fri 11:56> |
+| MyCiti | MyHSBC                      |  10000 |    090080954125781 | <2010-10-08 Fri 14:24> |
+| MyCiti | Vaapa                       |   3000 |    090080954165752 | <2010-10-11 Mon 15:47> |
+| MyCiti | Citicard                    |   5000 |         9981046267 | <2010-10-13 Wed 09:38> |
+| MyCiti | MyHSBC                      |   5000 |    090080954228331 | <2010-10-16 Sat 09:21> |
+| MyCiti | PRCiti                      |  21000 |    070080137104000 | <2010-10-16 Sat 09:22> |
+| MyRC   | MyCiti                      |   5000 |    070080137172509 | <2010-10-22 Fri 17:23> |
+| MyCiti | AustinCiti                  |   5000 |    070080137172518 | <2010-10-22 Fri 17:24> |
+| MyRC   | MyCiti                      |   5000 |    070080137192581 | <2010-10-25 Mon 15:15> |
+| MyCiti | PRCiti                      |   5000 |    070080137192595 | <2010-10-25 Mon 15:17> |
+| MyRC   | MyCiti                      |  15000 |    070080137217440 | <2010-10-27 Wed 10:19> |
+| MyCiti | MySCPlat                    |  15000 |    090080954348169 | <2010-10-27 Wed 10:21> |
+| MyCiti | MyHSBC                      |   2000 |    090080954355451 | <2010-10-27 Wed 16:10> |
+| MyCiti | MyHSBC                      |  20000 |    090080954413218 | <2010-10-30 Sat 09:45> |
+| MyCiti | MomSBI                      |  10000 |    090080954467541 | <2010-11-01 Wed 12:37> |
+| MyCiti | Vaapa                       |   3000 |         0003840232 | <2010-11-05 Fri 15:35> |
+| MyHSBC | Nidhin Mathew(132419987006) |   2000 |      146362X140040 |                        |
+| MyCiti | Vaapa                       |   2000 |    090080954636428 | <2010-11-08 Mon 16:40> |
+| MyCiti | HDFCCC                      |  10000 |    090080954697379 | <2010-11-11 Thu 14:43> |
+| MyRC   | MyCiti                      |   5000 |                    | <2010-11-13 Sat 10:36> |
+| MyCiti | Austin                      |   5000 |    070080137515910 | <2010-11-13 Sat 10:41> |
+| MyRC   | MyCiti                      |  10000 |    070080137532527 | <2010-11-15 Mon 14:18> |
+| MyCiti | MyHSBC                      |  10000 |    090080954742922 | <2010-11-15 Mon 14:19> |
+| MyCiti | MyHSBC                      |   3000 |    090080954820800 | <2010-11-22 Mon 16:24> |
+|        |                             |        |                    |                        |
+  
+** Mining
+*** Summary
+    Devise an algorithm for optimal utilization of resources in ore blending
+*** Brief
+    A mining company is blending ore to produce copper, the ore should be blended in a particular ratio to produce a product with the desired quality characteristics. The ore is blended in batches of 5, the batches are to be mixed in a particular ratio that will maximize ore utilization as well as produce an output of the desired quality. 
+    1. A batch of ore contains 30 or more minerals
+    2. The percentage proportion of each mineral within a batch is known
+    3. Batches blended with each other should produce a product meeting a criteria such as
+       0.5 < m1 < 0.52
+       0.2 < m2 < 0.21
+       a3 < m3 < b3
+       ....
+       ....
+       a30 < m30 < b30
+       where m1, m2, m3 ... m30 are percentage presence of ore in the final product and a1,a2...a30;b1,b2...b30 are tolerable limits within which quality is maintained
+    4. In what order should n batches (n <= 20) be processed to maximize ore output
+    5. In what ratio should the batches be blended so that quality is maintained
+*** Result
+    1. The order in which the batches should be blended in groups of 5
+    2. The ratio in which each group of 5 batches should be blended
+    3. Example result for 10 batches
+       + Mix 1st set of batches 5, 1, 10, 6, 7 in ratio 1 : 3 : 2 : 4 : 3
+       + Mix 2nd set of batches 8, 5, 1, 10, 6 in ratio 2 : 5 : 1 : 4 : 4
+       + Mix 3rd set of batches 3, 8, 5, 1, 10 in ratio 1 : 2 : 3 : 4 : 5
+       + Mix 4th set of batches 4, 3, 8, 5, 1  in ratio 6 : 3 : 4 : 2 : 1
+       + Mix 5th set of batches 9, 4, 3, 8, 5  in ratio 2 : 2 : 3 : 3 : 4
+       + At this point all batches are utilized and only remnants of 4 batches remain, these may or may not be blended to produce an acceptable product. If they can be there will be another mix
+       + Mix 6th set of batches 9, 4, 3, 8 in ratio 3 : 1 : 2 : 2
 
 
 
-
-
-
-
-
+* Accounts
+** Mom
+20031951949
+sbi kollam
+SBIN0000903
 

@@ -1,0 +1,3 @@
+* Words
+| Word       | Meaning                                                                            | Sentence |
+| provenance | from French provenir, "to come from", means the origin, or the source of something |          |
