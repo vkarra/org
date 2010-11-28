@@ -132,3 +132,6 @@
 ** SOMEDAY Evaluate and deploy best webserver for rails		      :RAILS:
    - State "SOMEDAY"    from "TODO"       [2010-11-22 Mon 09:22]
    - State "TODO"       from ""           [2010-08-06 Fri 00:12]
+** PROJECT Become an expert programmer
+   - State "PROJECT"    from ""           [2010-11-24 Wed 00:01]
+*** NEXT Collect data

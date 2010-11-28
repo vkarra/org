@@ -1,5 +1,0 @@
-* TODO http://www.redhillconsulting.com.au/products/simian/
-  :CLOCK:
-  :END:
-  [2010-11-22 Mon 11:30]
-  [[file:~/org/support/session-code-coverage-nov-22.org::*What][What?]]

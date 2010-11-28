@@ -1,0 +1,16 @@
+* Development
+** Creating/modifying a test
+   1. Create changelist(do not submit)
+   2. Create a job in perforce that contains the tests in that changelist
+   3. Create a JIRA task and refer to the job
+   4. Provide above information to scrum lead on every checkin[refer:[[file:~/org/mails/Checking%20in%20API%20tests%20in%20integ.txt][mail]]]
+   5. Use crucible to review
+** Perforce structure
+*** //team/8r4sp2-in/dev : 8.4 india development happens here
+*** //team/8r5sp2-in : 8.5 sp2 india development happens here
+*** //team/8r5sp3-in : 8.5 sp3 india development happens here
+** 8.4 Integration workflow
+   //team/8r4sp2-in/dev -> //team/8r4sp2-in/integ -> //diw/8r4sp2/integ -> //diw/8r4sp2/main
+** 8.5 Integration workflow
+   //team/8r5sp2-in/diw -> //diw/8r5sp2/main
+    
