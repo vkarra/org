@@ -7,6 +7,8 @@
    + to present techniques of code coverage
    + to generate comments from team
    + posit improvements on the lines of code quality analysis
+   + interpreting code coverage results
+   + how is code coverage useful
 ** What?
    + http://www.bullseye.com/coverage.html
    + http://www.ibm.com/developerworks/java/library/j-cq01316/
@@ -18,3 +20,24 @@
    + http://msdn.microsoft.com/en-us/magazine/cc163981.aspx
    + http://blogs.msdn.com/b/ms_joc/archive/2005/04/08/406608.aspx
    + http://searchsoftwarequality.techtarget.com/tip/0,289483,sid92_gci1306495,00.html
+
+* Content
+
+** Goal
+
+** Code Coverage Tools
+
+** Why stick to visual studio code coverage(no license required)
+
+** How to setup a run
+
+** Generating a report - what kind of information should the report contain
+
+** How is report generated - tools used to generate the report
+
+** Report - sample report
+
+** Report - against MR8
+
+** Report - against MR9
+   

@@ -614,22 +614,26 @@
      CLOCK: [2010-11-12 Fri 13:12]--[2010-11-12 Fri 13:19] =>  0:07
      :END:
      - State "TODO"       from ""           [2010-11-12 Fri 13:05]
-** NEXT Run all tests in vm for code coverage			 :AUTOMATION:
+** PROJECT Generate code coverage on MR8 and MR9 to present	 :AUTOMATION:
+   - State "PROJECT"    from "TODO"       [2010-11-22 Mon 09:50]
+   - State "TODO"       from ""           [2010-11-12 Fri 16:23]
+*** DONE Run some tests from dll packaged with build and observe if code coverage reports are generated for all program dlls
+    - State "DONE"       from "NEXT"       [2010-11-22 Mon 17:10]
+    :CLOCK:
+    CLOCK: [2010-11-22 Mon 17:05]--[2010-11-22 Mon 17:09] =>  0:04
+    CLOCK: [2010-11-22 Mon 15:41]--[2010-11-22 Mon 15:56] =>  0:15
+    CLOCK: [2010-11-22 Mon 14:16]--[2010-11-22 Mon 15:41] =>  1:25
+    :END:
+*** NEXT Run all tests in vm for code coverage
    - State "NEXT"       from "TODO"       [2010-11-11 Thu 17:57]
    :CLOCK:
+   CLOCK: [2010-11-22 Mon 17:11]--[2010-11-22 Mon 17:15] =>  0:04
    CLOCK: [2010-11-22 Mon 14:15]--[2010-11-22 Mon 14:16] =>  0:01
    CLOCK: [2010-11-12 Fri 10:57]--[2010-11-12 Fri 12:21] =>  1:24
    CLOCK: [2010-11-11 Thu 17:57]--[2010-11-11 Thu 18:38] =>  0:41
    :END:
    - State "TODO"       from ""           [2010-11-11 Thu 16:20]
-** PROJECT Generate code coverage on MR8 and MR9 to present	 :AUTOMATION:
-   - State "PROJECT"    from "TODO"       [2010-11-22 Mon 09:50]
-   - State "TODO"       from ""           [2010-11-12 Fri 16:23]
-*** NEXT Run some tests from dll packaged with build and observe if code coverage reports are generated for all program dlls
-    :CLOCK:
-    CLOCK: [2010-11-22 Mon 15:41]--[2010-11-22 Mon 15:56] =>  0:15
-    CLOCK: [2010-11-22 Mon 14:16]--[2010-11-22 Mon 15:41] =>  1:25
-    :END:
+*** Download PDBs for MR9 <2010-11-23 Tue>
 ** PROJECT [[file:support/session-code-coverage-nov-22.org][Create presentation and talking points on code coverage]] :AUTOMATION:
    DEADLINE: <2010-11-23 Tue>
    - State "PROJECT"    from "TODO"       [2010-11-22 Mon 09:50]
@@ -648,11 +652,13 @@
     :CLOCK:
     CLOCK: [2010-11-22 Mon 11:23]--[2010-11-22 Mon 11:24] =>  0:01
     :END:
-*** NEXT Research code coverage,  create list of reading material and read
+*** DONE Research code coverage,  create preliminary list of reading material
+    - State "DONE"       from "NEXT"       [2010-11-22 Mon 17:56]
     :CLOCK:
     CLOCK: [2010-11-22 Mon 11:30]--[2010-11-22 Mon 13:00] =>  1:30
     CLOCK: [2010-11-22 Mon 11:26]--[2010-11-22 Mon 11:30] =>  0:04
     :END:
+*** NEXT Brainstorm
 ** DONE Reply to Hari on CustomTable columns			       :MAIL:
    - State "DONE"       from "NEXT"       [2010-11-16 Tue 00:24]
    - State "NEXT"       from "TODO"       [2010-11-15 Mon 10:43]
@@ -693,12 +699,27 @@
     :CLOCK:
     CLOCK: [2010-11-15 Mon 16:43]--[2010-11-15 Mon 17:31] =>  0:48
     :END:
+** WAITING Work with crucible/fisheye
+   - State "WAITING"    from ""           [2010-11-24 Wed 12:02] \\
+     Waiting for Vishnu
+** NEXT Follow dev process for tests that were developed
+   - State "NEXT"       from "TODO"       [2010-11-24 Wed 12:03]
+   - State "TODO"       from ""           [2010-11-24 Wed 12:03]
 ** NEXT Read [[http://msdn.microsoft.com/en-us/library/bb190163.aspx#mdm04_topic4][this]] Microsoft article on Master Data Management 
    - State "NEXT"       from "TODO"       [2010-11-22 Mon 10:33]
    :CLOCK:
    :END:
    [2010-09-15 Wed 11:11]
    [[file:~/org/kalido-training.org::*Questions][Questions]]
+** PROJECT Try Simian
+   - State "PROJECT"    from "TODO"       [2010-11-22 Mon 17:51]
+   :CLOCK:
+   :END:
+   [2010-11-22 Mon 11:30]
+*** NEXT Download Simian
+** NEXT Fix the 8.5 dev process entry in reference
+   - State "NEXT"       from "TODO"       [2010-11-24 Wed 12:15]
+   - State "TODO"       from ""           [2010-11-24 Wed 12:15]
 * Decisions
 ** Automation path options
 *** Option 1 : Catalog the current tests and map it to testlink

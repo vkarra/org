@@ -1,0 +1,19 @@
+From:	Vivek Motwani
+Sent:	Wednesday, November 24, 2010 12:30 PM
+To:	Vishnu B. Paladugu; Habib Nahas
+Cc:	Ashish Vikram; Afsal Majeed; Harihara Sundararajan; Palaniappa 
+Manivasagam
+Subject:	Checking in API tests in integ
+
+Hello Guys,
+
+While checking in new API tests or changes to existing ones in integ (irrespective of whether you do a 
+batch processing or not), please let the Scrum Lead know of the checkins.
+It’s not the Scrum lead, but you who would make sure that the tests pass in integ.
+
+Also, when the same tests are merged into another branch, the Scrum Lead will get in touch with you if 
+they fail, and it will be the responsibility of the author of the test to fix them
+
+
+Regards,
+Vivek.
