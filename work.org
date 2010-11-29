@@ -607,13 +607,34 @@
      CLOCK: [2010-11-12 Fri 12:52]--[2010-11-12 Fri 13:05] =>  0:13
      :END:
      - State "TODO"       from ""           [2010-11-12 Fri 12:52]
-**** Automate DIW-1460
+**** DONE Automate DIW-1460
+     - State "DONE"       from "NEXT"       [2010-11-28 Sun 16:03]
      - State "TODO"       from "NEXT"       [2010-11-16 Tue 12:31]
      - State "NEXT"       from "TODO"       [2010-11-12 Fri 13:12]
      :CLOCK:
      CLOCK: [2010-11-12 Fri 13:12]--[2010-11-12 Fri 13:19] =>  0:07
      :END:
      - State "TODO"       from ""           [2010-11-12 Fri 13:05]
+**** DONE Automate DIW-1461
+     - State "DONE"       from "NEXT"       [2010-11-28 Sun 16:03]
+     - State "NEXT"       from "TODO"       [2010-11-28 Sun 16:03]
+     - State "TODO"       from ""           [2010-11-28 Sun 16:03]
+**** NEXT Automate DIW-1463
+**** Automate DIW-1464
+     - State "NEXT"       from "TODO"       [2010-11-28 Sun 16:04]
+     :CLOCK:
+     CLOCK: [2010-11-28 Sun 16:04]--[2010-11-28 Sun 16:05] =>  0:01
+     :END:
+     - State "TODO"       from ""           [2010-11-28 Sun 16:04]
+**** Automate DIW-1466
+**** Automate DIW-1467
+**** Automate DIW-1468
+**** Automate DIW-1489
+**** Automate DIW-1501
+**** Automate DIW-1504
+**** Automate DIW-1506
+**** Automate DIW-1507
+**** Automate DIW-1508
 ** PROJECT Generate code coverage on MR8 and MR9 to present	 :AUTOMATION:
    - State "PROJECT"    from "TODO"       [2010-11-22 Mon 09:50]
    - State "TODO"       from ""           [2010-11-12 Fri 16:23]

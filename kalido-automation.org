@@ -213,6 +213,7 @@
      3. Extract PDBsFull.zip to DIW installation directory
      4. Run partcover using C:\Program Files (x86)\Kalido\Dynamic Information Warehouse 8>"c:\Program Files (x86)\PartCover\PartCover .NET 4.0\PartCover.exe" --target "c:\my-p4\tools\main\Dev\NUnit\nunit-console-x86.exe" --target-work-dir "c:\SystemTests" --target-args "CSharpTests.dll /fixture=Kalido.DiwTests.PCK42_Decimal.NumericAttributes" --output "c:\partcoverreport.xml" --include [*]*
      5. Run generated report but only for KalidoDIWApi and not for unmanaged code
+
 *** VSTS
 **** Generate coverage
      1. Stop services and instrument required dlls using %VSPERFTOOLS%\vsinstr.exe -coverage <name>.dll
