@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * Tasks
   :PROPERTIES:
   :ARCHIVE:  %s_archive::* Work Tasks
@@ -751,3 +752,765 @@
     5. 
 *** Option 2 : Pick an area to automate
     
+=======
+* Tasks
+  :PROPERTIES:
+  :ARCHIVE:  %s_archive::* Work Tasks
+  :END:
+** PROJECT DIW Training
+   - State "PROJECT"    from ""           [2010-11-22 Mon 10:11]
+*** DONE Session 030 - Viewing data in the explorer
+    - State "DONE"       from "NEXT"       [2010-09-07 Tue 10:02]
+    - State "NEXT"       from "TODO"       [2010-09-07 Tue 09:18]
+    :CLOCK:
+    CLOCK: [2010-09-07 Tue 09:18]--[2010-09-07 Tue 10:02] =>  0:44
+    :END:
+    - State "TODO"       from ""           [2010-09-07 Tue 09:18]
+
+*** DONE Session 040 - Creating a Query Definition and a Result Set
+    - State "DONE"       from "NEXT"       [2010-09-07 Tue 11:03]
+    - State "NEXT"       from "TODO"       [2010-09-07 Tue 10:27]
+    :CLOCK:
+    CLOCK: [2010-09-07 Tue 10:27]--[2010-09-07 Tue 11:03] =>  0:36
+    :END:
+    - State "TODO"       from ""           [2010-09-07 Tue 10:05]
+*** DONE Session 050 - Training Business Model Explained
+    - State "DONE"       from "NEXT"       [2010-09-07 Tue 11:23]
+    - State "NEXT"       from "TODO"       [2010-09-07 Tue 11:09]
+    :CLOCK:
+    CLOCK: [2010-09-07 Tue 11:09]--[2010-09-07 Tue 11:23] =>  0:14
+    :END:
+    - State "TODO"       from ""           [2010-09-07 Tue 11:04]
+
+*** DONE Session 060 - Result Set with Constraints
+    - State "DONE"       from "NEXT"       [2010-09-07 Tue 12:07]
+    - State "NEXT"       from "TODO"       [2010-09-07 Tue 11:44]
+    :CLOCK:
+    CLOCK: [2010-09-07 Tue 11:44]--[2010-09-07 Tue 12:07] =>  0:23
+    :END:
+    - State "TODO"       from ""           [2010-09-07 Tue 11:30]
+*** NEXT Session 070 - Manually Creating Reference Data
+    - State "NEXT"       from "WAITING"    [2010-11-22 Mon 10:11]
+    - State "WAITING"    from "DONE"       [2010-09-07 Tue 12:21] \\
+      need to clarify questions
+    - State "DONE"       from "NEXT"       [2010-09-07 Tue 12:20]
+    - State "NEXT"       from "TODO"       [2010-09-07 Tue 12:08]
+    :CLOCK:
+    CLOCK: [2010-09-07 Tue 12:08]--[2010-09-07 Tue 12:20] =>  0:12
+    :END:
+    - State "TODO"       from ""           [2010-09-07 Tue 12:08]
+*** Session 080 - Reference Data Loading
+*** Session 090 - Loading Multi-levels of a hierarchy
+*** DONE Tutorial 100 - Mapping tables and attribute tables
+    - State "DONE"       from "NEXT"       [2010-09-13 Mon 14:30]
+    - State "NEXT"       from "TODO"       [2010-09-13 Mon 14:10]
+    :CLOCK:
+    CLOCK: [2010-09-13 Mon 14:10]--[2010-09-13 Mon 14:30] =>  0:20
+    :END:
+    - State "TODO"       from ""           [2010-09-13 Mon 14:10]
+*** Session 110 - Updating Reference Data / Loading partial records
+*** DONE Exercise 130 - Loading transaction data
+    - State "DONE"       from "NEXT"       [2010-09-13 Mon 10:57]
+    - State "NEXT"       from "TODO"       [2010-09-13 Mon 10:27]
+    :CLOCK:
+    CLOCK: [2010-09-13 Mon 10:27]--[2010-09-13 Mon 10:57] =>  0:30
+    :END:
+    - State "TODO"       from ""           [2010-09-13 Mon 10:27]
+*** DONE Session 150 - Introduction to Measures
+    - State "DONE"       from "NEXT"       [2010-09-13 Mon 11:33]
+    - State "NEXT"       from "TODO"       [2010-09-13 Mon 11:22]
+    :CLOCK:
+    CLOCK: [2010-09-13 Mon 11:22]--[2010-09-13 Mon 11:33] =>  0:11
+    :END:
+    - State "TODO"       from ""           [2010-09-13 Mon 11:21]
+*** DONE Session 160 - Defining Calculated Measures
+    - State "DONE"       from "NEXT"       [2010-09-13 Mon 11:49]
+    - State "NEXT"       from "TODO"       [2010-09-13 Mon 11:35]
+    :CLOCK:
+    CLOCK: [2010-09-13 Mon 11:35]--[2010-09-13 Mon 11:49] =>  0:14
+    :END:
+    - State "TODO"       from ""           [2010-09-13 Mon 11:35]
+*** Exercise 160 - Defining calculated Measures and Units of Measures
+*** DONE Session 180 - Understanding Viability
+    - State "DONE"       from "NEXT"       [2010-09-13 Mon 12:37]
+    - State "NEXT"       from "TODO"       [2010-09-13 Mon 12:31]
+    :CLOCK:
+    CLOCK: [2010-09-13 Mon 12:31]--[2010-09-13 Mon 12:37] =>  0:06
+    :END:
+    - State "TODO"       from ""           [2010-09-13 Mon 12:31]
+*** DONE Exercise 180 - Viable and partially viable result sets
+    - State "DONE"       from "NEXT"       [2010-09-13 Mon 12:58]
+    - State "NEXT"       from "TODO"       [2010-09-13 Mon 12:38]
+    :CLOCK:
+    CLOCK: [2010-09-13 Mon 12:38]--[2010-09-13 Mon 12:58] =>  0:20
+    :END:
+    - State "TODO"       from ""           [2010-09-13 Mon 12:38]
+*** DONE Session 190 - Extending the business model
+    - State "DONE"       from "NEXT"       [2010-09-13 Mon 13:04]
+    - State "NEXT"       from "TODO"       [2010-09-13 Mon 12:59]
+    :CLOCK:
+    CLOCK: [2010-09-13 Mon 12:59]--[2010-09-13 Mon 13:04] =>  0:05
+    :END:
+    - State "TODO"       from ""           [2010-09-13 Mon 12:58]
+*** DONE Session 200 - Creating Dimensional Meta Data
+    - State "DONE"       from "NEXT"       [2010-09-13 Mon 13:11]
+    - State "NEXT"       from "TODO"       [2010-09-13 Mon 13:05]
+    :CLOCK:
+    CLOCK: [2010-09-13 Mon 13:05]--[2010-09-13 Mon 13:11] =>  0:06
+    :END:
+    - State "TODO"       from ""           [2010-09-13 Mon 13:05]
+*** DONE Exercise 200a - Creating new meta data
+    - State "DONE"       from "NEXT"       [2010-09-13 Mon 13:31]
+    - State "NEXT"       from "TODO"       [2010-09-13 Mon 13:16]
+    :CLOCK:
+    CLOCK: [2010-09-13 Mon 13:28]--[2010-09-13 Mon 13:31] =>  0:03
+    CLOCK: [2010-09-13 Mon 13:16]--[2010-09-13 Mon 13:25] =>  0:09
+    :END:
+    - State "TODO"       from ""           [2010-09-13 Mon 13:16]
+*** DONE Exercise 200b - Loading reference data for new meta data
+    - State "DONE"       from "NEXT"       [2010-09-13 Mon 13:49]
+    - State "NEXT"       from "TODO"       [2010-09-13 Mon 13:32]
+    :CLOCK:
+    CLOCK: [2010-09-13 Mon 13:32]--[2010-09-13 Mon 13:49] =>  0:17
+    :END:
+    - State "TODO"       from ""           [2010-09-13 Mon 13:31]
+*** DONE Session 210 - Creating meta data for transactions
+    - State "DONE"       from "NEXT"       [2010-09-13 Mon 16:03]
+    - State "NEXT"       from "TODO"       [2010-09-13 Mon 15:30]
+    :CLOCK:
+    CLOCK: [2010-09-13 Mon 15:55]--[2010-09-13 Mon 16:03] =>  0:08
+    CLOCK: [2010-09-13 Mon 15:30]--[2010-09-13 Mon 15:39] =>  0:09
+    :END:
+    - State "TODO"       from ""           [2010-09-13 Mon 13:50]
+*** DONE Exercise 210a - Create a stored measure, a transaction dataset, and load the data
+    - State "DONE"       from "NEXT"       [2010-09-13 Mon 15:55]
+    - State "NEXT"       from "TODO"       [2010-09-13 Mon 15:39]
+    :CLOCK:
+    CLOCK: [2010-09-13 Mon 15:39]--[2010-09-13 Mon 15:55] =>  0:16
+    :END:
+    - State "TODO"       from "DONE"       [2010-09-13 Mon 13:49]
+*** Exercise 210b - Data from Multi Transaction Datasets in Result Sets
+*** Session 295 - Custom CBEs in Kalido DIW
+** PROJECT MDM Training
+   - State "PROJECT"    from ""           [2010-11-22 Mon 10:24]
+*** DONE Session 010 - Managing Master Data
+    - State "DONE"       from "NEXT"       [2010-09-15 Wed 11:28]
+    - State "NEXT"       from "TODO"       [2010-09-15 Wed 10:51]
+    :CLOCK:
+    CLOCK: [2010-09-15 Wed 11:16]--[2010-09-15 Wed 11:28] =>  0:12
+    CLOCK: [2010-09-15 Wed 11:12]--[2010-09-15 Wed 11:15] =>  0:03
+    CLOCK: [2010-09-15 Wed 11:11]--[2010-09-15 Wed 11:12] =>  0:01
+    CLOCK: [2010-09-15 Wed 10:51]--[2010-09-15 Wed 11:11] =>  0:20
+    :END:
+    - State "TODO"       from ""           [2010-09-15 Wed 10:18]
+*** DONE Session 020 - Key Concepts and Business Story
+    - State "DONE"       from "NEXT"       [2010-09-15 Wed 12:47]
+    - State "NEXT"       from "TODO"       [2010-09-15 Wed 12:02]
+    :CLOCK:
+    CLOCK: [2010-09-15 Wed 12:42]--[2010-09-15 Wed 12:47] =>  0:05
+    CLOCK: [2010-09-15 Wed 12:27]--[2010-09-15 Wed 12:41] =>  0:14
+    CLOCK: [2010-09-15 Wed 12:19]--[2010-09-15 Wed 12:20] =>  0:01
+    CLOCK: [2010-09-15 Wed 12:02]--[2010-09-15 Wed 12:19] =>  0:17
+    :END:
+    - State "TODO"       from ""           [2010-09-15 Wed 11:29]
+*** DONE Session 030 - Data Consumer: Connecting
+    - State "DONE"       from "NEXT"       [2010-09-15 Wed 13:52]
+    - State "NEXT"       from "TODO"       [2010-09-15 Wed 13:34]
+    :CLOCK:
+    CLOCK: [2010-09-15 Wed 13:34]--[2010-09-15 Wed 13:52] =>  0:18
+    :END:
+    - State "TODO"       from ""           [2010-09-15 Wed 13:34]
+*** DONE Session 040 - Data Consumer: Browsing
+    - State "DONE"       from "NEXT"       [2010-09-15 Wed 15:20]
+    - State "NEXT"       from "TODO"       [2010-09-15 Wed 15:00]
+    :CLOCK:
+    CLOCK: [2010-09-15 Wed 15:00]--[2010-09-15 Wed 15:20] =>  0:20
+    :END:
+    - State "TODO"       from ""           [2010-09-15 Wed 14:27]
+*** DONE Session 050 - Data Provider: Creating and Editing Data
+    - State "DONE"       from "NEXT"       [2010-09-15 Wed 16:29]
+    - State "NEXT"       from "TODO"       [2010-09-15 Wed 16:18]
+    :CLOCK:
+    CLOCK: [2010-09-15 Wed 16:18]--[2010-09-15 Wed 16:29] =>  0:11
+    :END:
+    - State "TODO"       from ""           [2010-09-15 Wed 15:53]
+*** DONE Session 060 - Data Provider: Baskets and Deleting Data
+    - State "DONE"       from "NEXT"       [2010-09-15 Wed 16:59]
+    - State "NEXT"       from "TODO"       [2010-09-15 Wed 16:43]
+    :CLOCK:
+    CLOCK: [2010-09-15 Wed 16:43]--[2010-09-15 Wed 16:54] =>  0:11
+    :END:
+    - State "TODO"       from ""           [2010-09-15 Wed 16:43]
+*** DONE Session 070 - Data Provider: Creating Catalogs and Re-Cataloging
+    - State "DONE"       from "NEXT"       [2010-09-15 Wed 17:35]
+    - State "NEXT"       from "TODO"       [2010-09-15 Wed 17:28]
+    :CLOCK:
+    CLOCK: [2010-09-15 Wed 17:28]--[2010-09-15 Wed 17:35] =>  0:07
+    :END:
+    - State "TODO"       from ""           [2010-09-15 Wed 17:24]
+*** DONE Session 080 - Data Provider: Tasks
+    - State "DONE"       from "NEXT"       [2010-09-15 Wed 18:33]
+    - State "NEXT"       from "TODO"       [2010-09-15 Wed 18:05]
+    :CLOCK:
+    CLOCK: [2010-09-15 Wed 18:05]--[2010-09-15 Wed 18:33] =>  0:28
+    :END:
+    - State "TODO"       from ""           [2010-09-15 Wed 17:23]
+*** DONE Session 090 - Data Provider: Moving Data Through a Workflow
+    - State "DONE"       from "NEXT"       [2010-09-16 Thu 09:58]
+    - State "NEXT"       from "TODO"       [2010-09-16 Thu 09:25]
+    :CLOCK:
+    CLOCK: [2010-09-16 Thu 09:47]--[2010-09-16 Thu 09:58] =>  0:11
+    CLOCK: [2010-09-16 Thu 09:25]--[2010-09-16 Thu 09:44] =>  0:19
+    :END:
+  - State "TODO"       from ""           [2010-09-15 Wed 17:24]
+*** DONE Session 100 - Data Provider: Loading Data
+    - State "DONE"       from "NEXT"       [2010-09-16 Thu 11:11]
+    - State "NEXT"       from "TODO"       [2010-09-16 Thu 10:44]
+    :CLOCK:
+    CLOCK: [2010-09-16 Thu 10:44]--[2010-09-16 Thu 11:11] =>  0:27
+    :END:
+  - State "TODO"       from ""           [2010-09-15 Wed 17:24]
+*** DONE Session 110 - Data Provider: Modifying Data
+    - State "DONE"       from "NEXT"       [2010-09-16 Thu 12:23]
+    - State "NEXT"       from "TODO"       [2010-09-16 Thu 11:52]
+    :CLOCK:
+    CLOCK: [2010-09-16 Thu 11:52]--[2010-09-16 Thu 12:23] =>  0:31
+    :END:
+  - State "TODO"       from ""           [2010-09-15 Wed 17:24]
+*** DONE Session 120 - Data Provider: Loading Data with a Reference to a Parent
+    - State "DONE"       from "NEXT"       [2010-09-16 Thu 13:28]
+    - State "NEXT"       from "TODO"       [2010-09-16 Thu 13:20]
+    :CLOCK:
+    CLOCK: [2010-09-16 Thu 13:20]--[2010-09-16 Thu 13:28] =>  0:08
+    :END:
+  - State "TODO"       from ""           [2010-09-15 Wed 17:24]
+*** DONE Session 130 - Data Provider: Mapping
+    - State "DONE"       from "NEXT"       [2010-09-16 Thu 15:47]
+    - State "NEXT"       from "TODO"       [2010-09-16 Thu 15:29]
+    :CLOCK:
+    CLOCK: [2010-09-16 Thu 15:29]--[2010-09-16 Thu 15:47] =>  0:18
+    :END:
+  - State "TODO"       from ""           [2010-09-15 Wed 17:24]
+*** DONE Session 140 - Data Provider: Complex Mapping
+    - State "DONE"       from "NEXT"       [2010-09-16 Thu 16:42]
+    - State "NEXT"       from "TODO"       [2010-09-16 Thu 16:30]
+    :CLOCK:
+    CLOCK: [2010-09-16 Thu 16:30]--[2010-09-16 Thu 16:42] =>  0:12
+    :END:
+  - State "TODO"       from ""           [2010-09-15 Wed 17:24]
+*** Session 150 - Merging
+*** Session 160 - Exporting
+*** Session 170 - Publishing and Creating Contexts
+*** Session 180 - Creating Categories
+*** Session 190 - Template Changes
+*** Session 200 - Subtype Categories
+*** Session 210 - Importing from DIW
+*** Session 220 - Exporting to DIW
+*** Session 230 - Creating a Workflow
+*** Session 240 - Executable Programs
+*** Session 250 - XML Data Exchange
+*** Session 260 - Security
+*** Session 270 - Auditing Events
+*** Session 280 - Advanced Categories
+*** Session 290 - Custom Validationv2
+*** Session 300 - Customizing the Application
+*** Exercises
+**** DONE Exercise 030 - Data Consumer: Connecting, Changing Context and Party
+     - State "NEXT"       from "TODO"       [2010-09-15 Wed 14:24]
+     :CLOCK:
+     CLOCK: [2010-09-15 Wed 14:24]--[2010-09-15 Wed 14:26] =>  0:02
+     :END:
+     - State "TODO"       from ""           [2010-09-15 Wed 13:52]
+**** DONE Exercise 040 - Data Consumer: Browsing and Searching in the MDM
+     - State "DONE"       from "NEXT"       [2010-09-15 Wed 15:50]
+     - State "NEXT"       from "TODO"       [2010-09-15 Wed 15:20]
+     :CLOCK:
+     CLOCK: [2010-09-15 Wed 15:36]--[2010-09-15 Wed 15:50] =>  0:14
+     CLOCK: [2010-09-15 Wed 15:20]--[2010-09-15 Wed 15:32] =>  0:12
+     :END:
+     - State "TODO"       from ""           [2010-09-15 Wed 15:20]
+**** DONE Exercise 050 - Data Provider: Manually Adding New Master Data
+     - State "DONE"       from "NEXT"       [2010-09-15 Wed 16:42]
+     - State "NEXT"       from "TODO"       [2010-09-15 Wed 16:30]
+     :CLOCK:
+     CLOCK: [2010-09-15 Wed 16:30]--[2010-09-15 Wed 16:42] =>  0:12
+     :END:
+     - State "TODO"       from ""           [2010-09-15 Wed 16:30]
+**** DONE Exercise 060a - Data Provider: Performing Bulk Operations with Baskets
+     - State "DONE"       from "NEXT"       [2010-09-15 Wed 17:10]
+     - State "NEXT"       from "TODO"       [2010-09-15 Wed 17:00]
+     :CLOCK:
+     CLOCK: [2010-09-15 Wed 17:08]--[2010-09-15 Wed 17:10] =>  0:02
+     CLOCK: [2010-09-15 Wed 17:00]--[2010-09-15 Wed 17:06] =>  0:06
+     :END:
+     - State "TODO"       from ""           [2010-09-15 Wed 17:00]
+**** DONE Exercise 060b - Data Provider: Deleting Data
+     - State "DONE"       from "NEXT"       [2010-09-15 Wed 17:15]
+     - State "NEXT"       from "TODO"       [2010-09-15 Wed 17:10]
+     :CLOCK:
+     CLOCK: [2010-09-15 Wed 17:10]--[2010-09-15 Wed 17:15] =>  0:05
+     :END:
+     - State "TODO"       from ""           [2010-09-15 Wed 17:00]
+**** DONE Exercise 070 - Data Provider: Creating a Catalog and Re-Cataloging
+     - State "DONE"       from "NEXT"       [2010-09-15 Wed 17:41]
+     - State "NEXT"       from "TODO"       [2010-09-15 Wed 17:35]
+     :CLOCK:
+     CLOCK: [2010-09-15 Wed 17:35]--[2010-09-15 Wed 17:41] =>  0:06
+     :END:
+     - State "TODO"       from ""           [2010-09-15 Wed 17:35]
+**** DONE Exercise 090 - Data Provider: Moving new data through a Workflow
+     - State "DONE"       from "NEXT"       [2010-09-16 Thu 10:24]
+     - State "NEXT"       from "TODO"       [2010-09-16 Thu 10:08]
+     :CLOCK:
+     CLOCK: [2010-09-16 Thu 10:08]--[2010-09-16 Thu 10:24] =>  0:16
+     :END:
+     - State "TODO"       from ""           [2010-09-16 Thu 10:04]
+**** DONE Exercise 100 - Data Provider: Loading new Raw Materials
+     - State "DONE"       from "NEXT"       [2010-09-16 Thu 11:50]
+     - State "NEXT"       from "TODO"       [2010-09-16 Thu 11:44]
+     :CLOCK:
+     CLOCK: [2010-09-16 Thu 11:44]--[2010-09-16 Thu 11:50] =>  0:06
+     :END:
+     - State "TODO"       from ""           [2010-09-16 Thu 11:42]
+**** Exercise 110 - Data Provider: Modifying Existing Raw Materials
+     - State "WAITING"    from "NEXT"       [2010-09-16 Thu 12:44] \\
+       Chocolate Flake is not listed as the current name, investigate why
+     - State "NEXT"       from "TODO"       [2010-09-16 Thu 12:32]
+     :CLOCK:
+     CLOCK: [2010-09-16 Thu 12:32]--[2010-09-16 Thu 12:44] =>  0:12
+     :END:
+     - State "TODO"       from ""           [2010-09-16 Thu 12:32]
+**** DONE Exercise 120 - Data Provider: Loading a product with a reference to a brand
+     - State "DONE"       from "NEXT"       [2010-09-16 Thu 15:15]
+     - State "NEXT"       from "WAITING"    [2010-09-16 Thu 15:15]
+     - State "WAITING"    from "NEXT"       [2010-09-16 Thu 14:28] \\
+       Waiting on Lolina
+     - State "NEXT"       from "TODO"       [2010-09-16 Thu 13:29]
+     :CLOCK:
+     CLOCK: [2010-09-16 Thu 13:29]--[2010-09-16 Thu 14:01] =>  0:32
+     :END:
+     - State "TODO"       from ""           [2010-09-16 Thu 13:29]
+**** DONE Exercise 130 - Data Provider: Mapping
+     - State "DONE"       from "NEXT"       [2010-09-16 Thu 16:03]
+     - State "NEXT"       from "TODO"       [2010-09-16 Thu 15:52]
+     :CLOCK:
+     CLOCK: [2010-09-16 Thu 15:52]--[2010-09-16 Thu 16:03] =>  0:11
+     :END:
+     - State "TODO"       from ""           [2010-09-16 Thu 15:48]
+**** DONE Exercise 140 - Complex mapping
+     - State "DONE"       from "NEXT"       [2010-09-16 Thu 17:08]
+     - State "NEXT"       from "TODO"       [2010-09-16 Thu 16:53]
+     :CLOCK:
+     CLOCK: [2010-09-16 Thu 17:02]--[2010-09-16 Thu 17:08] =>  0:06
+     CLOCK: [2010-09-16 Thu 16:53]--[2010-09-16 Thu 17:00] =>  0:07
+     :END:
+     - State "TODO"       from ""           [2010-09-16 Thu 16:43]
+** SOMEDAY Business-Model-Driven Data Warehousing
+   - State "SOMEDAY"    from "NEXT"       [2010-11-15 Mon 10:39]
+   - State "NEXT"       from "TODO"       [2010-09-08 Wed 11:53]
+   :CLOCK:
+   CLOCK: [2010-09-08 Wed 11:53]--[2010-09-08 Wed 12:40] =>  0:47
+   :END:
+   - State "TODO"       from ""           [2010-09-08 Wed 11:50]
+** SOMEDAY Learn pivot table
+   - State "SOMEDAY"    from "TODO"       [2010-11-22 Mon 09:27]
+   - State "TODO"       from ""           [2010-09-13 Mon 12:07]
+** PROJECT Understand test framework				 :AUTOMATION:
+   - State "PROJECT"    from "TODO"       [2010-11-22 Mon 09:50]
+   - State "TODO"       from "NEXT"       [2010-11-15 Mon 10:40]
+   - State "NEXT"       from "TODO"       [2010-09-23 Thu 17:07]
+   :CLOCK:
+   CLOCK: [2010-09-27 Mon 14:58]--[2010-09-27 Mon 15:20] =>  0:22
+   CLOCK: [2010-09-27 Mon 14:26]--[2010-09-27 Mon 14:42] =>  0:16
+   CLOCK: [2010-09-27 Mon 11:24]--[2010-09-27 Mon 11:25] =>  0:01
+   CLOCK: [2010-09-24 Fri 13:53]--[2010-09-24 Fri 14:13] =>  0:20
+   CLOCK: [2010-09-23 Thu 17:07]--[2010-09-23 Thu 17:25] =>  0:18
+   :END:
+   - State "TODO"       from ""           [2010-09-23 Thu 16:27]
+*** NEXT Execute DIWTutorialTests
+    - State "NEXT"       from "TODO"       [2010-11-15 Mon 10:40]
+    - State "TODO"       from ""           [2010-09-27 Mon 15:52]
+** DONE Get code coverage running
+   - State "DONE"       from "NEXT"       [2010-11-15 Mon 10:40]
+   - State "NEXT"       from "TODO"       [2010-10-15 Fri 09:46]
+   :CLOCK:
+   CLOCK: [2010-11-12 Fri 13:44]--[2010-11-12 Fri 16:30] =>  2:46
+   CLOCK: [2010-10-19 Tue 11:25]--[2010-10-19 Tue 15:15] =>  3:50
+   CLOCK: [2010-10-19 Tue 09:47]--[2010-10-19 Tue 11:17] =>  1:30
+   CLOCK: [2010-10-15 Fri 09:46]--[2010-10-15 Fri 10:19] =>  0:33
+   :END:
+   - State "TODO"       from ""           [2010-10-13 Wed 17:11]
+** PROJECT [[file:support/visual-studio.org][Learn Visual Studio]]
+   - State "PROJECT"    from ""           [2010-11-22 Mon 10:08]
+   :PROPERTIES:
+   :END:
+*** DONE Video on visual studio code coverage
+    - State "DONE"       from "NEXT"       [2010-10-14 Thu 10:42]
+      More focused on performance analysis rather than code coverage
+    - State "NEXT"       from "TODO"       [2010-10-14 Thu 09:59]
+    :CLOCK:
+    CLOCK: [2010-10-14 Thu 09:59]--[2010-10-14 Thu 10:42] =>  0:43
+    :END:
+    - State "TODO"       from ""           [2010-10-14 Thu 09:57]
+*** NEXT Create list of stuff to read on Visual Studio
+    :CLOCK:
+    CLOCK: [2010-11-22 Mon 15:56]--[2010-11-22 Mon 16:42] =>  0:46
+    :END:
+** NEXT Read Coding Standards					 :AUTOMATION:
+   - State "NEXT"       from "TODO"       [2010-11-22 Mon 09:27]
+   - State "TODO"       from ""           [2010-09-24 Fri 11:45]
+** NEXT Whats a subtype in DIW
+   - State "NEXT"       from "TODO"       [2010-11-22 Mon 09:28]
+   - State "TODO"       from ""           [2010-09-28 Tue 17:09]
+
+** NEXT Investigate MakeNameUnique				       :CODE:
+   - State "NEXT"       from "TODO"       [2010-11-22 Mon 09:28]
+   - State "TODO"       from ""           [2010-09-29 Wed 11:37]
+** DONE [[file:kalido-automation.org::*VerifyLoadBeAndModifyFieldValue][Log defect for unicode subject CBE load]]
+   - State "DONE"       from "NEXT"       [2010-10-11 Mon 10:44]
+   - State "NEXT"       from "TODO"       [2010-10-11 Mon 10:44]
+   :CLOCK:
+   :END:
+   - State "TODO"       from ""           [2010-10-01 Fri 11:59]
+
+** DONE Build DIW
+   - State "DONE"       from "NEXT"       [2010-10-21 Thu 15:44]
+   - State "NEXT"       from "TODO"       [2010-10-11 Mon 09:51]
+   :CLOCK:
+   CLOCK: [2010-10-11 Mon 10:44]--[2010-10-11 Mon 12:30] =>  1:46
+   CLOCK: [2010-10-11 Mon 09:51]--[2010-10-11 Mon 10:44] =>  0:53
+   :END:
+   - State "TODO"       from ""           [2010-10-08 Fri 12:56]
+** PROJECT [[file:kalido-automation.org::*Automate%20Indus%202%20Reg%20Teradata%20tests][Automate Indus 2 {Reg} (Teradata) tests]]		 :AUTOMATION:
+   - State "PROJECT"    from "TODO"       [2010-11-22 Mon 10:07]
+   - State "TODO"       from ""           [2010-10-20 Wed 12:10]
+*** Identify tests already automated
+    - State "TODO"       from "NEXT"       [2010-11-15 Mon 10:41]
+    - State "NEXT"       from "TODO"       [2010-10-21 Thu 11:31]
+    :CLOCK:
+    CLOCK: [2010-10-22 Fri 13:55]--[2010-10-22 Fri 15:04] =>  1:09
+    CLOCK: [2010-10-22 Fri 12:40]--[2010-10-22 Fri 13:15] =>  0:35
+    CLOCK: [2010-10-22 Fri 11:52]--[2010-10-22 Fri 12:26] =>  0:34
+    CLOCK: [2010-10-22 Fri 10:07]--[2010-10-22 Fri 11:47] =>  1:40
+    CLOCK: [2010-10-21 Thu 15:22]--[2010-10-21 Thu 15:36] =>  0:14
+    CLOCK: [2010-10-21 Thu 14:40]--[2010-10-21 Thu 14:51] =>  0:11
+    CLOCK: [2010-10-21 Thu 14:10]--[2010-10-21 Thu 14:33] =>  0:23
+    CLOCK: [2010-10-21 Thu 11:31]--[2010-10-21 Thu 12:49] =>  1:18
+    :END:
+    - State "TODO"       from ""           [2010-10-21 Thu 11:13]
+*** Automate tests
+    - State "TODO"       from "NEXT"       [2010-11-15 Mon 10:41]
+    - State "NEXT"       from "WAITING"    [2010-11-10 Wed 10:24]
+    - State "WAITING"    from "NEXT"       [2010-10-28 Thu 17:57] \\
+      DIW-1422,1423 automated; single test(sql&oracle)
+    - State "NEXT"       from "WAITING"    [2010-10-28 Thu 17:30]
+    - State "WAITING"    from "NEXT"       [2010-10-28 Thu 16:58] \\
+      refactored 1420, 1421 to parameterized tests
+    - State "NEXT"       from "WAITING"    [2010-10-28 Thu 16:34]
+    - State "WAITING"    from "NEXT"       [2010-10-28 Thu 16:29] \\
+      Automated DIW-1421
+    - State "NEXT"       from "WAITING"    [2010-10-28 Thu 15:39]
+    - State "WAITING"    from "NEXT"       [2010-10-28 Thu 15:36] \\
+      Automated DIW-1419
+    - State "NEXT"       from "WAITING"    [2010-10-28 Thu 12:17]
+    - State "WAITING"    from "NEXT"       [2010-10-28 Thu 12:13] \\
+      DIW-1416 automated
+    - State "NEXT"       from "WAITING"    [2010-10-28 Thu 10:18]
+    - State "WAITING"    from "NEXT"       [2010-10-28 Thu 10:17] \\
+      1413,1414 done
+    - State "NEXT"       from "WAITING"    [2010-10-27 Wed 17:06]
+    - State "WAITING"    from "NEXT"       [2010-10-27 Wed 15:24] \\
+      Automated DIW-1412
+    - State "NEXT"       from "WAITING"    [2010-10-27 Wed 13:08]
+    - State "WAITING"    from "NEXT"       [2010-10-27 Wed 13:08] \\
+      Finished atuomating test DIW-1409, ran 1407,1408,1409 tests in sequence successfully
+    - State "NEXT"       from "WAITING"    [2010-10-27 Wed 12:30]
+    - State "WAITING"    from "NEXT"       [2010-10-27 Wed 12:25] \\
+      Finished automating test DIW-1408
+    - State "NEXT"       from "WAITING"    [2010-10-27 Wed 12:03]
+    - State "WAITING"    from "NEXT"       [2010-10-27 Wed 12:02] \\
+      Finished automating test DIW-1407
+    - State "NEXT"       from "TODO"       [2010-10-27 Wed 09:20]
+    :CLOCK:
+    CLOCK: [2010-11-10 Wed 12:05]--[2010-11-10 Wed 12:12] =>  0:07
+    CLOCK: [2010-11-10 Wed 11:34]--[2010-11-10 Wed 12:05] =>  0:31
+    CLOCK: [2010-11-10 Wed 10:24]--[2010-11-10 Wed 11:20] =>  0:56
+    CLOCK: [2010-10-28 Thu 17:30]--[2010-10-28 Thu 17:56] =>  0:26
+    CLOCK: [2010-10-28 Thu 16:34]--[2010-10-28 Thu 16:58] =>  0:24
+    CLOCK: [2010-10-28 Thu 16:03]--[2010-10-28 Thu 16:28] =>  0:25
+    CLOCK: [2010-10-28 Thu 15:06]--[2010-10-28 Thu 15:36] =>  0:30
+    CLOCK: [2010-10-28 Thu 13:53]--[2010-10-28 Thu 14:50] =>  0:57
+    CLOCK: [2010-10-28 Thu 12:17]--[2010-10-28 Thu 12:31] =>  0:14
+    CLOCK: [2010-10-28 Thu 10:18]--[2010-10-28 Thu 12:13] =>  1:55
+    CLOCK: [2010-10-28 Thu 09:49]--[2010-10-28 Thu 10:18] =>  0:29
+    CLOCK: [2010-10-28 Thu 09:22]--[2010-10-28 Thu 09:35] =>  0:13
+    CLOCK: [2010-10-27 Wed 17:06]--[2010-10-27 Wed 18:06] =>  1:00
+    CLOCK: [2010-10-27 Wed 14:39]--[2010-10-27 Wed 15:24] =>  0:45
+    CLOCK: [2010-10-27 Wed 12:30]--[2010-10-27 Wed 13:07] =>  0:37
+    CLOCK: [2010-10-27 Wed 12:03]--[2010-10-27 Wed 12:25] =>  0:22
+    CLOCK: [2010-10-27 Wed 11:06]--[2010-10-27 Wed 12:02] =>  0:56
+    CLOCK: [2010-10-27 Wed 10:21]--[2010-10-27 Wed 10:56] =>  0:35
+    CLOCK: [2010-10-27 Wed 09:20]--[2010-10-27 Wed 10:16] =>  0:56
+    :END:
+    - State "TODO"       from ""           [2010-10-27 Wed 09:20]
+**** DONE Automate DIW-1447
+     - State "DONE"       from "NEXT"       [2010-11-10 Wed 12:27]
+     - State "NEXT"       from "TODO"       [2010-11-10 Wed 12:12]
+     :CLOCK:
+     CLOCK: [2010-11-10 Wed 12:12]--[2010-11-10 Wed 12:27] =>  0:15
+     :END:
+     - State "TODO"       from ""           [2010-11-10 Wed 12:12]
+**** DONE Automate DIW-1448
+     - State "DONE"       from "NEXT"       [2010-11-10 Wed 15:32]
+     - State "NEXT"       from "TODO"       [2010-11-10 Wed 12:32]
+     :CLOCK:
+     CLOCK: [2010-11-10 Wed 15:20]--[2010-11-10 Wed 15:32] =>  0:12
+     CLOCK: [2010-11-10 Wed 12:32]--[2010-11-10 Wed 12:47] =>  0:15
+     :END:
+     - State "TODO"       from ""           [2010-11-10 Wed 12:32]
+**** NEXT Automate DIW-1449
+     - State "NEXT"       from "TODO"       [2010-11-22 Mon 09:29]
+     - State "TODO"       from "NEXT"       [2010-11-16 Tue 12:30]
+     - State "NEXT"       from "TODO"       [2010-11-10 Wed 15:33]
+     :CLOCK:
+     CLOCK: [2010-11-10 Wed 15:58]--[2010-11-10 Wed 16:32] =>  0:34
+     CLOCK: [2010-11-10 Wed 15:33]--[2010-11-10 Wed 15:39] =>  0:06
+     :END:
+     - State "TODO"       from ""           [2010-11-10 Wed 15:33]
+**** Automate DIW-1450
+     - State "TODO"       from "NEXT"       [2010-11-16 Tue 12:30]
+     - State "NEXT"       from "TODO"       [2010-11-10 Wed 16:32]
+     :CLOCK:
+     CLOCK: [2010-11-10 Wed 16:32]--[2010-11-10 Wed 17:55] =>  1:23
+     :END:
+     - State "TODO"       from ""           [2010-11-10 Wed 16:32]
+**** Automate DIW-1451
+     - State "TODO"       from ""           [2010-11-10 Wed 21:33]
+**** DONE Automate DIW-1452
+     - State "DONE"       from "NEXT"       [2010-11-10 Wed 22:20]
+     - State "NEXT"       from "TODO"       [2010-11-10 Wed 21:33]
+     :CLOCK:
+     CLOCK: [2010-11-10 Wed 21:33]--[2010-11-10 Wed 22:20] =>  0:47
+     :END:
+     - State "TODO"       from ""           [2010-11-10 Wed 21:33]
+**** DONE Automate DIW-1453
+     - State "DONE"       from "NEXT"       [2010-11-11 Thu 14:32]
+     - State "NEXT"       from "TODO"       [2010-11-11 Thu 10:29]
+     :CLOCK:
+     CLOCK: [2010-11-11 Thu 10:29]--[2010-11-11 Thu 10:38] =>  0:09
+     :END:
+     - State "TODO"       from ""           [2010-11-11 Thu 10:24]
+***** DONE Load data from staging table into child cbe with csd parent
+      - State "DONE"       from "NEXT"       [2010-11-11 Thu 14:32]
+      - State "NEXT"       from "TODO"       [2010-11-11 Thu 10:39]
+  :CLOCK:
+  CLOCK: [2010-11-11 Thu 12:29]--[2010-11-11 Thu 12:48] =>  0:19
+  CLOCK: [2010-11-11 Thu 10:39]--[2010-11-11 Thu 10:41] =>  0:02
+  CLOCK: [2010-11-11 Thu 10:38]--[2010-11-11 Thu 10:39] =>  0:01
+  :END:
+  [2010-11-11 Thu 10:38]
+  [[file:~/org/work.org::*Automate%20DIW%201453][Automate DIW-1453]]
+
+***** DONE Create warehouse since existing warehouses contain data from previous test runs
+      - State "DONE"       from "NEXT"       [2010-11-11 Thu 12:29]
+      - State "NEXT"       from "TODO"       [2010-11-11 Thu 10:41]
+      :CLOCK:
+      CLOCK: [2010-11-11 Thu 10:41]--[2010-11-11 Thu 11:21] =>  0:40
+      :END:
+      - State "TODO"       from ""           [2010-11-11 Thu 10:40]
+**** DONE Automate DIW-1454
+     - State "DONE"       from "NEXT"       [2010-11-11 Thu 14:53]
+     - State "NEXT"       from "TODO"       [2010-11-11 Thu 14:32]
+     :CLOCK:
+     CLOCK: [2010-11-11 Thu 14:32]--[2010-11-11 Thu 14:53] =>  0:21
+     :END:
+     - State "TODO"       from ""           [2010-11-11 Thu 14:32]
+**** DONE Automate DIW-1455
+     - State "DONE"       from "NEXT"       [2010-11-11 Thu 15:20]
+     - State "NEXT"       from "TODO"       [2010-11-11 Thu 14:57]
+     :CLOCK:
+     CLOCK: [2010-11-11 Thu 14:57]--[2010-11-11 Thu 15:20] =>  0:23
+     :END:
+     - State "TODO"       from ""           [2010-11-11 Thu 14:57]
+**** DONE Automate DIW-1456
+     - State "DONE"       from "NEXT"       [2010-11-12 Fri 12:25]
+     - State "NEXT"       from "TODO"       [2010-11-11 Thu 15:34]
+     :CLOCK:
+     CLOCK: [2010-11-12 Fri 12:20]--[2010-11-12 Fri 12:25] =>  0:05
+     CLOCK: [2010-11-11 Thu 15:34]--[2010-11-11 Thu 17:57] =>  2:23
+     :END:
+     - State "TODO"       from ""           [2010-11-11 Thu 15:34]
+
+**** DONE Automate DIW-1457
+     - State "DONE"       from "NEXT"       [2010-11-12 Fri 12:41]
+     - State "NEXT"       from "TODO"       [2010-11-12 Fri 12:26]
+     :CLOCK:
+     CLOCK: [2010-11-12 Fri 12:26]--[2010-11-12 Fri 12:41] =>  0:15
+     :END:
+     - State "TODO"       from ""           [2010-11-12 Fri 12:26]
+**** DONE Automate DIW-1458
+     - State "DONE"       from "NEXT"       [2010-11-12 Fri 12:49]
+     - State "NEXT"       from "TODO"       [2010-11-12 Fri 12:43]
+     :CLOCK:
+     CLOCK: [2010-11-12 Fri 12:43]--[2010-11-12 Fri 12:49] =>  0:06
+     :END:
+     - State "TODO"       from ""           [2010-11-12 Fri 12:43]
+**** DONE Automate DIW-1459
+     - State "DONE"       from "NEXT"       [2010-11-12 Fri 13:05]
+     - State "NEXT"       from "TODO"       [2010-11-12 Fri 12:52]
+     :CLOCK:
+     CLOCK: [2010-11-12 Fri 12:52]--[2010-11-12 Fri 13:05] =>  0:13
+     :END:
+     - State "TODO"       from ""           [2010-11-12 Fri 12:52]
+**** DONE Automate DIW-1460
+     - State "DONE"       from "NEXT"       [2010-11-28 Sun 16:03]
+     - State "TODO"       from "NEXT"       [2010-11-16 Tue 12:31]
+     - State "NEXT"       from "TODO"       [2010-11-12 Fri 13:12]
+     :CLOCK:
+     CLOCK: [2010-11-12 Fri 13:12]--[2010-11-12 Fri 13:19] =>  0:07
+     :END:
+     - State "TODO"       from ""           [2010-11-12 Fri 13:05]
+**** DONE Automate DIW-1461
+     - State "DONE"       from "NEXT"       [2010-11-28 Sun 16:03]
+     - State "NEXT"       from "TODO"       [2010-11-28 Sun 16:03]
+     - State "TODO"       from ""           [2010-11-28 Sun 16:03]
+**** DONE Automate DIW-1463
+     - State "DONE"       from "NEXT"       [2010-11-29 Mon 23:18]
+     :CLOCK:
+     CLOCK: [2010-11-29 Mon 23:12]--[2010-11-29 Mon 23:18] =>  0:06
+     :END:
+**** NEXT Automate DIW-1464
+     - State "NEXT"       from "TODO"       [2010-11-29 Mon 23:53]
+     - State "TODO"       from ""           [2010-11-29 Mon 23:53]
+     - State "NEXT"       from "TODO"       [2010-11-28 Sun 16:04]
+     :CLOCK:
+     CLOCK: [2010-11-29 Mon 23:53]
+     CLOCK: [2010-11-28 Sun 16:04]--[2010-11-28 Sun 16:05] =>  0:01
+     :END:
+     - State "TODO"       from ""           [2010-11-28 Sun 16:04]
+**** Automate DIW-1466
+**** Automate DIW-1467
+**** Automate DIW-1468
+**** Automate DIW-1489
+**** Automate DIW-1501
+**** Automate DIW-1504
+**** Automate DIW-1506
+**** Automate DIW-1507
+**** Automate DIW-1508
+** PROJECT Generate code coverage on MR8 and MR9 to present	 :AUTOMATION:
+   - State "PROJECT"    from "TODO"       [2010-11-22 Mon 09:50]
+   - State "TODO"       from ""           [2010-11-12 Fri 16:23]
+*** DONE Run some tests from dll packaged with build and observe if code coverage reports are generated for all program dlls
+    - State "DONE"       from "NEXT"       [2010-11-22 Mon 17:10]
+    :CLOCK:
+    CLOCK: [2010-11-22 Mon 17:05]--[2010-11-22 Mon 17:09] =>  0:04
+    CLOCK: [2010-11-22 Mon 15:41]--[2010-11-22 Mon 15:56] =>  0:15
+    CLOCK: [2010-11-22 Mon 14:16]--[2010-11-22 Mon 15:41] =>  1:25
+    :END:
+*** NEXT Run all tests in vm for code coverage
+   - State "NEXT"       from "TODO"       [2010-11-11 Thu 17:57]
+   :CLOCK:
+   CLOCK: [2010-11-22 Mon 17:11]--[2010-11-22 Mon 17:15] =>  0:04
+   CLOCK: [2010-11-22 Mon 14:15]--[2010-11-22 Mon 14:16] =>  0:01
+   CLOCK: [2010-11-12 Fri 10:57]--[2010-11-12 Fri 12:21] =>  1:24
+   CLOCK: [2010-11-11 Thu 17:57]--[2010-11-11 Thu 18:38] =>  0:41
+   :END:
+   - State "TODO"       from ""           [2010-11-11 Thu 16:20]
+*** Download PDBs for MR9 <2010-11-23 Tue>
+** PROJECT [[file:support/session-code-coverage-nov-22.org][Create presentation and talking points on code coverage]] :AUTOMATION:
+   DEADLINE: <2010-11-23 Tue>
+   - State "PROJECT"    from "TODO"       [2010-11-22 Mon 09:50]
+   - State "TODO"       from "NEXT"       [2010-11-15 Mon 12:38]
+   - State "NEXT"       from "TODO"       [2010-11-15 Mon 12:31]
+   :CLOCK:
+   CLOCK: [2010-11-15 Mon 12:31]--[2010-11-15 Mon 12:44] =>  0:13
+   :END:
+   - State "TODO"       from ""           [2010-11-12 Fri 16:23]
+*** DONE Send out an invite to the PV team for the presentation on 25 Nov 12 pm
+    - State "DONE"       from "NEXT"       [2010-11-15 Mon 12:39]
+    - State "NEXT"       from "TODO"       [2010-11-15 Mon 12:39]
+    - State "TODO"       from ""           [2010-11-15 Mon 12:39]
+*** DONE Write vision/purpose of code coverage presentation
+    - State "DONE"       from "NEXT"       [2010-11-22 Mon 11:26]
+    :CLOCK:
+    CLOCK: [2010-11-22 Mon 11:23]--[2010-11-22 Mon 11:24] =>  0:01
+    :END:
+*** DONE Research code coverage,  create preliminary list of reading material
+    - State "DONE"       from "NEXT"       [2010-11-22 Mon 17:56]
+    :CLOCK:
+    CLOCK: [2010-11-22 Mon 11:30]--[2010-11-22 Mon 13:00] =>  1:30
+    CLOCK: [2010-11-22 Mon 11:26]--[2010-11-22 Mon 11:30] =>  0:04
+    :END:
+*** NEXT Brainstorm
+** DONE Reply to Hari on CustomTable columns			       :MAIL:
+   - State "DONE"       from "NEXT"       [2010-11-16 Tue 00:24]
+   - State "NEXT"       from "TODO"       [2010-11-15 Mon 10:43]
+   :CLOCK:
+   CLOCK: [2010-11-15 Mon 10:43]--[2010-11-15 Mon 11:21] =>  0:38
+   :END:
+   - State "TODO"       from ""           [2010-11-15 Mon 10:26]
+** NEXT Get changelist reviewed by Vishnu
+   - State "NEXT"       from "TODO"       [2010-11-16 Tue 12:25]
+   - State "TODO"       from ""           [2010-11-16 Tue 12:25]
+** NEXT Implement Hari comments
+   - State "NEXT"       from "TODO"       [2010-11-16 Tue 12:26]
+   - State "TODO"       from ""           [2010-11-16 Tue 12:26]
+** NEXT Fix the unexpected message displayed on invoking the dev command line
+   - State "NEXT"       from "TODO"       [2010-11-22 Mon 09:32]
+   - State "TODO"       from ""           [2010-11-15 Mon 10:45]
+** DONE Send changelist number to Vishnu
+   - State "DONE"       from "TODO"       [2010-11-16 Tue 12:26]
+   - State "TODO"       from ""           [2010-11-15 Mon 10:50]
+** Checkin tests
+*** DONE Correct all tests
+    - State "DONE"       from "NEXT"       [2010-11-15 Mon 14:06]
+    :CLOCK:
+    CLOCK: [2010-11-15 Mon 13:14]--[2010-11-15 Mon 14:06] =>  0:52
+    CLOCK: [2010-11-15 Mon 11:21]--[2010-11-15 Mon 12:31] =>  1:10
+    :END:
+*** DONE Copy to 8r4sp2
+    - State "DONE"       from "NEXT"       [2010-11-15 Mon 15:59]
+*** DONE Run against SQL
+    - State "DONE"       from "NEXT"       [2010-11-15 Mon 16:00]
+*** DONE Run against Oracle
+    - State "DONE"       from "NEXT"       [2010-11-15 Mon 16:43]
+    :CLOCK:
+    CLOCK: [2010-11-15 Mon 16:00]--[2010-11-15 Mon 16:07] =>  0:07
+    :END:
+*** DONE Run against Netezza
+    - State "DONE"       from "NEXT"       [2010-11-15 Mon 17:31]
+    :CLOCK:
+    CLOCK: [2010-11-15 Mon 16:43]--[2010-11-15 Mon 17:31] =>  0:48
+    :END:
+** WAITING Work with crucible/fisheye
+   - State "WAITING"    from ""           [2010-11-24 Wed 12:02] \\
+     Waiting for Vishnu
+** NEXT Follow dev process for tests that were developed
+   - State "NEXT"       from "TODO"       [2010-11-24 Wed 12:03]
+   - State "TODO"       from ""           [2010-11-24 Wed 12:03]
+** NEXT Read [[http://msdn.microsoft.com/en-us/library/bb190163.aspx#mdm04_topic4][this]] Microsoft article on Master Data Management 
+   - State "NEXT"       from "TODO"       [2010-11-22 Mon 10:33]
+   :CLOCK:
+   :END:
+   [2010-09-15 Wed 11:11]
+   [[file:~/org/kalido-training.org::*Questions][Questions]]
+** PROJECT Try Simian
+   - State "PROJECT"    from "TODO"       [2010-11-22 Mon 17:51]
+   :CLOCK:
+   :END:
+   [2010-11-22 Mon 11:30]
+*** NEXT Download Simian
+** NEXT Fix the 8.5 dev process entry in reference
+   - State "NEXT"       from "TODO"       [2010-11-24 Wed 12:15]
+   - State "TODO"       from ""           [2010-11-24 Wed 12:15]
+* Decisions
+** Automation path options
+*** Option 1 : Catalog the current tests and map it to testlink
+    1. Is there a corresponding test in testlink for developer tests
+    2. How to identify developer tests(coman wakefield, annie bedford, etc)
+    3. What is PCK15_Coverage
+    4. Developer tests might test functionality that is a different test case during the course of its execution, is a separate api test required for the other test
+    5. 
+*** Option 2 : Pick an area to automate
+    
+>>>>>>> e5ce4a5ba4fdc02192d192881c906b2616c002df
