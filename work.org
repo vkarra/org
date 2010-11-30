@@ -619,10 +619,17 @@
      - State "DONE"       from "NEXT"       [2010-11-28 Sun 16:03]
      - State "NEXT"       from "TODO"       [2010-11-28 Sun 16:03]
      - State "TODO"       from ""           [2010-11-28 Sun 16:03]
-**** NEXT Automate DIW-1463
-**** Automate DIW-1464
+**** DONE Automate DIW-1463
+     - State "DONE"       from "NEXT"       [2010-11-29 Mon 23:18]
+     :CLOCK:
+     CLOCK: [2010-11-29 Mon 23:12]--[2010-11-29 Mon 23:18] =>  0:06
+     :END:
+**** NEXT Automate DIW-1464
+     - State "NEXT"       from "TODO"       [2010-11-29 Mon 23:53]
+     - State "TODO"       from ""           [2010-11-29 Mon 23:53]
      - State "NEXT"       from "TODO"       [2010-11-28 Sun 16:04]
      :CLOCK:
+     CLOCK: [2010-11-29 Mon 23:53]
      CLOCK: [2010-11-28 Sun 16:04]--[2010-11-28 Sun 16:05] =>  0:01
      :END:
      - State "TODO"       from ""           [2010-11-28 Sun 16:04]
