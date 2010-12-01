@@ -24,16 +24,32 @@
 * Content
 
 ** Goal
-
+   + Create a code coverage report to provide insights into product areas that do not have enough test coverage
+     
 ** Code Coverage Tools
+   + Partcover
+   + NCover
+   + Visual Studio
 
 ** Why stick to visual studio code coverage(no license required)
+   + Selected tool should provide coverage information on both managed and unmanaged code
+   + Stand-alone profiler available as a free download from Microsoft
 
 ** How to setup a run
+   + Instrument dlls using vsinstr and start coverage monitor
+   + Run the tests
+   + Stop coverage monitor
+   + .coverage file is produced as output
 
-** Generating a report - what kind of information should the report contain
+** Reporting
+   + Should provide coverage information upto method/line level
+   + Static reports used to maintain coverage snapshots for every milestone
+   + Report should be custom since VSTS is not being used
 
 ** How is report generated - tools used to generate the report
+   + Report modelled after EMMA coverage report
+   + NVelocity template engine used with emma template
+   + VSCover90.dll provides the necessary functions to extract information from the coverage output
 
 ** Report - sample report
 

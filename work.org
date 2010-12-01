@@ -523,7 +523,9 @@
      CLOCK: [2010-11-10 Wed 15:33]--[2010-11-10 Wed 15:39] =>  0:06
      :END:
      - State "TODO"       from ""           [2010-11-10 Wed 15:33]
-**** Automate DIW-1450
+**** DONE Automate DIW-1450
+     - State "DONE"       from "TODO"       [2010-12-01 Wed 12:56]
+     - State "TODO"       from ""           [2010-12-01 Wed 12:56]
      - State "TODO"       from "NEXT"       [2010-11-16 Tue 12:30]
      - State "NEXT"       from "TODO"       [2010-11-10 Wed 16:32]
      :CLOCK:
@@ -672,9 +674,25 @@
      CLOCK: [2010-11-30 Tue 16:15]--[2010-11-30 Tue 17:02] =>  0:47
      :END:
      - State "TODO"       from ""           [2010-11-30 Tue 14:55]
-**** Automate DIW-1506
+**** DONE Automate DIW-1506
+     - State "DONE"       from "TODO"       [2010-12-01 Wed 11:23]
+     - State "TODO"       from ""           [2010-12-01 Wed 11:23]
+**** Automate DIW-1410
+**** Automate DIW-1411
+**** Automate DIW-1417
+**** Automate DIW-1418
+**** Automate DIW-1465
+**** Automate DIW-1477
 **** Automate DIW-1507
 **** Automate DIW-1508
+**** Automate DIW-1509
+**** Automate DIW-1524
+**** Automate DIW-1525
+**** Automate DIW-1526
+**** Automate DIW-1527
+**** Automate DIW-1528
+**** Automate DIW-1530
+**** Automate DIW-1531
 ** PROJECT Generate code coverage on MR8 and MR9 to present	 :AUTOMATION:
    - State "PROJECT"    from "TODO"       [2010-11-22 Mon 09:50]
    - State "TODO"       from ""           [2010-11-12 Fri 16:23]
@@ -760,7 +778,8 @@
     :CLOCK:
     CLOCK: [2010-11-15 Mon 16:43]--[2010-11-15 Mon 17:31] =>  0:48
     :END:
-** WAITING Work with crucible/fisheye
+** DONE Work with crucible/fisheye
+   - State "DONE"       from "WAITING"    [2010-12-01 Wed 17:26]
    - State "WAITING"    from ""           [2010-11-24 Wed 12:02] \\
      Waiting for Vishnu
 ** NEXT Follow dev process for tests that were developed
@@ -781,6 +800,18 @@
 ** NEXT Fix the 8.5 dev process entry in reference
    - State "NEXT"       from "TODO"       [2010-11-24 Wed 12:15]
    - State "TODO"       from ""           [2010-11-24 Wed 12:15]
+** PROJECT Selenium testing of MDM
+   - State "PROJECT"    from ""           [2010-12-01 Wed 16:49]
+*** NEXT Which selenium language binding to use
+** PROJECT Scope out changes to Cruise Control DIW coverage information and update Vivek
+   DEADLINE: <2010-12-03 Fri>
+   - State "PROJECT"    from ""           [2010-12-01 Wed 16:51]
+*** NEXT Define information that cruise control should show
+** NEXT Setup Cruise control server
+** PROJECT Automate RCH tests
+   - State "PROJECT"    from ""           [2010-12-01 Wed 17:25]
+*** NEXT Contact Hari for clarification on replacing effective dates on staging loader
+    <2010-12-02 Thu 10:00>
 * Decisions
 ** Automation path options
 *** Option 1 : Catalog the current tests and map it to testlink

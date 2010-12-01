@@ -86,6 +86,9 @@
    - State "TODO"       from ""           [2010-11-16 Tue 16:06]
 *** DONE Goto shop and buy
     - State "DONE"       from "NEXT"       [2010-11-22 Mon 10:30]
+** PROJECT Make Airtel Bill Payment
+   - State "PROJECT"    from ""           [2010-12-01 Wed 11:31]
+*** NEXT Check if bill payment has been debited from Citibank a/c
 * Transfers
 | From   | To                          | Amount | Transaction Number | Timestamp              |
 | MyCiti | MyHSBC                      |   2000 |    090080953725996 |                        |
