@@ -410,7 +410,7 @@
 | DIW-1448 | 20090701-12:22:28 Staging Table - Create/Add                                                         | StagingTableSuperTypeSubTypeWithoutSharedNs                     |                                                                                                                         | DIW v8.4 SP1->5) DIW Regression Testing |                                                                         |
 | DIW-1449 | 20090701-12:22:28 Staging Table - Create/Add                                                         | StagingTableSuperTypeSubTypeWithSharedNs                        |                                                                                                                         | DIW v8.4 SP1->5) DIW Regression Testing |                                                                         |
 | DIW-1450 | 20090701-12:22:28 Staging Table - Create/Add                                                         | StagingTableSuperTypeSubTypeManyToMany                          |                                                                                                                         | DIW v8.4 SP1->5) DIW Regression Testing |                                                                         |
-| DIW-1451 | 20090701-12:22:28 Staging Table - Create/Add                                                         |                                                                 |                                                                                                                         |                                         |                                                                         |
+| DIW-1451 | 20090701-12:22:28 Staging Table - Create/Add                                                         | LoadModifyandDeleteBEsintoCBEwithAllParentRelationships         | PCK27_ReferenceDataLoadingviaStagingTables->ReferenceDataLoadingviaStagingTables_Revised                                |                                         |                                                                         |
 | DIW-1452 | 20090701-12:22:28 Staging Table - Create/Add                                                         | StagingTableInvolutionModel                                     |                                                                                                                         | DIW v8.4 SP1->5) DIW Regression Testing |                                                                         |
 | DIW-1453 | 20090701-12:22:28 Staging Table - Create/Add                                                         | StagingTableCsdModel                                            |                                                                                                                         | DIW v8.4 SP1->5) DIW Regression Testing |                                                                         |
 | DIW-1454 | 20090701-12:22:28 Staging Table - Create/Add7                                                        | StagingTableMappedCbe                                           |                                                                                                                         | DIW v8.4 SP1->5) DIW Regression Testing |                                                                         |
@@ -483,6 +483,15 @@
 | DIW-1675 | Re-Invoking Suspense Batches                                                                         | ClearBatchwithSuspendedRecordsfromSuspense                      |                                                                                                                         | DIW v8.4 SP1->5) DIW Regression Testing |                                                                         |
 |          |                                                                                                      |                                                                 |                                                                                                                         | DIW v8.4 SP1->5) DIW Regression Testing |                                                                         |
 
+*** Valkyrie Tests
+|----------+----------------------------------------+----------------+------+--------+--------|
+| ID       | Name                                   | Auto Test Name | Path | Folder | Reason |
+|----------+----------------------------------------+----------------+------+--------+--------|
+| DIW-4519 | Default Column Width is Mandatory      |                |      |        |        |
+| DIW-4522 | Column Width for other attribute types |                |      |        |        |
+| DIW-4523 | Column Width for any Naming schemes    |                |      |        |        |
+|          |                                        |                |      |        |        |
+
 *** Automation
 **** DIW-1407
 ***** Steps
@@ -538,3 +547,4 @@
 
    
 =======
+

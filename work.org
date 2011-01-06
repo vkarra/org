@@ -408,7 +408,8 @@
    - State "NEXT"       from "TODO"       [2010-11-22 Mon 09:28]
    - State "TODO"       from ""           [2010-09-28 Tue 17:09]
 
-** NEXT Investigate MakeNameUnique				       :CODE:
+** DONE Investigate MakeNameUnique				       :CODE:
+   - State "DONE"       from "NEXT"       [2010-12-02 Thu 11:30]
    - State "NEXT"       from "TODO"       [2010-11-22 Mon 09:28]
    - State "TODO"       from ""           [2010-09-29 Wed 11:37]
 ** DONE [[file:kalido-automation.org::*VerifyLoadBeAndModifyFieldValue][Log defect for unicode subject CBE load]]
@@ -513,7 +514,8 @@
      CLOCK: [2010-11-10 Wed 12:32]--[2010-11-10 Wed 12:47] =>  0:15
      :END:
      - State "TODO"       from ""           [2010-11-10 Wed 12:32]
-**** NEXT Automate DIW-1449
+**** DONE Automate DIW-1449
+     - State "DONE"       from "NEXT"       [2010-12-03 Fri 10:43]
      - State "NEXT"       from "TODO"       [2010-11-22 Mon 09:29]
      - State "TODO"       from "NEXT"       [2010-11-16 Tue 12:30]
      - State "NEXT"       from "TODO"       [2010-11-10 Wed 15:33]
@@ -532,8 +534,6 @@
      CLOCK: [2010-11-10 Wed 16:32]--[2010-11-10 Wed 17:55] =>  1:23
      :END:
      - State "TODO"       from ""           [2010-11-10 Wed 16:32]
-**** Automate DIW-1451
-     - State "TODO"       from ""           [2010-11-10 Wed 21:33]
 **** DONE Automate DIW-1452
      - State "DONE"       from "NEXT"       [2010-11-10 Wed 22:20]
      - State "NEXT"       from "TODO"       [2010-11-10 Wed 21:33]
@@ -683,7 +683,11 @@
 **** Automate DIW-1418
 **** Automate DIW-1465
 **** Automate DIW-1477
-**** Automate DIW-1507
+**** NEXT Automate DIW-1507
+     - State "NEXT"       from "TODO"       [2010-12-03 Fri 11:43]
+     :CLOCK:
+     :END:
+     - State "TODO"       from ""           [2010-12-03 Fri 11:43]
 **** Automate DIW-1508
 **** Automate DIW-1509
 **** Automate DIW-1524
@@ -693,7 +697,8 @@
 **** Automate DIW-1528
 **** Automate DIW-1530
 **** Automate DIW-1531
-** PROJECT Generate code coverage on MR8 and MR9 to present	 :AUTOMATION:
+** DONE Generate code coverage on MR8 and MR9 to present	 :AUTOMATION:
+   - State "DONE"       from "PROJECT"    [2010-12-02 Thu 11:30]
    - State "PROJECT"    from "TODO"       [2010-11-22 Mon 09:50]
    - State "TODO"       from ""           [2010-11-12 Fri 16:23]
 *** DONE Run some tests from dll packaged with build and observe if code coverage reports are generated for all program dlls
@@ -703,7 +708,8 @@
     CLOCK: [2010-11-22 Mon 15:41]--[2010-11-22 Mon 15:56] =>  0:15
     CLOCK: [2010-11-22 Mon 14:16]--[2010-11-22 Mon 15:41] =>  1:25
     :END:
-*** NEXT Run all tests in vm for code coverage
+*** DONE Run all tests in vm for code coverage
+    - State "DONE"       from "NEXT"       [2010-12-02 Thu 11:30]
    - State "NEXT"       from "TODO"       [2010-11-11 Thu 17:57]
    :CLOCK:
    CLOCK: [2010-11-22 Mon 17:11]--[2010-11-22 Mon 17:15] =>  0:04
@@ -712,9 +718,11 @@
    CLOCK: [2010-11-11 Thu 17:57]--[2010-11-11 Thu 18:38] =>  0:41
    :END:
    - State "TODO"       from ""           [2010-11-11 Thu 16:20]
-*** Download PDBs for MR9 <2010-11-23 Tue>
-** PROJECT [[file:support/session-code-coverage-nov-22.org][Create presentation and talking points on code coverage]] :AUTOMATION:
+*** DONE Download PDBs for MR9 <2010-11-23 Tue>
+    - State "DONE"       from ""           [2010-12-02 Thu 11:30]
+** DONE [[file:support/session-code-coverage-nov-22.org][Create presentation and talking points on code coverage]]	 :AUTOMATION:
    DEADLINE: <2010-11-23 Tue>
+   - State "DONE"       from "PROJECT"    [2010-12-02 Thu 11:30]
    - State "PROJECT"    from "TODO"       [2010-11-22 Mon 09:50]
    - State "TODO"       from "NEXT"       [2010-11-15 Mon 12:38]
    - State "NEXT"       from "TODO"       [2010-11-15 Mon 12:31]
@@ -757,7 +765,9 @@
 ** DONE Send changelist number to Vishnu
    - State "DONE"       from "TODO"       [2010-11-16 Tue 12:26]
    - State "TODO"       from ""           [2010-11-15 Mon 10:50]
-** Checkin tests
+** DONE Checkin tests
+   - State "DONE"       from "TODO"       [2010-12-02 Thu 11:30]
+   - State "TODO"       from ""           [2010-12-02 Thu 11:30]
 *** DONE Correct all tests
     - State "DONE"       from "NEXT"       [2010-11-15 Mon 14:06]
     :CLOCK:
@@ -800,18 +810,79 @@
 ** NEXT Fix the 8.5 dev process entry in reference
    - State "NEXT"       from "TODO"       [2010-11-24 Wed 12:15]
    - State "TODO"       from ""           [2010-11-24 Wed 12:15]
-** PROJECT Selenium testing of MDM
+** PROJECT [[file:support/selenium-02-dec.org][Selenium testing of MDM]]
    - State "PROJECT"    from ""           [2010-12-01 Wed 16:49]
-*** NEXT Which selenium language binding to use
+*** DONE Meeting on MDM
+    - State "DONE"       from "NEXT"       [2010-12-08 Wed 16:02]
+    :CLOCK:
+    CLOCK: [2010-12-02 Thu 12:51]--[2010-12-02 Thu 14:00] =>  1:09
+    :END:
+    - State "NEXT"       from "TODO"       [2010-12-02 Thu 12:50]
+    - State "TODO"       from ""           [2010-12-02 Thu 12:50]
+      Automating Java applets - find a tool
+      
+*** DONE Create prototype on selenium applet testing
+    - State "DONE"       from "NEXT"       [2010-12-08 Wed 16:03]
+    - State "NEXT"       from "TODO"       [2010-12-08 Wed 16:03]
+    - State "TODO"       from ""           [2010-12-08 Wed 16:03]
+*** DONE Send email to Bryn summarizing approach
+    - State "DONE"       from "NEXT"       [2010-12-10 Fri 16:07]
+*** DONE Meeting to decide approach
+    - State "DONE"       from "NEXT"       [2010-12-14 Tue 12:44]
+*** DONE Meeting to decide scope
+    - State "DONE"       from "NEXT"       [2010-12-15 Wed 12:03]
+    - State "NEXT"       from "TODO"       [2010-12-14 Tue 12:44]
+    :CLOCK:
+    CLOCK: [2010-12-14 Tue 12:44]--[2010-12-14 Tue 14:03] =>  1:19
+    :END:
+    - State "TODO"       from ""           [2010-12-14 Tue 12:44]
 ** PROJECT Scope out changes to Cruise Control DIW coverage information and update Vivek
    DEADLINE: <2010-12-03 Fri>
    - State "PROJECT"    from ""           [2010-12-01 Wed 16:51]
 *** NEXT Define information that cruise control should show
-** NEXT Setup Cruise control server
 ** PROJECT Automate RCH tests
    - State "PROJECT"    from ""           [2010-12-01 Wed 17:25]
-*** NEXT Contact Hari for clarification on replacing effective dates on staging loader
+*** Contact Hari for clarification on replacing effective dates on staging loader
     <2010-12-02 Thu 10:00>
+*** DONE Automate CR-34542
+    - State "DONE"       from "NEXT"       [2010-12-08 Wed 16:01]
+    :CLOCK:
+    CLOCK: [2010-12-02 Thu 12:25]--[2010-12-02 Thu 12:51] =>  0:26
+    :END:
+*** DONE Implement Hari comments for CR-34542
+    - State "DONE"       from "NEXT"       [2010-12-08 Wed 20:02]
+    :CLOCK:
+    CLOCK: [2010-12-08 Wed 16:57]--[2010-12-08 Wed 20:02] =>  3:05
+    CLOCK: [2010-12-08 Wed 16:23]--[2010-12-08 Wed 16:47] =>  0:24
+    :END:
+    - State "NEXT"       from "TODO"       [2010-12-08 Wed 16:01]
+    - State "TODO"       from ""           [2010-12-08 Wed 16:01]
+
+    - [X] Use InsertSingleRowStagingTableDataForCBE2 instead of insertSingleRowStagingTableDataForCBE2
+    - [X] Remove multiple LoadFromStagingTableWithReplaceConflictingHistory functions from OfflineTaskUtilities.vb and create a single function in OfflineTaskUtilities.cs
+    - [X] Remove dimension create from SetupImpl, refer Oskar,Hari,Palani code for details
+    - [X] Rename effdate as effDate
+    - [X] declare effdate_2000 after first LoadFromStagingTableWithReplaceConflictingHistory call
+    - [X] follow call format Assert.AreEqual(expected,original)
+
+*** NEXT Identify next tests for automation
+** PROJECT Check out Fit and Fitnesse
+   - State "PROJECT"    from ""           [2010-12-15 Wed 16:51]
+*** NEXT Research
+** NEXT Fix dev environment
+   - State "NEXT"       from "TODO"       [2010-12-16 Thu 10:56]
+   :CLOCK:
+   CLOCK: [2010-12-16 Thu 10:56]--[2010-12-16 Thu 12:27] =>  1:31
+** 
+   :END:
+   - State "TODO"       from ""           [2010-12-16 Thu 10:55
+** PROJECT Implement hudson
+   - State "PROJECT"    from "TODO"       [2010-12-29 Wed 15:21]
+   - State "TODO"       from ""           [2010-12-29 Wed 15:21]
+*** NEXT Implement initialize in Hudson
+    :CLOCK:
+    CLOCK: [2010-12-29 Wed 15:21]
+    :END:
 * Decisions
 ** Automation path options
 *** Option 1 : Catalog the current tests and map it to testlink

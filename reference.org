@@ -21,6 +21,13 @@ Convert warehouse to Production:
    4. run dos2unix on the warehouse creation scripts
    5. run chmod 777 on run_all_scripts
    6. Execute literally - ./run_all_scripts system admin password
+** Creating a Teradata warehouse
+   1. Select Teradata option from Warehouse Manager
+   2. Provide an IP of 10.54.1.16 as the database server IP
+   3. Provide a username/password of dbc/dbc (it is the default)
+   4. Copy the folder containing the warehouse creation scripts to 10.54.8.4 (IP of machine where Teradata client is installed)
+   5. Execute run_all_scripts.cmd from machine mentioned in  previous step
+   6. Activate the warehouse
 * Machines
 |          IP | Purpose         |
 | 10.24.4.139 | Pratyush UK-box |

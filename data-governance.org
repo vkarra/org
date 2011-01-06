@@ -1,0 +1,8 @@
+* DGD Overview <2011-01-05 Wed 16:03>
+** Qts
+   + Operationalize data governance - blurb or fact
+   + metrics for data quality
+     defined by consumer     
+   + location of data on which dgd operates
+   + policy compliance
+   + common rule language

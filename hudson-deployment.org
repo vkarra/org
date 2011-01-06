@@ -1,0 +1,67 @@
+* Hudson Deployment
+** Goals
+   + Run DIW, MDM, UID test packs
+   + Run them in parallel
+   + Run them in different stripes
+   + Code coverage reporting
+   + Build the product
+
+** Machines
+   + in-v-konapv2
+   + 10.54.8.9
+
+** Run nunit tests in hudson
+   1. Monitoring
+   2. Downloading
+   3. Installing
+   4. Running
+   5. Cleanup
+
+** Combination filter
+   (Product=="DIW 8.5 SP3").implies(Database=="Teradata") && (Product=="DIW 8.4 SP2").implies(Database=="SQL Server" || Database=="Oracle")
+
+** URL that works
+   file:/M:/habib/Latest/diw.8r4sp2.main.release/version.txt 
+
+** CCNet
+*** Flow
+    1. CCNet calls diw.systemtests.preparedb.xml or diw.systemtests.setup.xml or diw.systemtests.runtests ...
+    2. Above call in turn calls ccnet.run.cmd with argument preparedb or setup
+    3. Above call in turn runs the msbuild
+
+** Translation of file
+*** commonsettings.xml
+    + SystemTestsLicenseFile
+    + SystemTestsEncoding
+    + SystemTestsDBType
+    + SystemTestsDropAllDBs
+    + SystemTestsDBNameSuffix
+    + SystemTestsDBServer
+    + SystemTestsDBTypeCascaded
+    + SystemTestsDBNameSuffixCascaded
+    + SystemTestsDBServerCascaded
+    + SystemTestsUser
+    + SystemTestsPassword
+    + SystemTestsDomain
+      
+    
+*** Variables in proj files
+| Name                | Values             |
+| SystemTestsProduct  | diw,mdm,uid        |
+| SystemTestsDBType   | ORACLE,ORACLE_11G  |
+| SystemTestsEncoding | UNICODE,NONUNICODE |
+|                     |                    |
+
+
+** Questions
+   + How to get/set the build number
+   + 
+** Notes
+*** At the end of initialize the install directory is mounted in the workspace
+
+** Steps
+   1. Monitor latest folder in in-v-builds
+   2. Copy version.txt and path.txt to workspace
+   3. Set CCNetWorkingDirectory to workspace root
+   4. Add pfm to workspace
+   5. 

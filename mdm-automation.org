@@ -1,0 +1,98 @@
+* Mdm Automation
+** Selenium
+  + document.applets[0].getContentpane().getComponents()[0].getComponents()[1].getComponents().length
+  + to expand a tree node
+    - select the node
+    - hit refresh
+  + document.applets[0].getContentpane().getComponent(1).getComponent(0).getComponent(0).getSelectionPath().getLastPathComponent().refresh(null)
+   
+| Control | Javascript                                                                           |
+| Tree    | document.applets[0].getContentpane().getComponent(1).getComponent(0).getComponent(0) |
+|         |                                                                                      |
+** Sample Scenario
+   1. Expand Uncataloged
+   2. Select Category(Cat1)
+   3. Create new subject
+   4. Fill in subject details on new window and submit
+   5. Verify that new subject is visible on expanding category tree node
+
+** Tests
+| Test | Description |
+|      |             |
+
+** Framework design considerations
+   + 
+** Meeting to decide scope
+*** Define risk
+    + Buttons do not exist
+    + Broken links
+    + Links dont visit correct page
+    + Script errors
+    + Errors are reproducible
+    + Causality -
+*** Risk Areas
+    + Workflow
+    + Search
+    + Custom Validation
+    + Telerik radcontrols
+*** Points
+    + Model creation - two ways
+    + Object creation
+    + Creation of subjects
+   
+** Automation Scenario Doc to tests
+*** Talking points
+    1. Create model upto 2.iv as pre-condition for test
+    2. Are items 2.v to 2.xi pre-conditions or tests
+    3. Dependent tests
+    4. Validate model - what are switch options
+       
+*** Tests
+
+| Scenario Doc Section | Scenario Doc Line Item                                         | Test Name (Provisional)                               |
+| Edit Model           | Deploy the model                                               | DeployModel                                           |
+| Edit Model           | Authorize Records                                              | AuthorizeRecordsFromSubjectView                       |
+| Edit Model           | Authorize Records                                              | AuthorizeRecordsFromCategoryView                      |
+| Edit Model           | Authorize Records                                              | AuthorizeRecordsFromBasketView                        |
+| Edit Model           | Publish Subjects                                               | PublishSubjects                                       |
+| Edit Model           | Edit published subjects                                        | EditPublishedSubjects                                 |
+| Edit Model           | Edit unpublished subjects                                      | EditUnpublishedSubjects                               |
+| Edit Model           | Edit subjects using interim change with accept merge history   | EditSubjectWithInterimChangeAndAcceptMergeHistory     |
+| Edit Model           | Edit subject using interim change with overwrite               | EditSubjectWithInterimChangeAndOverwriteFutureChanges |
+| Edit Model           | Add subjects to worklist and edit them                         | AddSubjectsToWorklistAndEdit                          |
+| Edit Model           | Delete Records and End Date subjects                           | DeleteRecordsAndEndDateSubjects                       |
+| Edit Model           | Delete Records Remove published/unpublished subjects           | DeleteRecordsAndRemovePublishedSubjects               |
+| Edit Model           | Undelete Records                                               | UndeleteRecords                                       |
+| Edit Model           | Verify subject counts for Working Context                      | VerifySubjectCountForWorkingContext                   |
+| Edit Model           | Verify subject counts for Master Context                       | VerifySubjectCountForMasterContext                    |
+| Edit Model           | Raise CRs/Issues for subjects and resolve them                 | RaiseCRForSubjectAndResolve                           |
+| Edit Model           | Edit customer subjects to have historic states                 | EditCustomerSubjectsTohaveHistoricStates              |
+| Edit Model           | Edit categories to add attributes                              | EditCategoriesAndAddAttributes                        |
+| Edit Model           | Edit categories to edit attributes                             | EditCategoriesAndEditAttributes                       |
+| Edit Model           | Edit categories to remove attributes                           | EditCategoriesAndRemoveAttributes                     |
+| Edit Model           | Recatalog subjects                                             | RecatalogSubjects                                     |
+| Edit Model           | Reparent subjects through browse hierarchy                     | ReparentSubjectsThroughBrowseHierarchy                |
+| Edit Model           | Data matching model create model for ui data                   | DMMCreateModelForUIData                               |
+| Edit Model           | Data matching model create model for loader and file feed data | DMMCreateModelForLoaderAndFileFeedData                |
+| Edit Model           | Subject validation using custom validation script              | SubjectValidation                                     |
+| Validate Model       |                                                                |                                                       |
+| Search               | search for invalid subjects                                    | SearchForInvalidSubjects                              |
+| Search               | search for unauthorized subjects                               | SearchForUnauthorizedSubjects                         |
+| Search               | search for subjects with issues                                | SearchForSubjectsWithIssues                           |
+| Search               | search for subjects with change requests                       | SearchForSubjectsWithChangeRequests                   |
+| Search               | search for future dated subjects                               | SearchForFutureDatedSubjects                          |
+| Search               | search for end datedsubjects                                   | SearchForEndDatedSubjects                             |
+| Search               | generic search                                                 | GenericSearch                                         |
+| Search               | Advanced search                                                |                                                       |
+
+* UI Test Framework Design
+** Design considerations
+   + Values used to identify ui controls can be changed with minimal impact
+   + Multiple ways of identifying values should be provided
+   + Data-Driven Test Interpreter [GOF]
+   + Possibility of putting expected results in file
+   + Guard Assertions
+   + Arrange,Act,Assert pattern
+
+** todo
+   + implement logging using debug.writeline and trace.writeline
