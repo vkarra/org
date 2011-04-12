@@ -96,3 +96,66 @@
 
 ** todo
    + implement logging using debug.writeline and trace.writeline
+
+* Page object design
+** 4.1 Create Model
+   + [ ] Create User - through DIW
+   + [ ] Create Catalog
+   + [ ] Create Category
+   + [ ] Create workflow
+   + 
+** Create stub pages
+   + [ ] TypesPage
+   + [ ] NewTypePage
+   + [ ] ModelCategoriesPage
+   + [ ] CategoryInfoPage
+   + [ ] WorkflowsPage
+   + [ ] NewSubjectWorkflowPage
+   + [ ] ValidatePage
+   + [ ] DeploymentPage
+   + [ ] MergingPage
+** Add page functionality
+   + [ ] NewCategoryPage
+
+** Page actions
+
+| Page                        | Action | Priority | Status |
+| BasketPage                  |        |          |        |
+| BrowseCategoriesPage        |        |          |        |
+| CatalogPage                 |        |          |        |
+| CategoryInfoPage            |        |          |        |
+| CategoryRecordsPage         |        |          |        |
+| DeploymentPage              |        |          |        |
+| EditSubjectPage             |        |          |        |
+| FileFeedDetailsPage         |        |          |        |
+| FileFeedsPage               |        |          |        |
+| LoginPage                   |        |          |        |
+| MergingPage                 |        |          |        |
+| ModelCategoriesPage         |        |        1 | IP     |
+| MonitorPage                 |        |          |        |
+| NavigationBar               |        |          |        |
+| NewCatalogPage              |        |          |        |
+| NewCategoryPage             |        |          |        |
+| NewSubjectWorkflowPage      |        |          |        |
+| NewTypePage                 |        |          |        |
+| PendingDeploymentQueue      |        |          |        |
+| PendingPublicationQueuePage |        |          |        |
+| SubjectPage                 |        |          |        |
+| SubmitForPublicationPage    |        |          |        |
+| TypesPage                   |        |          |        |
+| ValidatePage                |        |          |        |
+| WorkflowsPage               |        |          |        |
+
+* Categories to create in devcontext
+1. One Category with all attributes, none mandatory, create 5 subjects
+2. Model category is category view
+3. Subject view is in within subject
+4. Can view pre-deployment validation report thorugh pending deployment queue and model categories
+5. Validate and deploy does not produce report, only validate does
+6. Add to basket will bring subject back to working context
+
+* Webdriver
+** Design
+   + Webdriver uses a layered design. There exists a driver for every browser which uses the best method available for driving that particular browser. This means that Webdriver uses javascript in an xpcom component for firefox and C++ with IE Automation APIs for IE. The user API which forms the top layer uses the driver api for different browsers
+** Using Webdriver
+   + Actual and perceived safety

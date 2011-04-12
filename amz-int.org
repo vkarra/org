@@ -1,0 +1,8 @@
+* Notables
+  + Originally named Cadabra, Inc
+  + Amazon Web Services
+  + Amazon Mechanical Turk
+  + Amazon Simple Storage Service
+  + Amazon Simple Queue Service
+  + Amazon Elastic Compute Cloud
+    
